@@ -1,0 +1,105 @@
+ativo_id,id,campo,valor_original,valor_normalizado,tipo,idioma,fonte,data_extracao
+MT-001,AT001,tag,W22-100L-2P-3CV-1F,W22-100L-2P-3CV-1F,identificacao,pt,Ficha Tecnica WEG,2026-04-25
+MT-001,AT002,descricao,Motor Elétrico Monofásico W22 3 CV 2 Polos Carcaça 100L 60 Hz,motor eletrico monofasico w22 3 cv 2 polos carcaca 100l 60 hz,identificacao,pt,Catalogo W22 WEG,2026-04-25
+MT-001,AT003,fabricante,WEG,WEG,identificacao,pt,Ficha Tecnica WEG,2026-04-25
+MT-001,AT005,localizacao,Linha de Produção A - Bomba Centrífuga 01,linha de producao a - bomba centrifuga 01,identificacao,pt,Cadastro Operacional,2026-04-25
+MT-001,ET001,potencia,2.2 kW (3 HP-cv),2.2 kW,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-001,ET002,tensao_nominal,110-127/220-254 V,110-127/220-254 V,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-001,ET003,corrente_nominal,25.0-21.7/12.5-10.8 A,25.0-21.7/12.5-10.8 A,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-001,ET004,frequencia,60 Hz,60 Hz,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-001,EM002,rotacao_nominal,3525 rpm,3525 rpm,especificacao_mecanica,pt,Ficha Tecnica WEG,2026-04-25
+MT-001,EM007,massa_aproximada,38.6 kg,38.6 kg,especificacao_mecanica,pt,Ficha Tecnica WEG,2026-04-25
+MT-001,CN001,grau_protecao,IP55,IP55,classificacao_normativa,pt,Ficha Tecnica WEG,2026-04-25
+MT-001,CN002,classe_isolamento,Classe F,classe F,classificacao_normativa,pt,Ficha Tecnica WEG,2026-04-25
+MT-001,OP001,leitura_atual,Tensão 220V Corrente 12.3A Rotação 3520rpm Temperatura 58C,tensao 220V corrente 12.3A rotacao 3520rpm temperatura 58C,operacional,pt,SCADA,2026-05-22
+MT-002,AT001,tag,W22-132M-4P-15CV-3F,W22-132M-4P-15CV-3F,identificacao,pt,Ficha Tecnica WEG,2026-04-25
+MT-002,AT002,descricao,Motor Elétrico Trifásico W22 15 CV 4 Polos Carcaça 132M 60 Hz Alto Rendimento,motor eletrico trifasico w22 15 cv 4 polos carcaca 132M 60 hz alto rendimento,identificacao,pt,Catalogo W22 WEG,2026-04-25
+MT-002,AT003,fabricante,WEG,WEG,identificacao,pt,Ficha Tecnica WEG,2026-04-25
+MT-002,AT005,localizacao,Área 3 - Compressor Principal,area 3 - compressor principal,identificacao,pt,Cadastro Operacional,2026-04-25
+MT-002,ET001,potencia,11.0 kW (15 HP-cv),11.0 kW,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-002,ET002,tensao_nominal,220/380 V,220/380 V,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-002,ET003,corrente_nominal,38.5/22.3 A,38.5/22.3 A,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-002,ET004,frequencia,60 Hz,60 Hz,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-002,EM002,rotacao_nominal,1760 rpm,1760 rpm,especificacao_mecanica,pt,Ficha Tecnica WEG,2026-04-25
+MT-002,EM007,massa_aproximada,98.4 kg,98.4 kg,especificacao_mecanica,pt,Ficha Tecnica WEG,2026-04-25
+MT-002,CN001,grau_protecao,IP55,IP55,classificacao_normativa,pt,Ficha Tecnica WEG,2026-04-25
+MT-002,CN002,classe_isolamento,Classe F,classe F,classificacao_normativa,pt,Ficha Tecnica WEG,2026-04-25
+MT-002,OP001,leitura_atual,Tensão 220V Corrente 36.8A Rotação 1755rpm Temperatura 72C,tensao 220V corrente 36.8A rotacao 1755rpm temperatura 72C,operacional,pt,SCADA,2026-05-22
+MT-003,AT001,tag,W22-160L-2P-30CV-3F,W22-160L-2P-30CV-3F,identificacao,pt,Ficha Tecnica WEG,2026-04-25
+MT-003,AT002,descricao,Motor Elétrico Trifásico W22 30 CV 2 Polos Carcaça 160L 60 Hz IE3,motor eletrico trifasico w22 30 cv 2 polos carcaca 160L 60 hz IE3,identificacao,pt,Catalogo W22 WEG,2026-04-25
+MT-003,AT003,fabricante,WEG,WEG,identificacao,pt,Ficha Tecnica WEG,2026-04-25
+MT-003,AT005,localizacao,Área 3 - Ventilador de Exaustão,area 3 - ventilador de exaustao,identificacao,pt,Cadastro Operacional,2026-04-25
+MT-003,ET001,potencia,22.0 kW (30 HP-cv),22.0 kW,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-003,ET002,tensao_nominal,220/380/440 V,220/380/440 V,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-003,ET003,corrente_nominal,71.2/41.2/35.6 A,71.2/41.2/35.6 A,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-003,ET004,frequencia,60 Hz,60 Hz,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-003,EM002,rotacao_nominal,3555 rpm,3555 rpm,especificacao_mecanica,pt,Ficha Tecnica WEG,2026-04-25
+MT-003,EM007,massa_aproximada,210.0 kg,210.0 kg,especificacao_mecanica,pt,Ficha Tecnica WEG,2026-04-25
+MT-003,CN001,grau_protecao,IP55,IP55,classificacao_normativa,pt,Ficha Tecnica WEG,2026-04-25
+MT-003,CN002,classe_isolamento,Classe F,classe F,classificacao_normativa,pt,Ficha Tecnica WEG,2026-04-25
+MT-003,OP001,leitura_atual,Tensão 220V Corrente 68.5A Rotação 3548rpm Temperatura 81C,tensao 220V corrente 68.5A rotacao 3548rpm temperatura 81C,operacional,pt,SCADA,2026-05-22
+MT-004,AT001,tag,W22-80-4P-1CV-3F,W22-80-4P-1CV-3F,identificacao,pt,Ficha Tecnica WEG,2026-04-25
+MT-004,AT002,descricao,Motor Elétrico Trifásico W22 1 CV 4 Polos Carcaça 80 60 Hz Standard,motor eletrico trifasico w22 1 cv 4 polos carcaca 80 60 hz standard,identificacao,pt,Catalogo W22 WEG,2026-04-25
+MT-004,AT003,fabricante,WEG,WEG,identificacao,pt,Ficha Tecnica WEG,2026-04-25
+MT-004,AT005,localizacao,Linha de Produção B - Esteira Transportadora 02,linha de producao b - esteira transportadora 02,identificacao,pt,Cadastro Operacional,2026-04-25
+MT-004,ET001,potencia,0.75 kW (1 HP-cv),0.75 kW,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-004,ET002,tensao_nominal,220/380 V,220/380 V,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-004,ET003,corrente_nominal,3.05/1.77 A,3.05/1.77 A,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-004,ET004,frequencia,60 Hz,60 Hz,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-004,EM002,rotacao_nominal,1720 rpm,1720 rpm,especificacao_mecanica,pt,Ficha Tecnica WEG,2026-04-25
+MT-004,EM007,massa_aproximada,15.2 kg,15.2 kg,especificacao_mecanica,pt,Ficha Tecnica WEG,2026-04-25
+MT-004,CN001,grau_protecao,IP55,IP55,classificacao_normativa,pt,Ficha Tecnica WEG,2026-04-25
+MT-004,CN002,classe_isolamento,Classe F,classe F,classificacao_normativa,pt,Ficha Tecnica WEG,2026-04-25
+MT-004,OP001,leitura_atual,Tensão 220V Corrente 2.8A Rotação 1715rpm Temperatura 45C,tensao 220V corrente 2.8A rotacao 1715rpm temperatura 45C,operacional,pt,SCADA,2026-05-22
+MT-005,AT001,tag,W22-225S-4P-75CV-3F,W22-225S-4P-75CV-3F,identificacao,pt,Ficha Tecnica WEG,2026-04-25
+MT-005,AT002,descricao,Motor Elétrico Trifásico W22 75 CV 4 Polos Carcaça 225S 60 Hz Premium IE4,motor eletrico trifasico w22 75 cv 4 polos carcaca 225S 60 hz premium IE4,identificacao,pt,Catalogo W22 WEG,2026-04-25
+MT-005,AT003,fabricante,WEG,WEG,identificacao,pt,Ficha Tecnica WEG,2026-04-25
+MT-005,AT005,localizacao,Área 5 - Moinho de Bolas,area 5 - moinho de bolas,identificacao,pt,Cadastro Operacional,2026-04-25
+MT-005,ET001,potencia,55.0 kW (75 HP-cv),55.0 kW,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-005,ET002,tensao_nominal,380/660 V,380/660 V,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-005,ET003,corrente_nominal,103/59.4 A,103/59.4 A,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-005,ET004,frequencia,60 Hz,60 Hz,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-005,EM002,rotacao_nominal,1780 rpm,1780 rpm,especificacao_mecanica,pt,Ficha Tecnica WEG,2026-04-25
+MT-005,EM007,massa_aproximada,520.0 kg,520.0 kg,especificacao_mecanica,pt,Ficha Tecnica WEG,2026-04-25
+MT-005,CN001,grau_protecao,IP55,IP55,classificacao_normativa,pt,Ficha Tecnica WEG,2026-04-25
+MT-005,CN002,classe_isolamento,Classe H,classe H,classificacao_normativa,pt,Ficha Tecnica WEG,2026-04-25
+MT-005,OP001,leitura_atual,Tensão 380V Corrente 98.5A Rotação 1775rpm Temperatura 68C,tensao 380V corrente 98.5A rotacao 1775rpm temperatura 68C,operacional,pt,SCADA,2026-05-22
+MT-006,AT001,tag,W22-90L-6P-2CV-3F,W22-90L-6P-2CV-3F,identificacao,pt,Ficha Tecnica WEG,2026-04-25
+MT-006,AT002,descricao,Motor Elétrico Trifásico W22 2 CV 6 Polos Carcaça 90L 60 Hz Baixa Rotação,motor eletrico trifasico w22 2 cv 6 polos carcaca 90L 60 hz baixa rotacao,identificacao,pt,Catalogo W22 WEG,2026-04-25
+MT-006,AT003,fabricante,WEG,WEG,identificacao,pt,Ficha Tecnica WEG,2026-04-25
+MT-006,AT005,localizacao,Área 3 - Bomba de Água Gelada,area 3 - bomba de agua gelada,identificacao,pt,Cadastro Operacional,2026-04-25
+MT-006,ET001,potencia,1.5 kW (2 HP-cv),1.5 kW,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-006,ET002,tensao_nominal,220/380 V,220/380 V,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-006,ET003,corrente_nominal,6.18/3.58 A,6.18/3.58 A,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-006,ET004,frequencia,60 Hz,60 Hz,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-006,EM002,rotacao_nominal,1155 rpm,1155 rpm,especificacao_mecanica,pt,Ficha Tecnica WEG,2026-04-25
+MT-006,EM007,massa_aproximada,22.5 kg,22.5 kg,especificacao_mecanica,pt,Ficha Tecnica WEG,2026-04-25
+MT-006,CN001,grau_protecao,IP55,IP55,classificacao_normativa,pt,Ficha Tecnica WEG,2026-04-25
+MT-006,CN002,classe_isolamento,Classe F,classe F,classificacao_normativa,pt,Ficha Tecnica WEG,2026-04-25
+MT-006,OP001,leitura_atual,Tensão 220V Corrente 5.9A Rotação 1150rpm Temperatura 52C,tensao 220V corrente 5.9A rotacao 1150rpm temperatura 52C,operacional,pt,SCADA,2026-05-22
+MT-007,AT001,tag,WMagnet-IPM-50CV-3F,WMagnet-IPM-50CV-3F,identificacao,pt,Ficha Tecnica WEG,2026-04-25
+MT-007,AT002,descricao,Motor de Imã Permanente WMagnet IPM 50 CV Trifásico Alta Eficiência,motor de ima permanente wmagnet IPM 50 cv trifasico alta eficiencia,identificacao,pt,Catalogo WMagnet WEG,2026-04-25
+MT-007,AT003,fabricante,WEG,WEG,identificacao,pt,Ficha Tecnica WEG,2026-04-25
+MT-007,AT005,localizacao,Linha de Produção A - Extrusora Principal,linha de producao a - extrusora principal,identificacao,pt,Cadastro Operacional,2026-04-25
+MT-007,ET001,potencia,37.0 kW (50 HP-cv),37.0 kW,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-007,ET002,tensao_nominal,380/440 V,380/440 V,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-007,ET003,corrente_nominal,68.5/59.2 A,68.5/59.2 A,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-007,ET004,frequencia,60 Hz,60 Hz,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-007,EM002,rotacao_nominal,1800 rpm,1800 rpm,especificacao_mecanica,pt,Ficha Tecnica WEG,2026-04-25
+MT-007,EM007,massa_aproximada,285.0 kg,285.0 kg,especificacao_mecanica,pt,Ficha Tecnica WEG,2026-04-25
+MT-007,CN001,grau_protecao,IP55,IP55,classificacao_normativa,pt,Ficha Tecnica WEG,2026-04-25
+MT-007,CN002,classe_isolamento,Classe H,classe H,classificacao_normativa,pt,Ficha Tecnica WEG,2026-04-25
+MT-007,OP001,leitura_atual,Tensão 380V Corrente 65.2A Rotação 1798rpm Temperatura 62C,tensao 380V corrente 65.2A rotacao 1798rpm temperatura 62C,operacional,pt,SCADA,2026-05-22
+MT-008,AT001,tag,W22-112M-4P-7.5CV-3F,W22-112M-4P-7.5CV-3F,identificacao,pt,Ficha Tecnica WEG,2026-04-25
+MT-008,AT002,descricao,Motor Elétrico Trifásico W22 7.5 CV 4 Polos Carcaça 112M 60 Hz,motor eletrico trifasico w22 7.5 cv 4 polos carcaca 112M 60 hz,identificacao,pt,Catalogo W22 WEG,2026-04-25
+MT-008,AT003,fabricante,WEG,WEG,identificacao,pt,Ficha Tecnica WEG,2026-04-25
+MT-008,AT005,localizacao,Linha de Produção B - Misturador Industrial,linha de producao b - misturador industrial,identificacao,pt,Cadastro Operacional,2026-04-25
+MT-008,ET001,potencia,5.5 kW (7.5 HP-cv),5.5 kW,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-008,ET002,tensao_nominal,220/380 V,220/380 V,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-008,ET003,corrente_nominal,19.8/11.5 A,19.8/11.5 A,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-008,ET004,frequencia,60 Hz,60 Hz,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+MT-008,EM002,rotacao_nominal,1750 rpm,1750 rpm,especificacao_mecanica,pt,Ficha Tecnica WEG,2026-04-25
+MT-008,EM007,massa_aproximada,62.0 kg,62.0 kg,especificacao_mecanica,pt,Ficha Tecnica WEG,2026-04-25
+MT-008,CN001,grau_protecao,IP55,IP55,classificacao_normativa,pt,Ficha Tecnica WEG,2026-04-25
+MT-008,CN002,classe_isolamento,Classe F,classe F,classificacao_normativa,pt,Ficha Tecnica WEG,2026-04-25
+MT-008,OP001,leitura_atual,Tensão 220V Corrente 18.5A Rotação 1745rpm Temperatura 89C,tensao 220V corrente 18.5A rotacao 1745rpm temperatura 89C,operacional,pt,SCADA,2026-05-22

@@ -1,0 +1,103 @@
+{
+  "criterio": "métricas sobre o corpo da resposta (sem a linha de confiança)",
+  "sprint3": {
+    "faithfulness_medio": 0.7433,
+    "answer_relevancy_medio": 0.7248,
+    "respostas_com_citacao_pct": 100.0,
+    "fora_de_escopo_recusadas": "3 de 4",
+    "fora_de_escopo_nao_recusadas": [
+      "F02"
+    ],
+    "confianca_exibida": {
+      "ALTA": 20
+    },
+    "confianca_do_modelo": {
+      "ALTA": 20
+    },
+    "respostas_com_numero_sem_suporte": [
+      "T01",
+      "T05"
+    ],
+    "tempo_medio_s": 20.3
+  },
+  "sprint4": {
+    "faithfulness_medio": 0.6775,
+    "answer_relevancy_medio": 0.7338,
+    "respostas_com_citacao_pct": 95.0,
+    "fora_de_escopo_recusadas": "4 de 4",
+    "fora_de_escopo_nao_recusadas": [],
+    "confianca_exibida": {
+      "MÉDIA": 12,
+      "ALTA": 7,
+      "BAIXA": 1
+    },
+    "confianca_do_modelo": {
+      "ALTA": 18,
+      "NAO_GERADA": 1,
+      "MÉDIA": 1
+    },
+    "respostas_com_numero_sem_suporte": [
+      "T01",
+      "T05"
+    ],
+    "tempo_medio_s": 19.9
+  },
+  "sprint3_publicado_original": {
+    "faithfulness_medio": 0.69,
+    "answer_relevancy_medio": 0.7358,
+    "observacao": "calculado com a linha de confiança dentro da resposta"
+  },
+  "relevancia_recuperacao": {
+    "gabarito_min": 0.5453,
+    "gabarito_por_id": {
+      "T01": 0.8081,
+      "T02": 0.9702,
+      "T03": 0.8869,
+      "T04": 0.7888,
+      "T05": 1.0272,
+      "T06": 0.9226,
+      "T07": 0.941,
+      "T08": 1.0244,
+      "T09": 0.8177,
+      "T10": 0.7951,
+      "T11": 0.8003,
+      "T12": 0.8416,
+      "T13": 0.5453,
+      "T14": 0.6651,
+      "T15": 0.7811,
+      "T16": 0.7021,
+      "T17": 1.0643,
+      "T18": 0.8301,
+      "T19": 0.7859,
+      "T20": 0.809
+    },
+    "fora_de_escopo_por_id": {
+      "F01": 0.6529,
+      "F02": 0.5712,
+      "F03": 0.4396,
+      "F04": 0.6972
+    }
+  },
+  "nivel_que_a_regua_nova_daria_ao_baseline": {
+    "T01": "MÉDIA",
+    "T02": "ALTA",
+    "T03": "ALTA",
+    "T04": "MÉDIA",
+    "T05": "ALTA",
+    "T06": "ALTA",
+    "T07": "ALTA",
+    "T08": "ALTA",
+    "T09": "MÉDIA",
+    "T10": "MÉDIA",
+    "T11": "MÉDIA",
+    "T12": "MÉDIA",
+    "T13": "BAIXA",
+    "T14": "MÉDIA",
+    "T15": "MÉDIA",
+    "T16": "MÉDIA",
+    "T17": "ALTA",
+    "T18": "MÉDIA",
+    "T19": "MÉDIA",
+    "T20": "MÉDIA"
+  }
+}

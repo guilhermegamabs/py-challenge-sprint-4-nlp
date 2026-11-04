@@ -1,0 +1,87 @@
+{
+  "modelo_llm": "Qwen/Qwen2.5-3B-Instruct-GGUF::qwen2.5-3b-instruct-q4_k_m.gguf",
+  "n_perguntas": 20,
+  "faithfulness_medio": 0.69,
+  "answer_relevancy_medio": 0.7358,
+  "rouge1_f_medio": 0.377,
+  "rougeL_f_medio": 0.2886,
+  "respostas_com_citacao_pct": 100.0,
+  "confianca_declarada_pct": 100.0,
+  "tempo_medio_s": 20.3,
+  "por_categoria": {
+    "faithfulness": {
+      "anomalia_eletrica": 0.6833,
+      "anomalia_mecanica": 1.0,
+      "especificacao": 0.6429,
+      "manutencao_preventiva": 0.64
+    },
+    "answer_relevancy": {
+      "anomalia_eletrica": 0.7089,
+      "anomalia_mecanica": 0.64,
+      "especificacao": 0.779,
+      "manutencao_preventiva": 0.7458
+    },
+    "rouge1_f": {
+      "anomalia_eletrica": 0.3947,
+      "anomalia_mecanica": 0.3926,
+      "especificacao": 0.3876,
+      "manutencao_preventiva": 0.3346
+    }
+  },
+  "fora_de_escopo_recusa_pct": 75.0,
+  "sentencas_sem_suporte": {
+    "T01": [
+      "A temperatura máxima do ponto mais quente para a classe de isolamento F é 150 °C  .",
+      "A composição da temperatura admissível do ponto mais quente para a classe F é 150 °C  .",
+      "Este valor está diretamente estabelecido nas normas de motores elétricos  .",
+      "indica que a elevação de temperatura máxima para a classe F é 150 °C.",
+      "Confiança: ALTA — o trecho recuperado trata diretamente da temperatura máxima para a classe F e fornece o valor numérico."
+    ],
+    "T02": [
+      "A queda de temperatura por transmissão através da espessura da carcaça é medida na Figura 7.1  .",
+      "Confiança: ALTA — o trecho recuperado trata diretamente da medida da elevação de temperatura do enrolamento."
+    ],
+    "T03": [
+      "Como a altitude do motor é de 1.500 m, ele não atende a este critério  ."
+    ],
+    "T04": [
+      "Confiança: ALTA — o trecho recuperado trata diretamente da causa perguntada."
+    ],
+    "T05": [
+      "A altitude de 2.000 m corresponde ao fator 0,88  .",
+      "Confiança: ALTA — o trecho recuperado trata diretamente da determinação da potência útil em condições de temperatura e altitude."
+    ],
+    "T07": [
+      "Ela é instalada para aquecer o interior do motor alguns graus acima da temperatura ambiente (5 a 10 °C) quando o motor está desligado  .",
+      "A tensão de alimentação para as resistências de aquecimento deve ser especificada  .",
+      "Ela não é usada em motores elétricos, sendo mais comumente utilizada em dispositivos de proteção de sobreaquecimento  .",
+      "A resistência interrompe a corrente no PTC, acionando um relé de saída que desliga o circuito principal  .",
+      "Confiança: ALTA — o trecho recuperado trata diretamente da situação perguntada."
+    ],
+    "T08": [
+      "Os motores WEG apresentam no máximo 11 dB(A) de acréscimo no nível de pressão sonora global  ."
+    ],
+    "T09": [
+      "A corrente de rotor bloqueado é expressa nas normas como: \nIp = Corrente com rotor bloqueado; \nIn = Corrente nominal  .",
+      "Confiança: ALTA — o trecho recuperado trata diretamente da expressão da corrente de rotor bloqueado."
+    ],
+    "T11": [
+      "Confiança: ALTA — o trecho recuperado trata diretamente da causa perguntada."
+    ],
+    "T12": [
+      "Além disso, dificuldade na partida do motor, queda de tensão excessiva, inércia e torque da carga muito elevado podem causar a queima  .",
+      "Confiança: ALTA — o trecho recuperado trata diretamente da causa perguntada."
+    ],
+    "T14": [
+      "Confiança: ALTA — o trecho recuperado trata diretamente da causa perguntada."
+    ],
+    "T15": [
+      "Não manuseie os motores pelos componentes poliméricos, como tampa do ventilador, caixa de terminais e tampa da caixa de terminais.",
+      "Caso a tampa do ventilador seja polimérica, remova-a com cuidado usando chaves de fenda ou ferramentas semelhantes.",
+      "Após esse período de armazenamento, também é recomendável trocar os capacitores de partida dos motores monofásicos, pois eles perdem suas características operacionais."
+    ],
+    "T20": [
+      "Antes de iniciar a manutenção, desligue o motor e espere que ele termine de esfriar  ."
+    ]
+  }
+}

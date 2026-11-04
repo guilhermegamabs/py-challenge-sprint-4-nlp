@@ -1,0 +1,7 @@
+# execucao: 2026-11-04T15:56:36-03:00
+[cenario anomalia_eletrica] turno respondido
+[cenario anomalia_eletrica] turno respondido
+[cenario anomalia_mecanica] turno respondido
+[cenario anomalia_mecanica] turno respondido
+[cenario manutencao_preventiva] turno respondido
+[cenario manutencao_preventiva] turno respondido

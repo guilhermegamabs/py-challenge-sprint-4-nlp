@@ -1,0 +1,281 @@
+[
+  {
+    "cenario": "anomalia_eletrica",
+    "ativo_id": "MT-007",
+    "familias": [
+      "eletrica"
+    ],
+    "turnos": [
+      "O fator de potência deste motor caiu de 0,95 para 0,88. O que pode explicar isso?",
+      "A corrente também subiu 10%. Isso muda o diagnóstico?"
+    ],
+    "estado": {
+      "ativo_id": "MT-007",
+      "tag": "WMagnet-IPM-50CV-3F",
+      "alertas": [
+        "Alerta moderado detectado no motor WMagnet-IPM-50CV-3F (Linha de Produção A — Extrusora Principal). O fator de potência apresentou desvio de -0,08 abaixo do baseline de forma sustentada por 4,8 dias, atingindo 0,88. Recomenda-se verificação programada dentro das próximas 24 horas: verificação do regime de carga e do banco de capacitores.",
+        "Alerta moderado detectado: WMagnet-IPM-50CV-3F opera com temperatura do enrolamento em 75,1 C, desvio +13,7 C sobre a referência de 61,5 C nas últimas 8 horas. Causa provável sob avaliação: sistema de refrigeração ou carga acima do regime. Recomenda-se verificação programada dentro das próximas 24 horas."
+      ],
+      "situacao": "EM OBSERVAÇÃO — desvio moderado em acompanhamento"
+    },
+    "dialogo": [
+      {
+        "pergunta": "O fator de potência deste motor caiu de 0,95 para 0,88. O que pode explicar isso?",
+        "resposta": "O fator de potência do motor WMagnet-IPM-50CV-3F caiu de 0,95 para 0,88, indicando sobrecarga [FONTE 1]. Este desvio pode ser causado por carga acima do regime ou sobrecarga do motor [FONTE 1]. A temperatura do enrolamento em 75,1 C, além do desvio de 13,7 C, sugere que a carga está sobrecarregando o motor [FONTE 2]. Recomenda-se verificar o regime de carga e o banco de capacitores [FONTE 1]. Confiança: ALTA — o trecho recuperado trata diretamente da causa perguntada.",
+        "chunks": [
+          {
+            "chunk_id": "CH-0158",
+            "doc_id": "guia_especificacao",
+            "secao": "7. Características em Regime > 7.3 Regime de Serviço > 7.3.3 Potência nominal",
+            "pagina": 43,
+            "score": 0.985
+          },
+          {
+            "chunk_id": "CH-0245",
+            "doc_id": "guia_especificacao",
+            "secao": "11. Seleção e aplicação dos motores trifásicos > 11.2 Níveis de Rendimentos Exigidos no Brasil > 11.2.1 O programa de eficiência energética no país",
+            "pagina": 58,
+            "score": 0.9819
+          },
+          {
+            "chunk_id": "CH-0013",
+            "doc_id": "guia_especificacao",
+            "secao": "1.2 Conceitos Básicos > 1.2.5 Fator de potência",
+            "pagina": 9,
+            "score": 0.9819
+          },
+          {
+            "chunk_id": "CH-0012",
+            "doc_id": "guia_especificacao",
+            "secao": "1.2 Conceitos Básicos > 1.2.5 Fator de potência",
+            "pagina": 9,
+            "score": 0.9797
+          }
+        ],
+        "confianca_recuperacao": "ALTA",
+        "confianca_declarada": "ALTA"
+      },
+      {
+        "pergunta": "A corrente também subiu 10%. Isso muda o diagnóstico?",
+        "resposta": "O aumento da corrente em 10% não altera diretamente o diagnóstico de sobrecarga do motor [FONTE 1]. A sobrecarga é indicada pelo fator de potência abaixo do baseline [FONTE 1]. A temperatura do enrolamento em 75,1 C, além do desvio de 13,7 C, sugere sobrecarga [FONTE 2]. A causa provável é sistema de refrigeração ou carga acima do regime [FONTE 2]. Recomenda-se verificação programada dentro das próximas 24 horas [FONTE 2]. Confiança: ALTA — o diagnóstico baseado no fator de potência e temperatura do enrolamento é claro.",
+        "chunks": [
+          {
+            "chunk_id": "CH-0244",
+            "doc_id": "guia_especificacao",
+            "secao": "11. Seleção e aplicação dos motores trifásicos > 11.2 Níveis de Rendimentos Exigidos no Brasil > 11.2.1 O programa de eficiência energética no país",
+            "pagina": 58,
+            "score": 0.7654
+          },
+          {
+            "chunk_id": "CH-0234",
+            "doc_id": "guia_especificacao",
+            "secao": "11. Seleção e aplicação dos motores trifásicos > 11.2 Níveis de Rendimentos Exigidos no Brasil > 11.2.1 O programa de eficiência energética no país",
+            "pagina": 58,
+            "score": 0.671
+          },
+          {
+            "chunk_id": "CH-0342",
+            "doc_id": "rendimento_monofasicos",
+            "secao": "WEG em Revista",
+            "pagina": 4,
+            "score": 0.6663
+          },
+          {
+            "chunk_id": "CH-0086",
+            "doc_id": "guia_especificacao",
+            "secao": "4. Características de aceleração > 4.1 Conjugados > conjugado",
+            "pagina": 26,
+            "score": 0.657
+          }
+        ],
+        "confianca_recuperacao": "ALTA",
+        "confianca_declarada": "ALTA"
+      }
+    ]
+  },
+  {
+    "cenario": "anomalia_mecanica",
+    "ativo_id": "MT-008",
+    "familias": [
+      "mecanica"
+    ],
+    "turnos": [
+      "A vibração deste motor mais que dobrou em cinco dias. O que verificar primeiro?",
+      "O alinhamento foi conferido e está correto. O que mais pode causar isso?"
+    ],
+    "estado": {
+      "ativo_id": "MT-008",
+      "tag": "W22-112M-4P-7.5CV-3F",
+      "alertas": [
+        "ALERTA CRÍTICO — motor W22-112M-4P-7.5CV-3F (Linha de Produção B — Misturador Industrial). A temperatura do mancal atingiu desvio severo de +17,8 C sobre o baseline de 49,8 C de forma sustentada por 5,1 dias, com valor de pico em 67,1 C. Risco de falha do rolamento por perda de lubrificação. Intervenção imediata requerida: parada para inspeção do mancal e substituição do rolamento — acionar manutenção no turno corrente.",
+        "ALERTA CRÍTICO: W22-112M-4P-7.5CV-3F em condição severa. Leitura de vibração global registrada em 4,4 mm/s (+112,8% vs. baseline) de forma sustentada por 5 dias. Intervenção imediata requerida — parada para verificação de alinhamento, balanceamento e rolamentos. Manter o ativo sob supervisão contínua até a intervenção."
+      ],
+      "situacao": "EM RISCO — alertas críticos abertos"
+    },
+    "dialogo": [
+      {
+        "pergunta": "A vibração deste motor mais que dobrou em cinco dias. O que verificar primeiro?",
+        "resposta": "A vibração global do motor W22-112M-4P-7.5CV-3F atingiu 4,4 mm/s, um aumento de 112,8% em cinco dias [FONTE 2]. Primeiro verificar o alinhamento do motor, pois vibrações excessivas podem ser causadas por desalinhamento [FONTE 2]. Em seguida, verificar o balanceamento do motor, uma vez que vibrações podem ser resultado de desbalanceamento [FONTE 2]. Confiança: ALTA — o trecho recuperado trata diretamente da causa perguntada.",
+        "chunks": [
+          {
+            "chunk_id": "CH-0042",
+            "doc_id": "guia_especificacao",
+            "secao": "1.6 Materiais e Sistemas de Isolação",
+            "pagina": 15,
+            "score": 0.8911
+          },
+          {
+            "chunk_id": "CH-0127",
+            "doc_id": "guia_especificacao",
+            "secao": "7. Características em Regime > 7.1.2 Vida útil do motor",
+            "pagina": 35,
+            "score": 0.8842
+          },
+          {
+            "chunk_id": "CH-0117",
+            "doc_id": "guia_especificacao",
+            "secao": "6. Motofreio Trifásico > 6.4 Conjugado de Frenagem",
+            "pagina": 33,
+            "score": 0.8256
+          },
+          {
+            "chunk_id": "CH-0107",
+            "doc_id": "guia_especificacao",
+            "secao": "4. Características de aceleração > 5.1 Variação do Número de Polos > 5.1.2 Dahlander",
+            "pagina": 30,
+            "score": 0.6771
+          }
+        ],
+        "confianca_recuperacao": "ALTA",
+        "confianca_declarada": "ALTA"
+      },
+      {
+        "pergunta": "O alinhamento foi conferido e está correto. O que mais pode causar isso?",
+        "resposta": "A temperatura do mancal atingiu desvio severo, o que indica perda de lubrificação [FONTE 2]. Confiança: ALTA — o trecho recuperado trata diretamente da causa perguntada.",
+        "chunks": [
+          {
+            "chunk_id": "CH-0282",
+            "doc_id": "manual_wmo",
+            "secao": "3 INSTALAÇÃO",
+            "pagina": 17,
+            "score": 0.7596
+          },
+          {
+            "chunk_id": "CH-0289",
+            "doc_id": "manual_wmo",
+            "secao": "3 INSTALAÇÃO",
+            "pagina": 17,
+            "score": 0.6793
+          },
+          {
+            "chunk_id": "CH-0292",
+            "doc_id": "manual_wmo",
+            "secao": "4 OPERAÇÃO",
+            "pagina": 19,
+            "score": 0.675
+          },
+          {
+            "chunk_id": "CH-0332",
+            "doc_id": "rendimento_monofasicos",
+            "secao": "WEG em Revista",
+            "pagina": 2,
+            "score": 0.5595
+          }
+        ],
+        "confianca_recuperacao": "ALTA",
+        "confianca_declarada": "ALTA"
+      }
+    ]
+  },
+  {
+    "cenario": "manutencao_preventiva",
+    "ativo_id": "MT-004",
+    "familias": [
+      "manutencao"
+    ],
+    "turnos": [
+      "Este motor vai ficar parado por três meses. Que cuidados de armazenamento devo tomar?",
+      "E o que preciso inspecionar quando ele voltar a operar?"
+    ],
+    "estado": {
+      "ativo_id": "MT-004",
+      "tag": "W22-80-4P-1CV-3F",
+      "alertas": [],
+      "situacao": "ESTÁVEL COM DESVIO — apenas desvios leves"
+    },
+    "dialogo": [
+      {
+        "pergunta": "Este motor vai ficar parado por três meses. Que cuidados de armazenamento devo tomar?",
+        "resposta": "Como o estado do ativo MT-004 está estavel com desvio leve, não há necessidade de realizar serviços preventivos imediatos [FONTE 1]. No entanto, para armazenamento por três meses, recomenda-se armazenar o motor horizontalmente, independentemente da configuração de montagem, com óleo ISO VG 68 no rolamento [FONTE 2]. Além disso, é necessário girar o eixo do motor pelo menos uma vez por mês, deixando-o sempre em uma posição diferente [FONTE 2]. Se os motores com rolamentos abertos forem armazenados por mais de seis meses, os rolamentos devem ser relubrificados com a quantidade de graxa indicada na placa de identificação antes do comissionamento do motor [FONTE 2]. Se os motores forem armazenados por mais de dois anos, recomenda-se trocar os rolamentos ou removê-los, lavá-los, inspecioná-los e relubrificá-los antes de ligar o motor [FONTE 2]. Após esse período de armazenamento, também é recomendável tro",
+        "chunks": [
+          {
+            "chunk_id": "CH-0293",
+            "doc_id": "manual_wmo",
+            "secao": "5 MANUTENÇÃO",
+            "pagina": 20,
+            "score": 0.6203
+          },
+          {
+            "chunk_id": "CH-0277",
+            "doc_id": "manual_wmo",
+            "secao": "2 TRANSPORTE, ARMAZENAMENTO E MANUSEIO",
+            "pagina": 16,
+            "score": 0.6072
+          },
+          {
+            "chunk_id": "CH-0278",
+            "doc_id": "manual_wmo",
+            "secao": "2 TRANSPORTE, ARMAZENAMENTO E MANUSEIO",
+            "pagina": 16,
+            "score": 0.5915
+          },
+          {
+            "chunk_id": "CH-0127",
+            "doc_id": "guia_especificacao",
+            "secao": "7. Características em Regime > 7.1.2 Vida útil do motor",
+            "pagina": 35,
+            "score": 0.5699
+          }
+        ],
+        "confianca_recuperacao": "MÉDIA",
+        "confianca_declarada": "NAO_DECLARADA"
+      },
+      {
+        "pergunta": "E o que preciso inspecionar quando ele voltar a operar?",
+        "resposta": "Para inspecionar o estado do ativo MT-004, verifique a presença de água, poeiras ou outros resíduos que possam ter se acumulado durante o armazenamento [FONTE 2]. Além disso, verifique a fricção entre as pastilhas do freio, que pode indicar desgaste excessivo [FONTE 2]. Se necessário, ajuste o entreferro dos motofreios, medindo em três pontos próximos aos parafusos [FONTE 1]. Verifique a tensão do óleo no rolamento, pois a falta de lubrificação pode causar danos [FONTE 1]. Verifique a vibração do motor, pois vibrações excessivas podem indicar problemas de montagem [FONTE 1]. Confiança: ALTA — o trecho recuperado trata diretamente da inspeção e manutenção preventiva após o armazenamento.",
+        "chunks": [
+          {
+            "chunk_id": "CH-0118",
+            "doc_id": "guia_especificacao",
+            "secao": "6. Motofreio Trifásico > 6.5 Ajuste do Entreferro",
+            "pagina": 33,
+            "score": 0.6088
+          },
+          {
+            "chunk_id": "CH-0298",
+            "doc_id": "manual_wmo",
+            "secao": "7 TERMO DE GARANTIA",
+            "pagina": 21,
+            "score": 0.52
+          },
+          {
+            "chunk_id": "CH-0120",
+            "doc_id": "guia_especificacao",
+            "secao": "6. Motofreio Trifásico > 6.5 Ajuste do Entreferro",
+            "pagina": 33,
+            "score": 0.514
+          },
+          {
+            "chunk_id": "CH-0276",
+            "doc_id": "manual_wmo",
+            "secao": "2 TRANSPORTE, ARMAZENAMENTO E MANUSEIO",
+            "pagina": 16,
+            "score": 0.3872
+          }
+        ],
+        "confianca_recuperacao": "MÉDIA",
+        "confianca_declarada": "ALTA"
+      }
+    ]
+  }
+]

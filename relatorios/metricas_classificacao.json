@@ -1,0 +1,406 @@
+{
+  "config": {
+    "seed": 42,
+    "test_size": 0.4,
+    "n_total": 168,
+    "n_treino": 100,
+    "n_teste": 68,
+    "modelo_zero_shot": "MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7"
+  },
+  "zero_shot_teste": {
+    "nome": "zero_shot_mdeberta",
+    "f1_por_categoria": {
+      "manutencao_corretiva": 0.1429,
+      "manutencao_preventiva": 0.6667,
+      "anomalia_eletrica": 0.7586,
+      "anomalia_mecanica": 0.5909,
+      "operacao_normal": 0.8571
+    },
+    "precision_por_categoria": {
+      "manutencao_corretiva": 1.0,
+      "manutencao_preventiva": 1.0,
+      "anomalia_eletrica": 0.7333,
+      "anomalia_mecanica": 0.4333,
+      "operacao_normal": 0.8
+    },
+    "recall_por_categoria": {
+      "manutencao_corretiva": 0.0769,
+      "manutencao_preventiva": 0.5,
+      "anomalia_eletrica": 0.7857,
+      "anomalia_mecanica": 0.9286,
+      "operacao_normal": 0.9231
+    },
+    "suporte": {
+      "manutencao_corretiva": 13,
+      "manutencao_preventiva": 14,
+      "anomalia_eletrica": 14,
+      "anomalia_mecanica": 14,
+      "operacao_normal": 13
+    },
+    "macro_f1": 0.6032,
+    "weighted_f1": 0.6063,
+    "acuracia": 0.6471,
+    "matriz_confusao": [
+      [
+        1,
+        0,
+        1,
+        11,
+        0
+      ],
+      [
+        0,
+        7,
+        3,
+        3,
+        1
+      ],
+      [
+        0,
+        0,
+        11,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        13,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        12
+      ]
+    ],
+    "categorias": [
+      "manutencao_corretiva",
+      "manutencao_preventiva",
+      "anomalia_eletrica",
+      "anomalia_mecanica",
+      "operacao_normal"
+    ]
+  },
+  "zero_shot_total": {
+    "nome": "zero_shot_mdeberta_total",
+    "f1_por_categoria": {
+      "manutencao_corretiva": 0.2564,
+      "manutencao_preventiva": 0.6275,
+      "anomalia_eletrica": 0.7324,
+      "anomalia_mecanica": 0.5794,
+      "operacao_normal": 0.8235
+    },
+    "precision_por_categoria": {
+      "manutencao_corretiva": 0.8333,
+      "manutencao_preventiva": 0.9412,
+      "anomalia_eletrica": 0.7027,
+      "anomalia_mecanica": 0.4247,
+      "operacao_normal": 0.8
+    },
+    "recall_por_categoria": {
+      "manutencao_corretiva": 0.1515,
+      "manutencao_preventiva": 0.4706,
+      "anomalia_eletrica": 0.7647,
+      "anomalia_mecanica": 0.9118,
+      "operacao_normal": 0.8485
+    },
+    "suporte": {
+      "manutencao_corretiva": 33,
+      "manutencao_preventiva": 34,
+      "anomalia_eletrica": 34,
+      "anomalia_mecanica": 34,
+      "operacao_normal": 33
+    },
+    "macro_f1": 0.6038,
+    "weighted_f1": 0.6046,
+    "acuracia": 0.631,
+    "matriz_confusao": [
+      [
+        5,
+        0,
+        5,
+        23,
+        0
+      ],
+      [
+        1,
+        16,
+        5,
+        10,
+        2
+      ],
+      [
+        0,
+        0,
+        26,
+        6,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        31,
+        3
+      ],
+      [
+        0,
+        1,
+        1,
+        3,
+        28
+      ]
+    ],
+    "categorias": [
+      "manutencao_corretiva",
+      "manutencao_preventiva",
+      "anomalia_eletrica",
+      "anomalia_mecanica",
+      "operacao_normal"
+    ]
+  },
+  "hibrido_teste": {
+    "nome": "zero_shot_regras",
+    "f1_por_categoria": {
+      "manutencao_corretiva": 0.963,
+      "manutencao_preventiva": 0.7826,
+      "anomalia_eletrica": 0.7857,
+      "anomalia_mecanica": 0.8,
+      "operacao_normal": 0.8571
+    },
+    "precision_por_categoria": {
+      "manutencao_corretiva": 0.9286,
+      "manutencao_preventiva": 1.0,
+      "anomalia_eletrica": 0.7857,
+      "anomalia_mecanica": 0.75,
+      "operacao_normal": 0.8
+    },
+    "recall_por_categoria": {
+      "manutencao_corretiva": 1.0,
+      "manutencao_preventiva": 0.6429,
+      "anomalia_eletrica": 0.7857,
+      "anomalia_mecanica": 0.8571,
+      "operacao_normal": 0.9231
+    },
+    "suporte": {
+      "manutencao_corretiva": 13,
+      "manutencao_preventiva": 14,
+      "anomalia_eletrica": 14,
+      "anomalia_mecanica": 14,
+      "operacao_normal": 13
+    },
+    "macro_f1": 0.8377,
+    "weighted_f1": 0.8356,
+    "acuracia": 0.8382,
+    "matriz_confusao": [
+      [
+        13,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        9,
+        3,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        11,
+        2,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        12,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        12
+      ]
+    ],
+    "categorias": [
+      "manutencao_corretiva",
+      "manutencao_preventiva",
+      "anomalia_eletrica",
+      "anomalia_mecanica",
+      "operacao_normal"
+    ]
+  },
+  "hibrido_total": {
+    "nome": "zero_shot_regras_total",
+    "f1_por_categoria": {
+      "manutencao_corretiva": 0.9394,
+      "manutencao_preventiva": 0.7143,
+      "anomalia_eletrica": 0.7761,
+      "anomalia_mecanica": 0.7342,
+      "operacao_normal": 0.8235
+    },
+    "precision_por_categoria": {
+      "manutencao_corretiva": 0.9394,
+      "manutencao_preventiva": 0.9091,
+      "anomalia_eletrica": 0.7879,
+      "anomalia_mecanica": 0.6444,
+      "operacao_normal": 0.8
+    },
+    "recall_por_categoria": {
+      "manutencao_corretiva": 0.9394,
+      "manutencao_preventiva": 0.5882,
+      "anomalia_eletrica": 0.7647,
+      "anomalia_mecanica": 0.8529,
+      "operacao_normal": 0.8485
+    },
+    "suporte": {
+      "manutencao_corretiva": 33,
+      "manutencao_preventiva": 34,
+      "anomalia_eletrica": 34,
+      "anomalia_mecanica": 34,
+      "operacao_normal": 33
+    },
+    "macro_f1": 0.7975,
+    "weighted_f1": 0.7965,
+    "acuracia": 0.7976,
+    "matriz_confusao": [
+      [
+        31,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        20,
+        5,
+        6,
+        2
+      ],
+      [
+        0,
+        0,
+        26,
+        6,
+        2
+      ],
+      [
+        1,
+        1,
+        0,
+        29,
+        3
+      ],
+      [
+        0,
+        1,
+        1,
+        3,
+        28
+      ]
+    ],
+    "categorias": [
+      "manutencao_corretiva",
+      "manutencao_preventiva",
+      "anomalia_eletrica",
+      "anomalia_mecanica",
+      "operacao_normal"
+    ]
+  },
+  "baseline_teste": {
+    "nome": "tfidf_logreg",
+    "f1_por_categoria": {
+      "manutencao_corretiva": 0.7407,
+      "manutencao_preventiva": 0.7586,
+      "anomalia_eletrica": 0.9286,
+      "anomalia_mecanica": 0.6897,
+      "operacao_normal": 0.6957
+    },
+    "precision_por_categoria": {
+      "manutencao_corretiva": 0.7143,
+      "manutencao_preventiva": 0.7333,
+      "anomalia_eletrica": 0.9286,
+      "anomalia_mecanica": 0.6667,
+      "operacao_normal": 0.8
+    },
+    "recall_por_categoria": {
+      "manutencao_corretiva": 0.7692,
+      "manutencao_preventiva": 0.7857,
+      "anomalia_eletrica": 0.9286,
+      "anomalia_mecanica": 0.7143,
+      "operacao_normal": 0.6154
+    },
+    "suporte": {
+      "manutencao_corretiva": 13,
+      "manutencao_preventiva": 14,
+      "anomalia_eletrica": 14,
+      "anomalia_mecanica": 14,
+      "operacao_normal": 13
+    },
+    "macro_f1": 0.7626,
+    "weighted_f1": 0.764,
+    "acuracia": 0.7647,
+    "matriz_confusao": [
+      [
+        10,
+        1,
+        0,
+        2,
+        0
+      ],
+      [
+        2,
+        11,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        13,
+        0,
+        1
+      ],
+      [
+        1,
+        2,
+        0,
+        10,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        2,
+        8
+      ]
+    ],
+    "categorias": [
+      "manutencao_corretiva",
+      "manutencao_preventiva",
+      "anomalia_eletrica",
+      "anomalia_mecanica",
+      "operacao_normal"
+    ]
+  },
+  "confianca_zero_shot": {
+    "limiar": 0.5,
+    "fracao_baixa_confianca": 0.2321,
+    "score_medio": 0.6925,
+    "score_mediano": 0.7106
+  }
+}
