@@ -12,13 +12,15 @@
 | Júlia Aben-Athar | RM566325 |
 | Igor Thiago Nakajima Vieira | RM563632 |
 
-🎥 **Vídeo Sprint 4:** _a publicar (não listado no YouTube)_ · Vídeo Sprints 3/4 (agosto): https://youtu.be/KrBUtJiwFvA
+📸 **Demonstração em funcionamento:** sequência de 13 prints no Anexo do documento final, com os arquivos em [`evidencias/prints/`](evidencias/prints/). O enunciado aceita vídeo ou sequência de prints.
+
+Vídeo das Sprints 3/4 (agosto): https://youtu.be/KrBUtJiwFvA
 
 ## Entregáveis
 
 | Entregável | Arquivo |
 |------------|---------|
-| Documento final (4 seções do enunciado) | [`docs/Documentacao_Final_PLN.pdf`](docs/Documentacao_Final_PLN.pdf) · [`.docx`](docs/Documentacao_Final_PLN.docx) · fonte em [`.md`](docs/Documentacao_Final_PLN.md) |
+| Documento final (4 seções do enunciado + anexo de prints) | [PDF](<docs/Processamento de Linguagem Natural, Chatbots & Virtual Agents.pdf>) · [DOCX](<docs/Processamento de Linguagem Natural, Chatbots & Virtual Agents.docx>) · [fonte .md](<docs/Processamento de Linguagem Natural, Chatbots & Virtual Agents.md>) |
 | Notebook Sprint 1 (executado), com glossário, corpus e documento | [`sprints_anteriores/sprint1/`](sprints_anteriores/sprint1/) |
 | Notebook Sprint 2 (executado) | repositório [`py-challenge-sprint-2-nlp`](https://github.com/guilhermegamabs/py-challenge-sprint-2-nlp/blob/main/sprint2_pln_consulta.ipynb) |
 | Notebook Sprint 3 (executado) | [`sprint3_pln_alertas.ipynb`](sprint3_pln_alertas.ipynb) |
@@ -74,6 +76,7 @@ pip install rouge-score transformers torch scikit-learn sentence-transformers fa
 | Só os cenários de diálogo (~3 min) | `python scripts/avaliar_assistente.py --so-cenarios` |
 | Comparativo Sprint 3 × 4 (~7 min) | `python scripts/comparar_sprint3.py` |
 | Evidências (figuras e transcrições) | `python scripts/gerar_evidencias.py` |
+| Prints do anexo (precisa de Chrome ou Edge) | `python scripts/gerar_prints.py` |
 | Notebook Sprint 4 | `python scripts/build_notebook_sprint4.py` e executar `sprint4_pln_rag.ipynb` |
 | Documento .docx/.pdf | `python scripts/gerar_documento_final.py` |
 

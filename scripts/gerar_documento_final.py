@@ -1,6 +1,6 @@
 """Gera o documento final da Sprint 4 em .docx e .pdf a partir de um único Markdown.
 
-Fonte única: docs/Documentacao_Final_PLN.md. O Markdown é o que se edita; os
+Fonte única: docs/<nome da disciplina>.md. O Markdown é o que se edita; os
 dois formatos de entrega são derivados dele, para não divergirem.
 
 O Markdown começa com um bloco entre linhas "---" (chave: valor) que vira a
@@ -19,11 +19,14 @@ import re
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parents[1]
-ORIGEM = RAIZ / "docs" / "Documentacao_Final_PLN.md"
-DOCX = RAIZ / "docs" / "Documentacao_Final_PLN.docx"
-PDF = RAIZ / "docs" / "Documentacao_Final_PLN.pdf"
+# O nome do arquivo é o nome da disciplina (exigência da entrega).
+NOME = "Processamento de Linguagem Natural, Chatbots & Virtual Agents"
+ORIGEM = RAIZ / "docs" / f"{NOME}.md"
+DOCX = RAIZ / "docs" / f"{NOME}.docx"
+PDF = RAIZ / "docs" / f"{NOME}.pdf"
 
 LARGURA_TEXTO_CM = 21.0 - 2 * 2.2          # A4 menos as margens laterais
+ALTURA_MAX_IMG_CM = 21.0                   # cabe na página com título e legenda
 
 
 # ── capa (front matter) ─────────────────────────────────────────────────────
@@ -52,6 +55,10 @@ def blocos(texto: str) -> list[tuple[str, object]]:
     while i < len(linhas):
         linha = linhas[i].rstrip()
         if not linha.strip() or linha.strip() == "---":
+            i += 1
+            continue
+        if linha.strip() == "<!-- nova-pagina -->":
+            saida.append(("quebra", None))
             i += 1
             continue
         m = re.match(r"^(#{1,3})\s+(.*)", linha)
@@ -265,11 +272,20 @@ def gerar_docx(capa: dict, bs) -> None:
                     inline(par, txt if li else f"**{txt.replace('**', '')}**", tamanho=9)
             tabela_largura_texto(t, pesos_colunas(conteudo))
             doc.add_paragraph()
+        elif tipo == "quebra":
+            doc.add_paragraph().add_run().add_break(WD_BREAK.PAGE)
         elif tipo == "img":
+            from PIL import Image as PILImage
+
             legenda, caminho = conteudo
             arq = (ORIGEM.parent / caminho).resolve()
             if arq.exists():
-                doc.add_picture(str(arq), width=Cm(LARGURA_TEXTO_CM))
+                w, h = PILImage.open(arq).size
+                if LARGURA_TEXTO_CM * h / w > ALTURA_MAX_IMG_CM:
+                    doc.add_picture(str(arq), height=Cm(ALTURA_MAX_IMG_CM))
+                else:
+                    doc.add_picture(str(arq), width=Cm(LARGURA_TEXTO_CM))
+                doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
                 cap = doc.add_paragraph()
                 r = cap.add_run(legenda)
                 r.italic = True
@@ -288,7 +304,7 @@ def gerar_pdf(capa: dict, bs) -> None:
     from reportlab.lib.utils import ImageReader
     from reportlab.pdfbase import pdfmetrics
     from reportlab.pdfbase.ttfonts import TTFont
-    from reportlab.platypus import (Image, ListFlowable, ListItem, PageBreak,
+    from reportlab.platypus import (Image, KeepTogether, ListFlowable, ListItem, PageBreak,
                                     Paragraph, SimpleDocTemplate, Spacer, Table,
                                     TableStyle)
 
@@ -313,9 +329,10 @@ def gerar_pdf(capa: dict, bs) -> None:
     cel = ParagraphStyle("cel", parent=corpo, fontSize=8.5, leading=10.5, alignment=0, spaceAfter=0)
     cit = ParagraphStyle("cit", parent=corpo, fontName=fam_i, leftIndent=14)
     leg = ParagraphStyle("leg", parent=corpo, fontName=fam_i, fontSize=8.5, alignment=TA_CENTER)
-    hs = {1: ParagraphStyle("h1", fontName=fam_b, fontSize=17, leading=21, textColor=preto, spaceBefore=6, spaceAfter=8),
-          2: ParagraphStyle("h2", fontName=fam_b, fontSize=13.5, leading=17, textColor=preto, spaceBefore=12, spaceAfter=6),
-          3: ParagraphStyle("h3", fontName=fam_b, fontSize=11.5, leading=14, textColor=preto, spaceBefore=8, spaceAfter=4)}
+    # keepWithNext: título nunca fica sozinho no pé da página.
+    hs = {1: ParagraphStyle("h1", fontName=fam_b, fontSize=17, leading=21, textColor=preto, spaceBefore=6, spaceAfter=8, keepWithNext=1),
+          2: ParagraphStyle("h2", fontName=fam_b, fontSize=13.5, leading=17, textColor=preto, spaceBefore=12, spaceAfter=6, keepWithNext=1),
+          3: ParagraphStyle("h3", fontName=fam_b, fontSize=11.5, leading=14, textColor=preto, spaceBefore=8, spaceAfter=4, keepWithNext=1)}
 
     def centro(tamanho, negrito=False, depois=6):
         return ParagraphStyle(f"c{tamanho}{negrito}{depois}", fontName=fam_b if negrito else fam,
@@ -398,13 +415,41 @@ def gerar_pdf(capa: dict, bs) -> None:
                 ("TOPPADDING", (0, 0), (-1, -1), 3), ("BOTTOMPADDING", (0, 0), (-1, -1), 3),
             ]))
             story += [t, Spacer(1, 8)]
+        elif tipo == "quebra":
+            story.append(PageBreak())
         elif tipo == "img":
             legenda, caminho = conteudo
             arq = (ORIGEM.parent / caminho).resolve()
             if arq.exists():
                 w, h = ImageReader(str(arq)).getSize()
-                story += [Image(str(arq), width=largura, height=largura * h / w),
-                          Paragraph(html(legenda), leg), Spacer(1, 6)]
+                larg, alt = largura, largura * h / w
+                if alt > ALTURA_MAX_IMG_CM * cm:          # imagem alta: reduz mantendo a proporção
+                    alt = ALTURA_MAX_IMG_CM * cm
+                    larg = alt * w / h
+                # Imagem e legenda juntas: a legenda nunca fica órfã na página seguinte.
+                story += [KeepTogether([Image(str(arq), width=larg, height=alt),
+                                        Paragraph(html(legenda), leg)]), Spacer(1, 10)]
+
+    # Título (ou sequência de títulos) vai junto com o bloco seguinte numa
+    # KeepTogether: o keepWithNext do estilo não segurou nos testes.
+    agrupado, i = [], 0
+    while i < len(story):
+        f = story[i]
+        if isinstance(f, Paragraph) and f.style.name in ("h1", "h2", "h3"):
+            grupo = [f]
+            i += 1
+            while i < len(story) and (isinstance(story[i], Paragraph)
+                                      and story[i].style.name in ("h1", "h2", "h3")):
+                grupo.append(story[i])
+                i += 1
+            if i < len(story) and not isinstance(story[i], PageBreak):
+                grupo.append(story[i])
+                i += 1
+            agrupado.append(KeepTogether(grupo))
+        else:
+            agrupado.append(f)
+            i += 1
+    story = agrupado
 
     def rodape(canvas, doc_):
         if doc_.page == 1 and capa:
