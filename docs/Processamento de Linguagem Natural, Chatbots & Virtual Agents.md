@@ -181,7 +181,7 @@ Todos os números abaixo saem de arquivos versionados em `relatorios/` e foram r
 
 ### 2.3 Demonstração documentada: falha mecânica no MT-008
 
-Os três cenários (elétrico, mecânico e manutenção planejada) estão transcritos sem edição em `evidencias/demo_cenarios_falha.md` e na seção 7 do notebook `sprint4_pln_rag.ipynb`. O cenário mecânico é reproduzido abaixo.
+Os três cenários (elétrico, mecânico e manutenção planejada) aparecem nos prints P09 a P11 do Anexo, na seção 7 do notebook `sprint4_pln_rag.ipynb` e, transcritos sem edição, em `evidencias/demo_cenarios_falha.md`. O cenário mecânico é reproduzido abaixo.
 
 **Estado injetado no prompt:** EM RISCO, com alertas críticos abertos:
 - temperatura do mancal +17,8 °C sobre o baseline por 5,1 dias;
@@ -202,7 +202,7 @@ Os três cenários (elétrico, mecânico e manutenção planejada) estão transc
 
 As duas falhas estão catalogadas na seção 3.3.
 
-As perguntas fora de escopo também estão transcritas, lado a lado entre a Sprint 3 e a 4, em `evidencias/fora_de_escopo_antes_depois.md`. Os logs completos de execução estão em `evidencias/log_*.txt`.
+As perguntas fora de escopo aparecem no print P08 e estão transcritas, lado a lado entre a Sprint 3 e a 4, em `evidencias/fora_de_escopo_antes_depois.md`. Os logs completos de execução estão em `evidencias/log_*.txt`; o print P13 mostra um trecho.
 
 ---
 
@@ -216,7 +216,7 @@ As perguntas fora de escopo também estão transcritas, lado a lado entre a Spri
 | Avaliação com juiz LLM (RAGAS) | **não feita** | Exige um LLM juiz maior que o gerador; em CPU, sem chave de API, o custo de 20 perguntas × várias métricas era incompatível com o prazo. Usamos juiz NLI offline, mais rígido (seção 3.2). |
 | Validação do limiar em conjunto independente | **não feita** | O limiar de 0,60 foi escolhido olhando as mesmas 24 perguntas em que é avaliado. Faltou tempo para escrever um segundo gabarito. |
 | Cobertura de procedimentos de manutenção detalhados | **parcial** | O corpus indexado é majoritariamente de especificação: intervalos de relubrificação por carcaça e torques de aperto não estão no material em português. |
-| Vídeo demonstrativo da Sprint 4 | **a cargo do grupo** | Roteiro e evidências prontos em `evidencias/`. O vídeo das Sprints 3 e 4 publicado em agosto continua válido para o fluxo geral. |
+| Demonstração da solução em funcionamento | **concluída como sequência de prints** | O enunciado aceita vídeo ou sequência de prints; optamos pelos prints, que mostram as saídas reais dos notebooks executados. Estão no Anexo, ao fim deste documento. |
 
 Os itens citados no enunciado como exemplos de pendência foram **concluídos**: o re-ranking contextual do retriever, a avaliação com 20 perguntas de diagnóstico e a cobertura dos três cenários de falha.
 
@@ -309,8 +309,55 @@ Pasta `challenge-sprint-4/processamento-linguagem-natural/`:
 | Rodar só os cenários de diálogo | `python scripts/avaliar_assistente.py --so-cenarios` | ~3 min |
 | Comparativo Sprint 3 × Sprint 4 | `python scripts/comparar_sprint3.py` | ~7 min |
 | Figuras e transcrições de evidência | `python scripts/gerar_evidencias.py` | segundos |
+| Prints do Anexo (a partir dos notebooks executados) | `python scripts/gerar_prints.py` | ~30 s |
 | Notebook da Sprint 4 | `python scripts/build_notebook_sprint4.py` e depois executar `sprint4_pln_rag.ipynb` | ~1 min |
 | Este documento (.docx e .pdf) | `python scripts/gerar_documento_final.py` | segundos |
 
 - **Modelo local:** a variável `MODELO_LLM` aceita o caminho de um `.gguf` já baixado. Sem ela, o modelo é baixado do Hugging Face.
 - **Artefatos versionados:** todas as saídas usadas neste documento estão em `relatorios/`. As iterações descartadas ficam em `relatorios/sprint4_iteracao1/` e `relatorios/sprint4_iteracao2/`, e as respostas da Sprint 3 em `relatorios/sprint3_baseline/`.
+
+<!-- nova-pagina -->
+
+## Anexo — Solução em funcionamento: sequência de prints
+
+Esta sequência substitui o vídeo demonstrativo, conforme a alternativa prevista no enunciado. Cada print é uma célula real de um notebook executado, com o código, a saída e o número de execução visíveis. Nada foi recalculado nem editado para as imagens: elas são geradas a partir dos `.ipynb` salvos por `scripts/gerar_prints.py`, e os arquivos ficam em `evidencias/prints/`.
+
+A ordem acompanha o fluxo da solução:
+- **P01 e P02 (Sprint 1):** base linguística;
+- **P03 e P04 (Sprint 2):** consulta semântica;
+- **P05 e P06 (Sprint 3):** geração e classificação de texto;
+- **P07 a P13 (Sprint 4):** assistente RAG, incluindo os três cenários de falha.
+
+### Sprint 1 — Base linguística
+
+![P01 — O pipeline de pré-processamento aplicado às causas de falha do corpus: remoção de acentos, expansão de abreviações, stopwords técnicas e tokenização.](../evidencias/prints/p01_s1_preprocessamento.png)
+
+![P02 — Estatísticas do corpus processado: termos mais frequentes, registros por tipo de campo, comprimento das descrições e vocabulário por documento.](../evidencias/prints/p02_s1_estatisticas.png)
+
+### Sprint 2 — Consulta semântica
+
+![P03 — Consultas em linguagem natural do operador ("motor que está esquentando muito", "equipamento de 220V com maior temperatura") respondidas com o ativo certo e uma descrição textual do estado.](../evidencias/prints/p03_s2_consulta.png)
+
+![P04 — Precision@k e Recall@k nas 18 consultas-teste, por categoria: P@1 de 0,944 e R@3 de 1,000.](../evidencias/prints/p04_s2_metricas.png)
+
+### Sprint 3 — Geração e classificação
+
+![P05 — Resumos de alerta gerados a partir dos desvios dos sensores, um por nível de severidade, com recomendação e rastreabilidade até a leitura de origem.](../evidencias/prints/p05_s3_resumos.png)
+
+![P06 — Classificação dos eventos operacionais: macro-F1 do híbrido (0,838) contra o zero-shot (0,603) e o TF-IDF + LogReg (0,763), com F1 por categoria.](../evidencias/prints/p06_s3_classificacao.png)
+
+### Sprint 4 — Assistente RAG
+
+![P07 — Retriever sobre os manuais WEG: o re-ranking lexical eleva o MRR de 0,563 para 0,758 nas 20 perguntas com gabarito.](../evidencias/prints/p07_s4_retriever.png)
+
+![P08 — As 4 perguntas fora de escopo recusadas. F02 e F03 são recusadas pelo limiar, sem chamar o modelo; F01 e F04, pelo próprio modelo.](../evidencias/prints/p08_s4_fora_de_escopo.png)
+
+![P09 — Cenário de falha elétrica no MT-007: queda do fator de potência, com o estado do ativo injetado no prompt e dois turnos de diálogo.](../evidencias/prints/p09_s4_cenario_eletrico.png)
+
+![P10 — Cenário de falha mecânica no MT-008: vibração dobrada e mancal aquecido. O assistente usa o alerta aberto e mantém o diálogo no segundo turno.](../evidencias/prints/p10_s4_cenario_mecanico.png)
+
+![P11 — Cenário de manutenção planejada no MT-004: cuidados de armazenamento e inspeção na volta à operação.](../evidencias/prints/p11_s4_cenario_manutencao.png)
+
+![P12 — Antes × depois com a mesma régua, e a relevância de cada pergunta em relação ao limiar de recusa de 0,60.](../evidencias/prints/p12_s4_antes_depois.png)
+
+![P13 — Trecho do log real da avaliação em CPU: métricas do retriever, tempo de cada resposta, recusa por limiar em T13 (0,0 s) e as 4 recusas fora de escopo.](../evidencias/prints/p13_s4_log_execucao.png)
