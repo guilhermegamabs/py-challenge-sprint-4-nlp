@@ -1,0 +1,336 @@
+[
+  {
+    "cenario": "anomalia_eletrica",
+    "ativo_id": "MT-007",
+    "familias": [
+      "eletrica"
+    ],
+    "turnos": [
+      "O fator de potência deste motor caiu de 0,95 para 0,88. O que pode explicar isso?",
+      "A corrente também subiu 10%. Isso muda o diagnóstico?"
+    ],
+    "estado": {
+      "ativo_id": "MT-007",
+      "tag": "WMagnet-IPM-50CV-3F",
+      "alertas": [
+        "Alerta moderado detectado no motor WMagnet-IPM-50CV-3F (Linha de Produção A — Extrusora Principal). O fator de potência apresentou desvio de -0,08 abaixo do baseline de forma sustentada por 4,8 dias, atingindo 0,88. Recomenda-se verificação programada dentro das próximas 24 horas: verificação do regime de carga e do banco de capacitores.",
+        "Alerta moderado detectado: WMagnet-IPM-50CV-3F opera com temperatura do enrolamento em 75,1 C, desvio +13,7 C sobre a referência de 61,5 C nas últimas 8 horas. Causa provável sob avaliação: sistema de refrigeração ou carga acima do regime. Recomenda-se verificação programada dentro das próximas 24 horas."
+      ],
+      "situacao": "EM OBSERVAÇÃO — desvio moderado em acompanhamento"
+    },
+    "dialogo": [
+      {
+        "pergunta": "O fator de potência deste motor caiu de 0,95 para 0,88. O que pode explicar isso?",
+        "resposta": "O fator de potência do motor WMagnet-IPM-50CV-3F caiu de 0,95 para 0,88, indicando sobrecarga [FONTE 1]. Este desvio pode ser causado por uma carga acima do regime ou por um sistema de refrigeração inadequado [FONTE 2]. A temperatura do enrolamento em 75,1 C, além do desvio de 13,7 C, sugere sobrecarga [FONTE 3]. Recomenda-se verificação do regime de carga e do banco de capacitores dentro das próximas 24 horas [FONTE 4].\nConfiança: MÉDIA — calculada pela recuperação (relevância do melhor trecho: 0.73).",
+        "chunks": [
+          {
+            "chunk_id": "CH-0158",
+            "doc_id": "guia_especificacao",
+            "secao": "7. Características em Regime > 7.3 Regime de Serviço > 7.3.3 Potência nominal",
+            "pagina": 43,
+            "score": 0.985,
+            "relevancia": 0.7349
+          },
+          {
+            "chunk_id": "CH-0245",
+            "doc_id": "guia_especificacao",
+            "secao": "11. Seleção e aplicação dos motores trifásicos > 11.2 Níveis de Rendimentos Exigidos no Brasil > 11.2.1 O programa de eficiência energética no país",
+            "pagina": 58,
+            "score": 0.9819,
+            "relevancia": 0.7319
+          },
+          {
+            "chunk_id": "CH-0013",
+            "doc_id": "guia_especificacao",
+            "secao": "1.2 Conceitos Básicos > 1.2.5 Fator de potência",
+            "pagina": 9,
+            "score": 0.9819,
+            "relevancia": 0.7318
+          },
+          {
+            "chunk_id": "CH-0012",
+            "doc_id": "guia_especificacao",
+            "secao": "1.2 Conceitos Básicos > 1.2.5 Fator de potência",
+            "pagina": 9,
+            "score": 0.9797,
+            "relevancia": 0.7296
+          }
+        ],
+        "relevancia_max": 0.7349,
+        "recusa_por_limiar": false,
+        "confianca_recuperacao": "MÉDIA",
+        "confianca_declarada": "ALTA",
+        "numeros_sem_suporte": [
+          "50",
+          "75,1",
+          "13,7",
+          "24"
+        ]
+      },
+      {
+        "pergunta": "A corrente também subiu 10%. Isso muda o diagnóstico?",
+        "resposta": "A documentação técnica disponível não trata deste assunto com aderência suficiente para uma resposta segura. Consulte a engenharia de manutenção ou o canal responsável pela informação.\nConfiança: BAIXA — calculada pela recuperação (relevância do melhor trecho: 0.52).",
+        "chunks": [
+          {
+            "chunk_id": "CH-0244",
+            "doc_id": "guia_especificacao",
+            "secao": "11. Seleção e aplicação dos motores trifásicos > 11.2 Níveis de Rendimentos Exigidos no Brasil > 11.2.1 O programa de eficiência energética no país",
+            "pagina": 58,
+            "score": 0.7654,
+            "relevancia": 0.5154
+          },
+          {
+            "chunk_id": "CH-0234",
+            "doc_id": "guia_especificacao",
+            "secao": "11. Seleção e aplicação dos motores trifásicos > 11.2 Níveis de Rendimentos Exigidos no Brasil > 11.2.1 O programa de eficiência energética no país",
+            "pagina": 58,
+            "score": 0.671,
+            "relevancia": 0.421
+          },
+          {
+            "chunk_id": "CH-0342",
+            "doc_id": "rendimento_monofasicos",
+            "secao": "WEG em Revista",
+            "pagina": 4,
+            "score": 0.6663,
+            "relevancia": 0.4163
+          },
+          {
+            "chunk_id": "CH-0086",
+            "doc_id": "guia_especificacao",
+            "secao": "4. Características de aceleração > 4.1 Conjugados > conjugado",
+            "pagina": 26,
+            "score": 0.657,
+            "relevancia": 0.4071
+          }
+        ],
+        "relevancia_max": 0.5154,
+        "recusa_por_limiar": true,
+        "confianca_recuperacao": "BAIXA",
+        "confianca_declarada": "NAO_GERADA",
+        "numeros_sem_suporte": []
+      }
+    ]
+  },
+  {
+    "cenario": "anomalia_mecanica",
+    "ativo_id": "MT-008",
+    "familias": [
+      "mecanica"
+    ],
+    "turnos": [
+      "A vibração deste motor mais que dobrou em cinco dias. O que verificar primeiro?",
+      "O alinhamento foi conferido e está correto. O que mais pode causar isso?"
+    ],
+    "estado": {
+      "ativo_id": "MT-008",
+      "tag": "W22-112M-4P-7.5CV-3F",
+      "alertas": [
+        "ALERTA CRÍTICO — motor W22-112M-4P-7.5CV-3F (Linha de Produção B — Misturador Industrial). A temperatura do mancal atingiu desvio severo de +17,8 C sobre o baseline de 49,8 C de forma sustentada por 5,1 dias, com valor de pico em 67,1 C. Risco de falha do rolamento por perda de lubrificação. Intervenção imediata requerida: parada para inspeção do mancal e substituição do rolamento — acionar manutenção no turno corrente.",
+        "ALERTA CRÍTICO: W22-112M-4P-7.5CV-3F em condição severa. Leitura de vibração global registrada em 4,4 mm/s (+112,8% vs. baseline) de forma sustentada por 5 dias. Intervenção imediata requerida — parada para verificação de alinhamento, balanceamento e rolamentos. Manter o ativo sob supervisão contínua até a intervenção."
+      ],
+      "situacao": "EM RISCO — alertas críticos abertos"
+    },
+    "dialogo": [
+      {
+        "pergunta": "A vibração deste motor mais que dobrou em cinco dias. O que verificar primeiro?",
+        "resposta": "A vibração global do motor W22-112M-4P-7.5CV-3F em linha de produção B atingiu 4,4 mm/s, um aumento de 112,8% sobre o baseline de 2,1 mm/s, de forma sustentada por 5 dias [FONTE 2]. Primeiro verificar o alinhamento do motor, pois vibrações elevadas podem indicar desalinhamento [FONTE 2]. Em seguida, verificar o balanceamento do motor, pois vibrações podem ser um sinal de desbalanceamento [FONTE 2]. Além disso, verificar a condição do rolamento, pois vibrações elevadas podem indicar perda de lubrificação [FONTE 2].\nConfiança: MÉDIA — calculada pela recuperação (relevância do melhor trecho: 0.68).",
+        "chunks": [
+          {
+            "chunk_id": "CH-0042",
+            "doc_id": "guia_especificacao",
+            "secao": "1.6 Materiais e Sistemas de Isolação",
+            "pagina": 15,
+            "score": 0.8911,
+            "relevancia": 0.6411
+          },
+          {
+            "chunk_id": "CH-0127",
+            "doc_id": "guia_especificacao",
+            "secao": "7. Características em Regime > 7.1.2 Vida útil do motor",
+            "pagina": 35,
+            "score": 0.8842,
+            "relevancia": 0.6342
+          },
+          {
+            "chunk_id": "CH-0117",
+            "doc_id": "guia_especificacao",
+            "secao": "6. Motofreio Trifásico > 6.4 Conjugado de Frenagem",
+            "pagina": 33,
+            "score": 0.8256,
+            "relevancia": 0.6756
+          },
+          {
+            "chunk_id": "CH-0107",
+            "doc_id": "guia_especificacao",
+            "secao": "4. Características de aceleração > 5.1 Variação do Número de Polos > 5.1.2 Dahlander",
+            "pagina": 30,
+            "score": 0.6771,
+            "relevancia": 0.6771
+          }
+        ],
+        "relevancia_max": 0.6771,
+        "recusa_por_limiar": false,
+        "confianca_recuperacao": "MÉDIA",
+        "confianca_declarada": "ALTA",
+        "numeros_sem_suporte": [
+          "22",
+          "4",
+          "7.5",
+          "4,4",
+          "112,8",
+          "2,1",
+          "5"
+        ]
+      },
+      {
+        "pergunta": "O alinhamento foi conferido e está correto. O que mais pode causar isso?",
+        "resposta": "A documentação técnica disponível não trata deste assunto com aderência suficiente para uma resposta segura. Consulte a engenharia de manutenção ou o canal responsável pela informação.\nConfiança: BAIXA — calculada pela recuperação (relevância do melhor trecho: 0.56).",
+        "chunks": [
+          {
+            "chunk_id": "CH-0282",
+            "doc_id": "manual_wmo",
+            "secao": "3 INSTALAÇÃO",
+            "pagina": 17,
+            "score": 0.7596,
+            "relevancia": 0.5095
+          },
+          {
+            "chunk_id": "CH-0289",
+            "doc_id": "manual_wmo",
+            "secao": "3 INSTALAÇÃO",
+            "pagina": 17,
+            "score": 0.6793,
+            "relevancia": 0.4293
+          },
+          {
+            "chunk_id": "CH-0292",
+            "doc_id": "manual_wmo",
+            "secao": "4 OPERAÇÃO",
+            "pagina": 19,
+            "score": 0.675,
+            "relevancia": 0.4249
+          },
+          {
+            "chunk_id": "CH-0332",
+            "doc_id": "rendimento_monofasicos",
+            "secao": "WEG em Revista",
+            "pagina": 2,
+            "score": 0.5595,
+            "relevancia": 0.5595
+          }
+        ],
+        "relevancia_max": 0.5595,
+        "recusa_por_limiar": true,
+        "confianca_recuperacao": "BAIXA",
+        "confianca_declarada": "NAO_GERADA",
+        "numeros_sem_suporte": []
+      }
+    ]
+  },
+  {
+    "cenario": "manutencao_preventiva",
+    "ativo_id": "MT-004",
+    "familias": [
+      "manutencao"
+    ],
+    "turnos": [
+      "Este motor vai ficar parado por três meses. Que cuidados de armazenamento devo tomar?",
+      "E o que preciso inspecionar quando ele voltar a operar?"
+    ],
+    "estado": {
+      "ativo_id": "MT-004",
+      "tag": "W22-80-4P-1CV-3F",
+      "alertas": [],
+      "situacao": "ESTÁVEL COM DESVIO — apenas desvios leves"
+    },
+    "dialogo": [
+      {
+        "pergunta": "Este motor vai ficar parado por três meses. Que cuidados de armazenamento devo tomar?",
+        "resposta": "Como o motor está parado por três meses, deve ser armazenado horizontalmente para evitar deslocamento do ímã permanente [FONTE 2]. O motor deve ser armazenado com óleo ISO VG 68 no rolamento, conforme indicado no manual do motor [FONTE 2]. O eixo do motor deve ser girado semanalmente para manter a distribuição uniforme do lubrificante [FONTE 2]. Se os motores forem armazenados por mais de seis meses, os rolamentos devem ser relubrificados antes do comissionamento do motor [FONTE 2]. Após dois anos de armazenamento, é recomendável trocar os rolamentos ou removê-los, lavá-los, inspecioná-los e relubrificá-los [FONTE 2]. Após esse período de armazenamento, também é recomendável trocar os capacitores de partida dos motores monofásicos, pois eles perdem suas características operacionais [FONTE 2].\nConfiança: MÉDIA — calculada pela recuperação (relevância do melhor trecho: 0.62).",
+        "chunks": [
+          {
+            "chunk_id": "CH-0293",
+            "doc_id": "manual_wmo",
+            "secao": "5 MANUTENÇÃO",
+            "pagina": 20,
+            "score": 0.6203,
+            "relevancia": 0.6203
+          },
+          {
+            "chunk_id": "CH-0277",
+            "doc_id": "manual_wmo",
+            "secao": "2 TRANSPORTE, ARMAZENAMENTO E MANUSEIO",
+            "pagina": 16,
+            "score": 0.6072,
+            "relevancia": 0.6072
+          },
+          {
+            "chunk_id": "CH-0278",
+            "doc_id": "manual_wmo",
+            "secao": "2 TRANSPORTE, ARMAZENAMENTO E MANUSEIO",
+            "pagina": 16,
+            "score": 0.5915,
+            "relevancia": 0.5915
+          },
+          {
+            "chunk_id": "CH-0127",
+            "doc_id": "guia_especificacao",
+            "secao": "7. Características em Regime > 7.1.2 Vida útil do motor",
+            "pagina": 35,
+            "score": 0.5699,
+            "relevancia": 0.5699
+          }
+        ],
+        "relevancia_max": 0.6203,
+        "recusa_por_limiar": false,
+        "confianca_recuperacao": "MÉDIA",
+        "confianca_declarada": "ALTA",
+        "numeros_sem_suporte": []
+      },
+      {
+        "pergunta": "E o que preciso inspecionar quando ele voltar a operar?",
+        "resposta": "A documentação técnica disponível não trata deste assunto com aderência suficiente para uma resposta segura. Consulte a engenharia de manutenção ou o canal responsável pela informação.\nConfiança: BAIXA — calculada pela recuperação (relevância do melhor trecho: 0.39).",
+        "chunks": [
+          {
+            "chunk_id": "CH-0118",
+            "doc_id": "guia_especificacao",
+            "secao": "6. Motofreio Trifásico > 6.5 Ajuste do Entreferro",
+            "pagina": 33,
+            "score": 0.6088,
+            "relevancia": 0.3588
+          },
+          {
+            "chunk_id": "CH-0298",
+            "doc_id": "manual_wmo",
+            "secao": "7 TERMO DE GARANTIA",
+            "pagina": 21,
+            "score": 0.52,
+            "relevancia": 0.27
+          },
+          {
+            "chunk_id": "CH-0120",
+            "doc_id": "guia_especificacao",
+            "secao": "6. Motofreio Trifásico > 6.5 Ajuste do Entreferro",
+            "pagina": 33,
+            "score": 0.514,
+            "relevancia": 0.264
+          },
+          {
+            "chunk_id": "CH-0276",
+            "doc_id": "manual_wmo",
+            "secao": "2 TRANSPORTE, ARMAZENAMENTO E MANUSEIO",
+            "pagina": 16,
+            "score": 0.3872,
+            "relevancia": 0.3872
+          }
+        ],
+        "relevancia_max": 0.3872,
+        "recusa_por_limiar": true,
+        "confianca_recuperacao": "BAIXA",
+        "confianca_declarada": "NAO_GERADA",
+        "numeros_sem_suporte": []
+      }
+    ]
+  }
+]

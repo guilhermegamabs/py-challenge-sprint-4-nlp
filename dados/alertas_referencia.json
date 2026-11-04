@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "descricao": "Resumos de referencia escritos manualmente para os 24 alertas de dados/alertas.json. Servem de gabarito para as metricas ROUGE-1/2/L do modulo de geracao de linguagem natural.",
+    "autoria": "Grupo CodeX - redigidos a partir dos parametros numericos do alerta, sem uso dos templates do modulo (paragrafo livre, vocabulario de operador).",
+    "data": "2026-06-15",
+    "total": 24,
+    "criterio": "Cada referencia deve conter: identificacao do ativo, grandeza afetada, magnitude do desvio, contexto temporal e acao recomendada."
+  },
+  "referencias": [
+    {
+      "alerta_id": "ALT-001",
+      "severidade": "critico",
+      "resumo_referencia": "Situacao critica no motor W22-160L-2P-30CV-3F do ventilador de exaustao da Area 3: a corrente de linha subiu 25,7% acima do baseline de 72,1 A e chegou a 90,7 A, com o desvio sustentado por quase seis dias. Ha risco de atuacao das protecoes e parada nao programada; avaliar sobrecarga mecanica no acionamento ainda neste turno."
+    },
+    {
+      "alerta_id": "ALT-002",
+      "severidade": "critico",
+      "resumo_referencia": "O enrolamento do motor W22-160L-2P-30CV-3F atingiu 92,3 C, 27,7 C acima da referencia de 64,4 C mantida na semana anterior. Desvio critico persistente ha seis dias, com risco de degradacao do isolamento. Reduzir a carga e inspecionar o sistema de refrigeracao imediatamente."
+    },
+    {
+      "alerta_id": "ALT-003",
+      "severidade": "critico",
+      "resumo_referencia": "Alerta critico de temperatura de mancal no misturador industrial (W22-112M-4P-7.5CV-3F): 67,1 C medidos contra baseline de 49,8 C, ou seja, 17,8 C de elevacao mantida por cinco dias. Provavel falha de lubrificacao ou pre-carga do rolamento. Programar parada imediata para inspecao e troca do rolamento."
+    },
+    {
+      "alerta_id": "ALT-004",
+      "severidade": "critico",
+      "resumo_referencia": "A vibracao global do motor W22-112M-4P-7.5CV-3F mais que dobrou em relacao ao baseline (4,43 mm/s contra 2,09 mm/s, +112,8%) e permanece elevada ha cinco dias. O padrao sugere desalinhamento ou desgaste de rolamento. Parar o ativo para verificar alinhamento, balanceamento e mancais antes que ocorra falha mecanica."
+    },
+    {
+      "alerta_id": "ALT-005",
+      "severidade": "moderado",
+      "resumo_referencia": "O mancal da bomba centrifuga 01 (motor W22-100L-2P-3CV-1F) aqueceu 9,9 C acima do baseline de 46,7 C, atingindo 55,8 C durante seis horas na noite de 10/06. Desvio moderado compativel com falha de lubrificacao; incluir o ponto na proxima inspecao e revisar o plano de lubrificacao em ate 24 horas."
+    },
+    {
+      "alerta_id": "ALT-006",
+      "severidade": "moderado",
+      "resumo_referencia": "A tensao de alimentacao do motor W22-100L-2P-3CV-1F ficou 4,5% acima do baseline de 220,1 V, com pico de 230,1 V e desvio mantido por cerca de quatro dias. Indica problema de qualidade de energia no barramento; verificar alimentacao e conexoes do painel em ate 24 horas."
+    },
+    {
+      "alerta_id": "ALT-007",
+      "severidade": "moderado",
+      "resumo_referencia": "Alerta moderado no compressor principal da Area 3: a temperatura do enrolamento do motor W22-132M-4P-15CV-3F subiu 18,8 C sobre o baseline de 63,5 C e alcancou 82,0 C, em elevacao progressiva ao longo de cinco dias. Recomenda-se checar o sistema de refrigeracao e confirmar a carga acionada."
+    },
+    {
+      "alerta_id": "ALT-008",
+      "severidade": "moderado",
+      "resumo_referencia": "A rotacao do motor W22-160L-2P-30CV-3F caiu 1,9% em relacao a media de 3541,7 RPM, estabilizando em 3472,5 RPM ao longo de cinco dias. A queda acompanha o aumento de corrente do mesmo ativo e sugere escorregamento por excesso de carga; verificar a carga aplicada ao eixo."
+    },
+    {
+      "alerta_id": "ALT-009",
+      "severidade": "moderado",
+      "resumo_referencia": "O mancal do ventilador de exaustao (W22-160L-2P-30CV-3F) opera a 61,7 C, 9,2 C acima do baseline de 52,8 C, com desvio contínuo desde 09/06. Alerta moderado associado ao quadro de sobrecarga do ativo; inspecionar o mancal e revisar a lubrificacao nas proximas 24 horas."
+    },
+    {
+      "alerta_id": "ALT-010",
+      "severidade": "moderado",
+      "resumo_referencia": "O moinho de bolas da Area 5 (motor W22-225S-4P-75CV-3F) registrou vibracao de 4,37 mm/s contra 2,71 mm/s de referencia, aumento de 62,8% concentrado em uma janela de oito horas no dia 13/06. Sinal tipico de desbalanceamento; agendar medicao de vibracao dedicada e conferir alinhamento."
+    },
+    {
+      "alerta_id": "ALT-011",
+      "severidade": "moderado",
+      "resumo_referencia": "O fator de potencia da extrusora principal (motor WMagnet-IPM-50CV-3F) caiu de 0,95 para 0,88, uma reducao de 0,08 sustentada por quase cinco dias. Provavel operacao em carga parcial ou problema no banco de capacitores; avaliar o regime de carga e a correcao de reativo."
+    },
+    {
+      "alerta_id": "ALT-012",
+      "severidade": "moderado",
+      "resumo_referencia": "A temperatura do enrolamento do motor WMagnet-IPM-50CV-3F chegou a 75,1 C, 13,7 C acima do baseline de 61,5 C, em episodio de oito horas no dia 11/06. Desvio moderado que sugere restricao no fluxo de ar; verificar refrigeracao e a carga da extrusora."
+    },
+    {
+      "alerta_id": "ALT-013",
+      "severidade": "leve",
+      "resumo_referencia": "Registro informativo: a corrente do compressor W22-132M-4P-15CV-3F ficou 7,1% acima da media de 39,0 A, chegando a 42,0 A por 18 horas. Valor ainda dentro dos limites operacionais; apenas confrontar a leitura com o regime de carga do processo."
+    },
+    {
+      "alerta_id": "ALT-014",
+      "severidade": "leve",
+      "resumo_referencia": "Pequena elevacao de corrente no motor W22-132M-4P-15CV-3F: 42,2 A contra baseline de 39,0 A (+7,0%) durante quatro horas em 14/06. Desvio de baixa criticidade, sem necessidade de intervencao; acompanhar na proxima ronda."
+    },
+    {
+      "alerta_id": "ALT-015",
+      "severidade": "leve",
+      "resumo_referencia": "A corrente do compressor principal permaneceu 6,2% acima do baseline de 39,0 A, com pico de 41,3 A ao longo de 18 horas do dia 12/06. Nenhuma acao imediata necessaria; verificar se houve aumento de demanda do processo."
+    },
+    {
+      "alerta_id": "ALT-016",
+      "severidade": "leve",
+      "resumo_referencia": "Leitura pontual de vibracao acima do usual no motor W22-132M-4P-15CV-3F: 2,49 mm/s contra 2,19 mm/s de referencia (+25,8%). Desvio leve e isolado; incluir o ativo na proxima coleta de analise de vibracao."
+    },
+    {
+      "alerta_id": "ALT-017",
+      "severidade": "leve",
+      "resumo_referencia": "Corrente do ventilador de exaustao 5,8% acima do baseline de 72,1 A em leitura isolada de 09/06 (76,2 A). Desvio leve, provavelmente ligado a variacao de carga; manter observacao."
+    },
+    {
+      "alerta_id": "ALT-018",
+      "severidade": "leve",
+      "resumo_referencia": "A esteira transportadora 02 (motor W22-80-4P-1CV-3F) puxou 3,44 A contra 3,08 A de baseline, aumento de 11,7% por cinco horas em 09/06. Desvio leve compativel com pico de carga; confirmar o material transportado no periodo."
+    },
+    {
+      "alerta_id": "ALT-019",
+      "severidade": "leve",
+      "resumo_referencia": "Vibracao do motor da esteira transportadora subiu 35,7% em relacao ao baseline de 1,25 mm/s, atingindo 1,71 mm/s por quatro horas na madrugada de 12/06. Nivel ainda baixo em termos absolutos; incluir na proxima rota de analise de vibracao."
+    },
+    {
+      "alerta_id": "ALT-020",
+      "severidade": "leve",
+      "resumo_referencia": "O moinho de bolas opera com corrente 8,3% acima da referencia de 104,2 A, chegando a 111,9 A de forma sustentada por mais de quatro dias. Desvio leve, mas persistente, que acompanha a queda de tensao do mesmo ativo; monitorar."
+    },
+    {
+      "alerta_id": "ALT-021",
+      "severidade": "leve",
+      "resumo_referencia": "A tensao de alimentacao do motor W22-225S-4P-75CV-3F caiu 3,4% abaixo do baseline de 380,1 V, com minimo de 365,3 V mantido por cerca de quatro dias. Subtensao leve; registrar no acompanhamento de qualidade de energia da Area 5."
+    },
+    {
+      "alerta_id": "ALT-022",
+      "severidade": "leve",
+      "resumo_referencia": "Afundamento breve de tensao na bomba de agua gelada: 215,8 V contra 219,9 V de baseline (-2,2%) durante duas horas em 12/06. Desvio leve e transitorio; nenhuma acao imediata alem do registro da ocorrencia."
+    },
+    {
+      "alerta_id": "ALT-023",
+      "severidade": "leve",
+      "resumo_referencia": "A corrente da extrusora principal (WMagnet-IPM-50CV-3F) esta 10,1% acima do baseline de 69,4 A, com pico de 77,7 A e desvio mantido por mais de quatro dias. Desvio leve associado a queda do fator de potencia do mesmo ativo; acompanhar o regime de carga."
+    },
+    {
+      "alerta_id": "ALT-024",
+      "severidade": "leve",
+      "resumo_referencia": "O enrolamento do misturador industrial opera a 72,7 C, 10,4 C acima do baseline de 62,4 C, ha mais de quatro dias. Desvio leve que acompanha o quadro mecanico critico do mesmo motor; verificar limpeza das aletas e obstrucoes no fluxo de ar."
+    }
+  ]
+}

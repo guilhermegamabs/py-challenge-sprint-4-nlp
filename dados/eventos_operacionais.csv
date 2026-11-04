@@ -1,0 +1,169 @@
+evento_id,ativo_id,timestamp,origem,texto,categoria_gold,ambiguo
+EV-001,MT-005,2026-06-08 06:00:00,supervisorio,Painel acusando falha de fase intermitente durante a operacao do misturador.,anomalia_eletrica,0
+EV-002,MT-006,2026-06-08 07:20:00,diario_de_bordo,Turno encerrado sem ocorrencias no equipamento. Producao dentro da meta.,operacao_normal,0
+EV-003,MT-006,2026-06-08 09:15:00,supervisorio,Trocado o retentor do mancal traseiro apos contaminacao da graxa por agua de lavagem.,manutencao_corretiva,0
+EV-004,MT-007,2026-06-08 11:06:00,ordem_servico,Programada e executada a inspecao das escovas e do sistema de aterramento do eixo.,manutencao_preventiva,0
+EV-005,MT-003,2026-06-08 11:47:00,supervisorio,Sinal de corrente com componente de sequencia negativa acima do limite normativo.,anomalia_eletrica,0
+EV-006,MT-004,2026-06-08 14:30:00,supervisorio,Nada a relatar. Equipamento operando conforme padrao.,operacao_normal,0
+EV-007,MT-006,2026-06-08 16:06:00,diario_de_bordo,Realizada a troca completa dos rolamentos LA e LOA apos falha catastrofica em operacao.,manutencao_corretiva,0
+EV-008,MT-002,2026-06-08 18:32:00,ordem_servico,Realizado o plano de manutencao preventiva trimestral com limpeza interna e sopragem.,manutencao_preventiva,0
+EV-009,MT-006,2026-06-08 21:40:00,supervisorio,Substituida a chave seccionadora que fundiu durante o acionamento do misturador.,manutencao_corretiva,0
+EV-010,MT-008,2026-06-08 23:12:00,diario_de_bordo,Alarme de desequilibrio de tensao entre fases persistindo desde a madrugada.,anomalia_eletrica,0
+EV-011,MT-006,2026-06-09 00:07:00,diario_de_bordo,Executada rota de lubrificacao automatizada. Doseador reabastecido com graxa Mobil XHP 222.,manutencao_preventiva,0
+EV-012,MT-008,2026-06-09 03:07:00,supervisorio,"Observado aquecimento anormal no borne da fase T, sem intervencao ate o momento.",anomalia_eletrica,0
+EV-013,MT-002,2026-06-09 04:39:00,ordem_servico,"Estado operacional estavel, ultima leitura sem desvios em relacao ao baseline.",operacao_normal,0
+EV-014,MT-004,2026-06-09 07:29:00,supervisorio,Rotacao oscilando 2 por cento abaixo do nominal com carga constante.,anomalia_mecanica,0
+EV-015,MT-003,2026-06-09 10:31:00,supervisorio,"Parametros eletricos e mecanicos dentro dos limites, operacao continua.",operacao_normal,0
+EV-016,MT-002,2026-06-09 12:33:00,supervisorio,Calibracao anual dos sensores de temperatura do enrolamento efetuada pelo laboratorio.,manutencao_preventiva,0
+EV-017,MT-003,2026-06-09 15:38:00,ronda_operacional,Substituicao do enrolamento apos queima da fase S. Motor enviado para rebobinamento na oficina externa.,manutencao_corretiva,0
+EV-018,MT-005,2026-06-09 17:27:00,ronda_operacional,"Sistema de refrigeracao funcionando normalmente, temperatura estavel.",operacao_normal,0
+EV-019,MT-007,2026-06-09 19:30:00,supervisorio,Ventoinha substituida apos quebra da helice. Temperatura normalizou depois da troca.,manutencao_corretiva,0
+EV-020,MT-007,2026-06-09 21:52:00,ordem_servico,Instabilidade na leitura de tensao do inversor indicando possivel problema de rede.,anomalia_eletrica,0
+EV-021,MT-003,2026-06-10 00:12:00,diario_de_bordo,Aplicada rotina preventiva de reaperto eletrico nos terminais com torquimetro.,manutencao_preventiva,0
+EV-022,MT-008,2026-06-10 00:48:00,ronda_operacional,Feito reparo provisorio na caixa de ligacao ate a chegada da peca definitiva.,manutencao_corretiva,0
+EV-023,MT-004,2026-06-10 03:46:00,ordem_servico,Rele de sobrecarga atuando de forma intermitente sem sobrecarga mecanica aparente.,anomalia_eletrica,0
+EV-024,MT-005,2026-06-10 06:17:00,supervisorio,Ventilador do motor com pas empenadas gerando desbalanceamento perceptivel.,anomalia_mecanica,0
+EV-025,MT-002,2026-06-10 07:50:00,supervisorio,Lubrificacao antecipada devido a leitura de temperatura de mancal em elevacao.,manutencao_preventiva,1
+EV-026,MT-004,2026-06-10 08:55:00,ordem_servico,"Registro de rotina: temperatura de enrolamento 61 C, estavel desde a madrugada.",operacao_normal,0
+EV-027,MT-004,2026-06-10 09:38:00,ronda_operacional,Inspecao boroscopica programada do entreferro sem constatacao de danos.,manutencao_preventiva,0
+EV-028,MT-001,2026-06-10 12:40:00,ordem_servico,"Mancal LA operando a 78 C, 15 C acima da media historica do equipamento.",anomalia_mecanica,0
+EV-029,MT-002,2026-06-10 15:18:00,diario_de_bordo,Inspecao preventiva dos cabos de alimentacao e eletrodutos sem apontamento de risco.,manutencao_preventiva,0
+EV-030,MT-005,2026-06-10 18:01:00,diario_de_bordo,Eixo com batimento radial fora da tolerancia medido com relogio comparador.,anomalia_mecanica,0
+EV-031,MT-007,2026-06-10 18:41:00,ordem_servico,Sistema apontou sobretensao de 254 V sustentada por 20 minutos.,anomalia_eletrica,0
+EV-032,MT-006,2026-06-10 19:45:00,diario_de_bordo,Aumento simultaneo de temperatura de mancal e vibracao no misturador industrial.,anomalia_mecanica,0
+EV-033,MT-008,2026-06-10 21:24:00,ordem_servico,Consumo do motor 18 por cento acima do baseline sem aumento de carga no processo.,anomalia_eletrica,0
+EV-034,MT-004,2026-06-10 23:29:00,diario_de_bordo,"Desvio eletrico detectado, corrente 12 por cento acima do baseline por mais de 3 horas.",anomalia_eletrica,0
+EV-035,MT-002,2026-06-11 00:35:00,diario_de_bordo,"Elevacao da temperatura do mancal apos a ultima lubrificacao, possivel excesso de graxa.",anomalia_mecanica,0
+EV-036,MT-005,2026-06-11 02:11:00,diario_de_bordo,Executada a rota mensal de lubrificacao dos mancais conforme plano do fabricante.,manutencao_preventiva,0
+EV-037,MT-008,2026-06-11 02:47:00,ronda_operacional,Programa preditivo: nova medicao de vibracao para atualizar a linha de base do ativo.,manutencao_preventiva,0
+EV-038,MT-005,2026-06-11 03:34:00,diario_de_bordo,Tensao de alimentacao caiu para 208 V durante o pico de carga da tarde.,anomalia_eletrica,0
+EV-039,MT-007,2026-06-11 05:17:00,ordem_servico,Motor parado para troca de rolamento apos alarme de vibracao critica.,manutencao_corretiva,1
+EV-040,MT-006,2026-06-11 07:53:00,ordem_servico,"Leitura de corrente 36,8 A, compativel com a carga atual do compressor.",operacao_normal,0
+EV-041,MT-003,2026-06-11 08:42:00,ordem_servico,Correia de transmissao patinando e gerando ruido agudo durante a aceleracao.,anomalia_mecanica,0
+EV-042,MT-001,2026-06-11 09:48:00,ordem_servico,"Reaperto dos terminais executado durante inspecao de rotina, sem falha previa.",manutencao_preventiva,1
+EV-043,MT-001,2026-06-11 12:26:00,ordem_servico,Manutencao de emergencia no domingo: troca de mancal do lado acoplado do ventilador de exaustao.,manutencao_corretiva,0
+EV-044,MT-008,2026-06-11 15:12:00,supervisorio,Percebido desgaste no assento do rolamento durante inspecao com o motor parado.,anomalia_mecanica,0
+EV-045,MT-006,2026-06-11 16:27:00,ordem_servico,Corrigida a falha do encoder que impedia o inversor de manter a rotacao. Encoder novo instalado.,manutencao_corretiva,0
+EV-046,MT-007,2026-06-11 18:31:00,ronda_operacional,"Vibracao global subiu de 2,0 para 4,3 mm por segundo no mancal do lado acoplado.",anomalia_mecanica,0
+EV-047,MT-005,2026-06-11 21:36:00,supervisorio,Trocada a polia do lado acionado que apresentava rasgo no canal. Correias tambem substituidas.,manutencao_corretiva,0
+EV-048,MT-004,2026-06-11 23:18:00,supervisorio,Ruido de impacto ciclico sincronizado com a rotacao do eixo.,anomalia_mecanica,0
+EV-049,MT-002,2026-06-12 01:42:00,diario_de_bordo,Leitura do amperimetro do painel oscilando entre 60 e 90 A sem variacao de processo.,anomalia_eletrica,0
+EV-050,MT-001,2026-06-12 04:39:00,ronda_operacional,Reparo do eixo com desgaste no assento do rolamento. Metalizacao e retifica realizados.,manutencao_corretiva,0
+EV-051,MT-003,2026-06-12 05:34:00,ordem_servico,Equipamento operando normal apos a substituicao do contator realizada ontem.,operacao_normal,1
+EV-052,MT-008,2026-06-12 07:44:00,ronda_operacional,Substituicao preventiva dos rolamentos ao atingir 20 mil horas de operacao.,manutencao_preventiva,0
+EV-053,MT-007,2026-06-12 08:30:00,ordem_servico,Substituicao emergencial do capacitor de partida do motor monofasico.,manutencao_corretiva,0
+EV-054,MT-008,2026-06-12 10:40:00,supervisorio,Substituido o rele de sobrecarga que atuava indevidamente com carga nominal.,manutencao_corretiva,0
+EV-055,MT-007,2026-06-12 13:02:00,ronda_operacional,Ruido anormal de rolamento identificado por ultrassom durante a ronda operacional.,anomalia_mecanica,0
+EV-056,MT-004,2026-06-12 13:41:00,diario_de_bordo,Substituidos filtros de ar do ambiente do motor conforme plano preventivo.,manutencao_preventiva,0
+EV-057,MT-005,2026-06-12 16:33:00,ordem_servico,Temperatura do mancal LOA 17 C acima do baseline sem variacao de carga.,anomalia_mecanica,0
+EV-058,MT-004,2026-06-12 18:56:00,ronda_operacional,Motor apresenta trepidacao na partida e estabiliza apos 10 segundos.,anomalia_mecanica,0
+EV-059,MT-001,2026-06-12 20:04:00,supervisorio,Corrigido vazamento de graxa no mancal LA. Retentor substituido e mancal relubrificado.,manutencao_corretiva,0
+EV-060,MT-005,2026-06-12 22:14:00,ordem_servico,"Detectada folga axial superior a 0,6 mm no conjunto rotativo.",anomalia_mecanica,0
+EV-061,MT-002,2026-06-13 00:47:00,ronda_operacional,"Motor parou em operacao. Aberto o cabecote, rolamento traseiro travado, substituido por rolamento 6206 ZZ novo.",manutencao_corretiva,0
+EV-062,MT-006,2026-06-13 01:49:00,ordem_servico,"Motor com resistencia de isolamento em queda, 3,2 MOhm contra 80 MOhm de referencia.",anomalia_eletrica,0
+EV-063,MT-001,2026-06-13 04:54:00,ronda_operacional,Aquecimento do mancal dianteiro acompanhado de escurecimento da graxa.,anomalia_mecanica,0
+EV-064,MT-004,2026-06-13 06:05:00,ronda_operacional,Substituicao do inversor de frequencia queimado do misturador industrial.,manutencao_corretiva,0
+EV-065,MT-002,2026-06-13 06:51:00,ordem_servico,"Motor operando a 58 C, corrente 12,3 A e 3520 RPM, tudo dentro da faixa esperada.",operacao_normal,0
+EV-066,MT-003,2026-06-13 09:02:00,ordem_servico,Aumento do nivel de vibracao em 1x RPM indicando desbalanceamento do rotor.,anomalia_mecanica,0
+EV-067,MT-002,2026-06-13 11:04:00,ordem_servico,Troca programada da graxa do mancal seguindo intervalo de 4000 horas.,manutencao_preventiva,0
+EV-068,MT-008,2026-06-13 12:08:00,supervisorio,Feita a preventiva de painel: limpeza dos filtros e verificacao dos contatores.,manutencao_preventiva,0
+EV-069,MT-005,2026-06-13 15:11:00,ordem_servico,Vibracao do motor da esteira aumentou durante a operacao com carga maxima.,anomalia_mecanica,0
+EV-070,MT-004,2026-06-13 15:55:00,ordem_servico,Acoplamento rompeu durante partida. Substituido elemento elastico e realizado alinhamento a laser.,manutencao_corretiva,0
+EV-071,MT-002,2026-06-13 18:51:00,ordem_servico,"Elevacao progressiva da corrente sem elevacao de vibracao, sugerindo origem eletrica.",anomalia_eletrica,0
+EV-072,MT-006,2026-06-13 21:46:00,diario_de_bordo,Chumbador solto identificado durante a inspecao de ruido excessivo.,anomalia_mecanica,0
+EV-073,MT-004,2026-06-13 22:40:00,diario_de_bordo,Verificacao de folga axial do eixo dentro do escopo da preventiva semestral.,manutencao_preventiva,0
+EV-074,MT-008,2026-06-14 00:18:00,ronda_operacional,Reaperto preventivo dos parafusos de fixacao da base conforme torque de projeto.,manutencao_preventiva,0
+EV-075,MT-006,2026-06-14 01:57:00,ronda_operacional,Troca do ventilador de refrigeracao quebrado. Equipamento voltou a operar as 14h20.,manutencao_corretiva,0
+EV-076,MT-007,2026-06-14 04:01:00,ordem_servico,"Motor apresentou fumaca e parou. Desmontado, constatada queima total, encaminhado ao rebobinamento.",manutencao_corretiva,0
+EV-077,MT-004,2026-06-14 06:12:00,ronda_operacional,Detectada frequencia de engrenamento anormal no redutor acoplado ao motor.,anomalia_mecanica,0
+EV-078,MT-007,2026-06-14 07:28:00,ronda_operacional,"Corrente do motor subiu 22 por cento apos manobra na subestacao, sem mudanca de carga.",anomalia_eletrica,0
+EV-079,MT-007,2026-06-14 08:42:00,diario_de_bordo,Analise de envelope indica falha incipiente na pista externa do rolamento.,anomalia_mecanica,0
+EV-080,MT-002,2026-06-14 09:58:00,ronda_operacional,Correcao de curto no cabo de alimentacao entre inversor e motor. Trecho de 6 metros substituido.,manutencao_corretiva,0
+EV-081,MT-008,2026-06-14 12:36:00,diario_de_bordo,Espectro de vibracao mostra pico na frequencia de passagem de esferas do rolamento.,anomalia_mecanica,0
+EV-082,MT-005,2026-06-14 13:45:00,diario_de_bordo,Ensaios de indice de polarizacao executados na campanha preventiva de junho.,manutencao_preventiva,0
+EV-083,MT-006,2026-06-14 14:57:00,diario_de_bordo,Substituido o sensor PT100 do enrolamento que apresentava leitura travada em 0 C.,manutencao_corretiva,0
+EV-084,MT-005,2026-06-14 17:49:00,ronda_operacional,Equipamento parado desde ontem. Realizada troca do disjuntor motor e religamento.,manutencao_corretiva,0
+EV-085,MT-005,2026-06-14 20:56:00,diario_de_bordo,Coleta trimestral de analise de vibracao para acompanhamento de tendencia.,manutencao_preventiva,0
+EV-086,MT-001,2026-06-14 22:49:00,supervisorio,Ronda operacional das 8h sem anormalidades. Leituras estaveis em todos os pontos.,operacao_normal,0
+EV-087,MT-007,2026-06-15 01:26:00,diario_de_bordo,"Corrente desequilibrada entre fases em 9 por cento, acima do limite de 5 por cento.",anomalia_eletrica,0
+EV-088,MT-006,2026-06-15 02:45:00,diario_de_bordo,Anomalia eletrica: queda do fator de potencia acompanhada de aumento de corrente reativa.,anomalia_eletrica,0
+EV-089,MT-008,2026-06-15 04:42:00,diario_de_bordo,Sinal de vibracao com harmonicos de 2x RPM tipico de desalinhamento paralelo.,anomalia_mecanica,0
+EV-090,MT-008,2026-06-15 07:04:00,diario_de_bordo,Sensor indica tensao 6 por cento abaixo do nominal de forma continua nas ultimas 100 horas.,anomalia_eletrica,0
+EV-091,MT-001,2026-06-15 09:38:00,ronda_operacional,Troca do rolamento dianteiro apos ruido metalico intenso e travamento parcial do eixo.,manutencao_corretiva,0
+EV-092,MT-007,2026-06-15 10:31:00,ordem_servico,Termografia mostrou ponto quente de 96 C na conexao do cabo de alimentacao.,anomalia_eletrica,0
+EV-093,MT-004,2026-06-15 13:05:00,diario_de_bordo,Registrado aumento de vibracao axial apos a troca do elemento do acoplamento.,anomalia_mecanica,0
+EV-094,MT-004,2026-06-15 13:57:00,supervisorio,Registrada oscilacao de tensao de mais ou menos 12 V no barramento do painel.,anomalia_eletrica,0
+EV-095,MT-004,2026-06-15 15:33:00,supervisorio,Ensaio de resistencia ohmica das fases realizado na parada anual da planta.,manutencao_preventiva,0
+EV-096,MT-003,2026-06-15 16:43:00,ordem_servico,Ruido metalico intermitente audivel na regiao do rolamento traseiro.,anomalia_mecanica,0
+EV-097,MT-003,2026-06-15 18:23:00,ordem_servico,Realizado o reaperto e substituicao dos bornes oxidados que causaram falha de partida.,manutencao_corretiva,0
+EV-098,MT-003,2026-06-15 20:18:00,ronda_operacional,Consumo reativo do ativo cresceu de forma continua durante o turno da noite.,anomalia_eletrica,0
+EV-099,MT-002,2026-06-15 21:16:00,ordem_servico,Aumento do ruido eletrico no sinal de corrente coletado pelo supervisorio.,anomalia_eletrica,0
+EV-100,MT-005,2026-06-15 22:14:00,supervisorio,Motor da bomba operando em carga parcial conforme demanda da linha.,operacao_normal,0
+EV-101,MT-006,2026-06-15 22:58:00,ronda_operacional,Realizada limpeza das aletas e do defletor durante a parada programada de sabado.,manutencao_preventiva,0
+EV-102,MT-006,2026-06-16 02:01:00,ordem_servico,"Turno sem intercorrencias, motor da extrusora estavel em 1798 RPM.",operacao_normal,0
+EV-103,MT-006,2026-06-16 02:43:00,supervisorio,Anomalia registrada pelo digital twin: corrente eficaz fora da faixa esperada para a carga.,anomalia_eletrica,0
+EV-104,MT-007,2026-06-16 05:09:00,ronda_operacional,Inspecao preditiva por ultrassom no mancal LOA. Sem indicio de falha incipiente.,manutencao_preventiva,0
+EV-105,MT-004,2026-06-16 06:03:00,ronda_operacional,Corrigido o desalinhamento severo apos quebra do calco. Motor recalçado e realinhado.,manutencao_corretiva,0
+EV-106,MT-003,2026-06-16 08:18:00,supervisorio,"Presenca de limalha metalica proxima ao mancal, indicio de desgaste interno.",anomalia_mecanica,0
+EV-107,MT-005,2026-06-16 09:23:00,ordem_servico,Analise de oleo do redutor coletada conforme cronograma preditivo mensal.,manutencao_preventiva,0
+EV-108,MT-002,2026-06-16 11:48:00,ronda_operacional,Distorcao harmonica total de corrente subiu para 9 por cento apos entrada do novo inversor.,anomalia_eletrica,0
+EV-109,MT-005,2026-06-16 14:38:00,ordem_servico,Sem desvios registrados no diario de bordo deste turno.,operacao_normal,0
+EV-110,MT-006,2026-06-16 17:28:00,supervisorio,"Checklist semanal de preventiva concluido: fixacao, ruido, temperatura e limpeza ok.",manutencao_preventiva,0
+EV-111,MT-005,2026-06-16 19:58:00,supervisorio,Corrente de fuga para terra aumentou de 2 mA para 11 mA nas ultimas 24 horas.,anomalia_eletrica,0
+EV-112,MT-006,2026-06-16 21:00:00,ordem_servico,Inspecao encontrou aquecimento no borne; correcao agendada para a proxima parada.,anomalia_eletrica,1
+EV-113,MT-006,2026-06-16 23:41:00,ordem_servico,Vibracao acima da zona C da ISO 10816 registrada no ventilador de exaustao.,anomalia_mecanica,0
+EV-114,MT-003,2026-06-17 01:31:00,diario_de_bordo,Corrente da fase R subiu para 82 A contra 68 A das demais fases. Desequilibrio evidente.,anomalia_eletrica,0
+EV-115,MT-006,2026-06-17 02:51:00,ronda_operacional,Realizado o teste funcional das protecoes do rele de sobrecarga na parada programada.,manutencao_preventiva,0
+EV-116,MT-002,2026-06-17 03:57:00,diario_de_bordo,"Ronda noturna concluida, nenhum ruido ou aquecimento anormal identificado.",operacao_normal,0
+EV-117,MT-007,2026-06-17 05:56:00,supervisorio,"Partida do compressor realizada normalmente as 6h05, sem alarmes.",operacao_normal,0
+EV-118,MT-008,2026-06-17 07:18:00,ronda_operacional,Detectada elevacao de temperatura no enrolamento associada a sobrecorrente na fase S.,anomalia_eletrica,0
+EV-119,MT-003,2026-06-17 09:12:00,ordem_servico,Leituras do supervisorio estaveis nas ultimas 24 horas.,operacao_normal,0
+EV-120,MT-003,2026-06-17 10:14:00,ronda_operacional,Limpeza preventiva do trocador de calor do motor de 75 CV durante o turno noturno.,manutencao_preventiva,0
+EV-121,MT-002,2026-06-17 12:20:00,supervisorio,Verificado nivel de tensao de neutro elevado em relacao ao terra na alimentacao do ativo.,anomalia_eletrica,0
+EV-122,MT-007,2026-06-17 14:04:00,ordem_servico,"Vibracao levemente acima do usual, porem dentro do limite de alarme; sem acao.",anomalia_mecanica,1
+EV-123,MT-001,2026-06-17 15:13:00,ronda_operacional,Motor retornou da oficina apos reparo do estator. Instalado e testado sem carga por 30 minutos.,manutencao_corretiva,0
+EV-124,MT-005,2026-06-17 17:57:00,diario_de_bordo,Revisao programada do acoplamento com verificacao de desgaste do elastomero.,manutencao_preventiva,0
+EV-125,MT-006,2026-06-17 20:43:00,supervisorio,Retirado corpo estranho preso no ventilador que provocou parada por sobrecarga.,manutencao_corretiva,0
+EV-126,MT-008,2026-06-17 23:01:00,ordem_servico,Realizada a troca do contator queimado do painel do compressor. Retorno a producao no mesmo turno.,manutencao_corretiva,0
+EV-127,MT-008,2026-06-18 01:06:00,ordem_servico,"Rebobinamento concluido, motor testado em bancada e reinstalado na bomba centrifuga.",manutencao_corretiva,0
+EV-128,MT-005,2026-06-18 02:19:00,ordem_servico,"Disjuntor no limiar termico devido a corrente elevada persistente, sem desarme.",anomalia_eletrica,0
+EV-129,MT-002,2026-06-18 03:22:00,diario_de_bordo,Medicao periodica de resistencia de isolamento com megohmetro. Valores dentro da faixa esperada.,manutencao_preventiva,0
+EV-130,MT-007,2026-06-18 04:45:00,ronda_operacional,"Vibracao dobrou nas ultimas 48 horas sem alteracao de corrente, indicio mecanico.",anomalia_mecanica,0
+EV-131,MT-003,2026-06-18 05:52:00,ronda_operacional,Indicadores do digital twin em verde para o ativo durante todo o dia.,operacao_normal,0
+EV-132,MT-003,2026-06-18 07:16:00,diario_de_bordo,Ruido de raspagem sugere contato entre ventoinha e tampa defletora.,anomalia_mecanica,0
+EV-133,MT-005,2026-06-18 08:42:00,supervisorio,"Sem alarmes no periodo monitorado, ativo classificado como saudavel.",operacao_normal,0
+EV-134,MT-001,2026-06-18 10:32:00,ronda_operacional,"Producao normal, equipamento sem apontamentos no periodo.",operacao_normal,0
+EV-135,MT-007,2026-06-18 12:51:00,supervisorio,"Corrente de partida acima do esperado, disjuntor no limite de atuacao.",anomalia_eletrica,0
+EV-136,MT-005,2026-06-18 15:47:00,ronda_operacional,"Motor desarmou por rele termico. Identificado curto entre espiras, retirado de operacao para reparo.",manutencao_corretiva,0
+EV-137,MT-005,2026-06-18 18:37:00,ronda_operacional,Registrado afundamento de tensao de 15 por cento por 4 segundos na rede da area 3.,anomalia_eletrica,0
+EV-138,MT-004,2026-06-18 19:19:00,ordem_servico,Troca da tampa defletora danificada apos impacto. Motor liberado apos teste em vazio.,manutencao_corretiva,0
+EV-139,MT-004,2026-06-18 20:21:00,ronda_operacional,Verificacao do alinhamento a laser dentro do plano semestral de manutencao.,manutencao_preventiva,0
+EV-140,MT-008,2026-06-18 21:40:00,diario_de_bordo,"Leituras de tensao em 220 V e corrente em 18,5 A, condicao normal de trabalho.",operacao_normal,0
+EV-141,MT-004,2026-06-18 23:04:00,ordem_servico,Todos os pontos de medicao dentro da tolerancia estabelecida no projeto.,operacao_normal,0
+EV-142,MT-008,2026-06-19 01:47:00,ordem_servico,Detectado desalinhamento angular entre motor e bomba na inspecao de vibracao.,anomalia_mecanica,0
+EV-143,MT-005,2026-06-19 04:46:00,diario_de_bordo,"Equipamento em regime nominal, vibracao em 1,8 mm por segundo.",operacao_normal,0
+EV-144,MT-008,2026-06-19 05:55:00,ordem_servico,"Motor retomou operacao apos troca de turno, sem observacoes.",operacao_normal,0
+EV-145,MT-001,2026-06-19 06:42:00,supervisorio,Checagem visual de rotina realizada. Carcaca limpa e sem vazamentos.,operacao_normal,0
+EV-146,MT-002,2026-06-19 08:16:00,ronda_operacional,Termografia programada nas conexoes do painel executada sem apontamentos.,manutencao_preventiva,0
+EV-147,MT-001,2026-06-19 11:08:00,supervisorio,Folga percebida na base do motor com movimento visivel durante a partida.,anomalia_mecanica,0
+EV-148,MT-006,2026-06-19 13:05:00,supervisorio,Durante a preventiva foi constatado desequilibrio de corrente entre fases.,anomalia_eletrica,1
+EV-149,MT-002,2026-06-19 14:14:00,ordem_servico,"Verificacao rapida no inicio do turno, tudo conforme.",operacao_normal,0
+EV-150,MT-006,2026-06-19 15:09:00,diario_de_bordo,"Equipamento desligado conforme programacao de producao, sem falhas.",operacao_normal,0
+EV-151,MT-004,2026-06-19 16:00:00,ronda_operacional,Equipamento reiniciado apos parada programada de producao e operando normalmente.,operacao_normal,0
+EV-152,MT-008,2026-06-19 17:31:00,supervisorio,Substituicao programada das correias de transmissao no intervalo previsto.,manutencao_preventiva,0
+EV-153,MT-001,2026-06-19 18:33:00,ronda_operacional,Realizada a manutencao preventiva de 6 meses com troca de retentores e graxa.,manutencao_preventiva,0
+EV-154,MT-004,2026-06-19 19:27:00,diario_de_bordo,Ativo em operacao ha 96 horas seguidas sem alarme.,operacao_normal,0
+EV-155,MT-008,2026-06-19 21:42:00,ronda_operacional,"Fator de potencia registrando 0,78 apos ontem, abaixo do historico de 0,95.",anomalia_eletrica,0
+EV-156,MT-007,2026-06-19 22:34:00,diario_de_bordo,"Vibracao de 7,8 mm por segundo medida no moinho de bolas, acima do limite de alarme.",anomalia_mecanica,0
+EV-157,MT-005,2026-06-20 01:14:00,ordem_servico,Reaperto de emergencia dos terminais da caixa de ligacao apos desarme por mau contato.,manutencao_corretiva,0
+EV-158,MT-008,2026-06-20 03:47:00,ronda_operacional,"Operacao continua sem desvio, proxima inspecao programada para a semana que vem.",operacao_normal,0
+EV-159,MT-003,2026-06-20 06:14:00,ronda_operacional,Reparada trinca na base do motor com solda e novo torqueamento dos chumbadores.,manutencao_corretiva,0
+EV-160,MT-005,2026-06-20 06:58:00,supervisorio,"Rotacao de 1755 RPM medida, coerente com o valor nominal do motor.",operacao_normal,0
+EV-161,MT-008,2026-06-20 09:07:00,supervisorio,Ruido no mancal identificado na ronda; programada troca de rolamento para sabado.,anomalia_mecanica,1
+EV-162,MT-007,2026-06-20 12:14:00,diario_de_bordo,"Eixo com dificuldade de giro manual, sugerindo travamento parcial do mancal.",anomalia_mecanica,0
+EV-163,MT-004,2026-06-20 12:49:00,supervisorio,"Fator de potencia em 0,86, dentro da referencia historica do equipamento.",operacao_normal,0
+EV-164,MT-003,2026-06-20 14:58:00,ronda_operacional,Diferenca de 14 A entre a fase mais carregada e a menos carregada do motor de 30 CV.,anomalia_eletrica,0
+EV-165,MT-004,2026-06-20 17:49:00,diario_de_bordo,Inspecao visual programada realizada. Sem anormalidades nas conexoes e na carcaca.,manutencao_preventiva,0
+EV-166,MT-001,2026-06-20 19:17:00,diario_de_bordo,"Operacao normal durante todo o final de semana, sem intervencao necessaria.",operacao_normal,0
+EV-167,MT-007,2026-06-20 22:21:00,diario_de_bordo,"Motor trabalhando em 70 por cento da carga nominal, sem aquecimento.",operacao_normal,0
+EV-168,MT-003,2026-06-20 23:03:00,ordem_servico,Executada inspecao preventiva pos-chuva nas instalacoes eletricas da area externa.,manutencao_preventiva,0

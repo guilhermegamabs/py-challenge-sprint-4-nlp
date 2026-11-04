@@ -1,0 +1,51 @@
+{
+  "n_alertas": 24,
+  "rouge_global_f1": {
+    "rouge1_f": 0.5498,
+    "rouge2_f": 0.2962,
+    "rougeL_f": 0.4053
+  },
+  "rouge_por_severidade_f1": {
+    "rouge1_f": {
+      "critico": 0.5654,
+      "leve": 0.5458,
+      "moderado": 0.5481
+    },
+    "rouge2_f": {
+      "critico": 0.296,
+      "leve": 0.3001,
+      "moderado": 0.2906
+    },
+    "rougeL_f": {
+      "critico": 0.4054,
+      "leve": 0.4339,
+      "moderado": 0.3624
+    }
+  },
+  "checklist_taxa_aprovacao_pct": {
+    "clareza_tamanho": 100.0,
+    "clareza_frases_curtas": 100.0,
+    "clareza_sem_placeholder": 100.0,
+    "precisao_identifica_ativo": 100.0,
+    "precisao_identifica_grandeza": 100.0,
+    "precisao_sem_numero_alucinado": 100.0,
+    "precisao_direcao_do_desvio": 100.0,
+    "utilidade_recomendacao": 100.0,
+    "utilidade_tom_de_urgencia": 100.0,
+    "rastreabilidade_fonte": 100.0
+  },
+  "checklist_score_medio": 1.0,
+  "tamanho_medio_palavras": 46.0,
+  "rouge_relatorio_semanal_f1": {
+    "id": "relatorio_semanal",
+    "rouge1_p": 0.5583,
+    "rouge1_r": 0.3382,
+    "rouge1_f": 0.4212,
+    "rouge2_p": 0.1854,
+    "rouge2_r": 0.1121,
+    "rouge2_f": 0.1397,
+    "rougeL_p": 0.3107,
+    "rougeL_r": 0.1882,
+    "rougeL_f": 0.2344
+  }
+}

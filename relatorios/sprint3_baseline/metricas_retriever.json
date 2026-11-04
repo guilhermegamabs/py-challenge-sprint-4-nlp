@@ -1,0 +1,289 @@
+{
+  "por_configuracao": [
+    {
+      "configuracao": "denso_puro",
+      "context_precision": 0.25,
+      "context_recall": 0.8,
+      "hit_rate": 0.8,
+      "mrr": 0.5625
+    },
+    {
+      "configuracao": "denso_lexical",
+      "context_precision": 0.3375,
+      "context_recall": 0.9,
+      "hit_rate": 0.9,
+      "mrr": 0.7583
+    },
+    {
+      "configuracao": "denso_lexical_contexto",
+      "context_precision": 0.3125,
+      "context_recall": 0.9,
+      "hit_rate": 0.9,
+      "mrr": 0.6958
+    }
+  ],
+  "por_k": [
+    {
+      "configuracao": "k=1",
+      "context_precision": 0.65,
+      "context_recall": 0.65,
+      "hit_rate": 0.65,
+      "mrr": 0.65,
+      "k": 1
+    },
+    {
+      "configuracao": "k=3",
+      "context_precision": 0.4,
+      "context_recall": 0.9,
+      "hit_rate": 0.9,
+      "mrr": 0.7583,
+      "k": 3
+    },
+    {
+      "configuracao": "k=4",
+      "context_precision": 0.3375,
+      "context_recall": 0.9,
+      "hit_rate": 0.9,
+      "mrr": 0.7583,
+      "k": 4
+    },
+    {
+      "configuracao": "k=6",
+      "context_precision": 0.25,
+      "context_recall": 0.9,
+      "hit_rate": 0.9,
+      "mrr": 0.7583,
+      "k": 6
+    },
+    {
+      "configuracao": "k=10",
+      "context_precision": 0.165,
+      "context_recall": 0.9,
+      "hit_rate": 0.9,
+      "mrr": 0.7583,
+      "k": 10
+    }
+  ],
+  "detalhe_denso_lexical": [
+    {
+      "id": "T01",
+      "categoria": "especificacao",
+      "precision": 0.5,
+      "recall": 1.0,
+      "hit": 1,
+      "rr": 0.5,
+      "primeira_posicao": 2,
+      "top1_doc": "guia_especificacao",
+      "top1_secao": "7. Características em Regime > 7.2 Proteção térmica de motor"
+    },
+    {
+      "id": "T02",
+      "categoria": "especificacao",
+      "precision": 0.25,
+      "recall": 1.0,
+      "hit": 1,
+      "rr": 0.3333,
+      "primeira_posicao": 3,
+      "top1_doc": "guia_especificacao",
+      "top1_secao": "7. Características em Regime > 7.1.1 Aquecimento do enrolame"
+    },
+    {
+      "id": "T03",
+      "categoria": "especificacao",
+      "precision": 0.5,
+      "recall": 1.0,
+      "hit": 1,
+      "rr": 0.3333,
+      "primeira_posicao": 3,
+      "top1_doc": "guia_especificacao",
+      "top1_secao": "8. Características de ambiente"
+    },
+    {
+      "id": "T04",
+      "categoria": "especificacao",
+      "precision": 0.5,
+      "recall": 1.0,
+      "hit": 1,
+      "rr": 1.0,
+      "primeira_posicao": 1,
+      "top1_doc": "guia_especificacao",
+      "top1_secao": "8. Características de ambiente > 8.2 Temperatura Ambiente"
+    },
+    {
+      "id": "T05",
+      "categoria": "especificacao",
+      "precision": 0.5,
+      "recall": 1.0,
+      "hit": 1,
+      "rr": 1.0,
+      "primeira_posicao": 1,
+      "top1_doc": "guia_especificacao",
+      "top1_secao": "8. Características de ambiente > 8.2 Temperatura Ambiente"
+    },
+    {
+      "id": "T06",
+      "categoria": "especificacao",
+      "precision": 0.25,
+      "recall": 1.0,
+      "hit": 1,
+      "rr": 1.0,
+      "primeira_posicao": 1,
+      "top1_doc": "guia_especificacao",
+      "top1_secao": "8. Características de ambiente > 8.5 Grau de Proteção > 8.5."
+    },
+    {
+      "id": "T07",
+      "categoria": "manutencao_preventiva",
+      "precision": 0.25,
+      "recall": 1.0,
+      "hit": 1,
+      "rr": 1.0,
+      "primeira_posicao": 1,
+      "top1_doc": "guia_especificacao",
+      "top1_secao": "8. Características de ambiente > 8.6 Resistência de Aquecime"
+    },
+    {
+      "id": "T08",
+      "categoria": "especificacao",
+      "precision": 0.25,
+      "recall": 1.0,
+      "hit": 1,
+      "rr": 1.0,
+      "primeira_posicao": 1,
+      "top1_doc": "guia_especificacao",
+      "top1_secao": "8. Características de ambiente > 8.7 Limites de Ruídos"
+    },
+    {
+      "id": "T09",
+      "categoria": "anomalia_eletrica",
+      "precision": 0.5,
+      "recall": 1.0,
+      "hit": 1,
+      "rr": 1.0,
+      "primeira_posicao": 1,
+      "top1_doc": "guia_especificacao",
+      "top1_secao": "4. Características de aceleração > 4.5 Corrente de Rotor Blo"
+    },
+    {
+      "id": "T10",
+      "categoria": "anomalia_eletrica",
+      "precision": 0.25,
+      "recall": 1.0,
+      "hit": 1,
+      "rr": 1.0,
+      "primeira_posicao": 1,
+      "top1_doc": "danos_enrolamento",
+      "top1_secao": "Característica da queima"
+    },
+    {
+      "id": "T11",
+      "categoria": "anomalia_eletrica",
+      "precision": 0.5,
+      "recall": 1.0,
+      "hit": 1,
+      "rr": 1.0,
+      "primeira_posicao": 1,
+      "top1_doc": "danos_enrolamento",
+      "top1_secao": "Característica da queima"
+    },
+    {
+      "id": "T12",
+      "categoria": "anomalia_eletrica",
+      "precision": 0.25,
+      "recall": 1.0,
+      "hit": 1,
+      "rr": 0.5,
+      "primeira_posicao": 2,
+      "top1_doc": "guia_especificacao",
+      "top1_secao": "1.5 Motor de Indução Trifásico"
+    },
+    {
+      "id": "T13",
+      "categoria": "anomalia_eletrica",
+      "precision": 0.5,
+      "recall": 1.0,
+      "hit": 1,
+      "rr": 1.0,
+      "primeira_posicao": 1,
+      "top1_doc": "danos_enrolamento",
+      "top1_secao": "Característica da queima"
+    },
+    {
+      "id": "T14",
+      "categoria": "manutencao_preventiva",
+      "precision": 0.25,
+      "recall": 1.0,
+      "hit": 1,
+      "rr": 1.0,
+      "primeira_posicao": 1,
+      "top1_doc": "danos_enrolamento",
+      "top1_secao": "Característica da queima"
+    },
+    {
+      "id": "T15",
+      "categoria": "manutencao_preventiva",
+      "precision": 0.5,
+      "recall": 1.0,
+      "hit": 1,
+      "rr": 1.0,
+      "primeira_posicao": 1,
+      "top1_doc": "manual_wmo",
+      "top1_secao": "2 TRANSPORTE, ARMAZENAMENTO E MANUSEIO"
+    },
+    {
+      "id": "T16",
+      "categoria": "anomalia_mecanica",
+      "precision": 0.0,
+      "recall": 0.0,
+      "hit": 0,
+      "rr": 0.0,
+      "primeira_posicao": 0,
+      "top1_doc": "rendimento_monofasicos",
+      "top1_secao": "WEG em Revista"
+    },
+    {
+      "id": "T17",
+      "categoria": "anomalia_eletrica",
+      "precision": 0.5,
+      "recall": 1.0,
+      "hit": 1,
+      "rr": 1.0,
+      "primeira_posicao": 1,
+      "top1_doc": "manual_wmo",
+      "top1_secao": "3 INSTALAÇÃO"
+    },
+    {
+      "id": "T18",
+      "categoria": "anomalia_mecanica",
+      "precision": 0.25,
+      "recall": 1.0,
+      "hit": 1,
+      "rr": 1.0,
+      "primeira_posicao": 1,
+      "top1_doc": "manual_wmo",
+      "top1_secao": "4 OPERAÇÃO"
+    },
+    {
+      "id": "T19",
+      "categoria": "manutencao_preventiva",
+      "precision": 0.0,
+      "recall": 0.0,
+      "hit": 0,
+      "rr": 0.0,
+      "primeira_posicao": 0,
+      "top1_doc": "manual_wmo",
+      "top1_secao": "2 TRANSPORTE, ARMAZENAMENTO E MANUSEIO"
+    },
+    {
+      "id": "T20",
+      "categoria": "manutencao_preventiva",
+      "precision": 0.25,
+      "recall": 1.0,
+      "hit": 1,
+      "rr": 0.5,
+      "primeira_posicao": 2,
+      "top1_doc": "manual_wmo",
+      "top1_secao": "3 INSTALAÇÃO"
+    }
+  ]
+}

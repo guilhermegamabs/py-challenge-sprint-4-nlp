@@ -1,0 +1,89 @@
+{
+  "modelo_llm": "F:/hf-cache/hub/models--Qwen--Qwen2.5-3B-Instruct-GGUF/snapshots/7dabda4d13d513e3e842b20f0d435c732f172cbe/qwen2.5-3b-instruct-q4_k_m.gguf",
+  "n_perguntas": 20,
+  "faithfulness_medio": 0.6375,
+  "answer_relevancy_medio": 0.6646,
+  "rouge1_f_medio": 0.3546,
+  "rougeL_f_medio": 0.2723,
+  "respostas_com_citacao_pct": 90.0,
+  "confianca_declarada_pct": 100.0,
+  "tempo_medio_s": 18.9,
+  "por_categoria": {
+    "faithfulness": {
+      "anomalia_eletrica": 0.75,
+      "anomalia_mecanica": 1.0,
+      "especificacao": 0.5,
+      "manutencao_preventiva": 0.55
+    },
+    "answer_relevancy": {
+      "anomalia_eletrica": 0.573,
+      "anomalia_mecanica": 0.7525,
+      "especificacao": 0.7248,
+      "manutencao_preventiva": 0.6554
+    },
+    "rouge1_f": {
+      "anomalia_eletrica": 0.3442,
+      "anomalia_mecanica": 0.2872,
+      "especificacao": 0.4254,
+      "manutencao_preventiva": 0.2951
+    }
+  },
+  "fora_de_escopo_recusa_pct": 50.0,
+  "fora_de_escopo_recusa_por_limiar": 2,
+  "recusas_indevidas_no_gabarito": [
+    "T13"
+  ],
+  "distribuicao_confianca_recuperacao": {
+    "MÉDIA": 12,
+    "ALTA": 7,
+    "BAIXA": 1
+  },
+  "distribuicao_confianca_modelo": {
+    "ALTA": 18,
+    "NAO_GERADA": 1,
+    "BAIXA": 1
+  },
+  "respostas_com_numero_sem_suporte": [
+    "T05"
+  ],
+  "faithfulness_por_confianca": {
+    "ALTA": 0.5357,
+    "BAIXA": 1.0,
+    "MÉDIA": 0.6667
+  },
+  "sentencas_sem_suporte": {
+    "T02": [
+      "[CD] A elevação de temperatura do enrolamento é medida pela diferença entre a temperatura interna do enrolamento e a temperatura do ar ambiente."
+    ],
+    "T03": [
+      "A capacidade do motor não é afetada diretamente pela altitude, pois a especificação ABNT NBR 17094 e IEC 60034-1 não estabelecem limites de altitude para o motor."
+    ],
+    "T04": [
+      "b) Formação de gelo nos mancais, provocando endurecimento das graxas ou lubrificantes nos mancais, exigindo o emprego de lubrificantes especiais ou graxa anticongelante (consulte nosso site)."
+    ],
+    "T05": [
+      "Primeiro, determine a redução da temperatura ambiente necessária para a altitude de 2.000 m, aplicando a regra de 1% para cada 100 m, resultando em uma redução de 20%.",
+      "A nova temperatura ambiente será de 40 °C - 20% = 32 °C.",
+      "Em seguida, use a tabela de multiplicadores de potência útil para temperaturas e altitudes associadas, encontrando o fator de multiplicação para 2.000 m e 40 °C, que é 0,90.",
+      "A potência útil do motor é então calculada multiplicando a potência nominal pelo fator de multiplicação, resultando em 2.000 cv x 0,90 = 1.800 cv."
+    ],
+    "T07": [
+      "A tensão de alimentação das resistências de aquecimento deve ser especificada."
+    ],
+    "T11": [
+      "[CONFÉNTE 1] g Ventilação deficiente (temperatura ambiente elevada, motor operando em local confinado, obstrução das entradas de ar do motor, sujeira sobre a carcaça, tampa defletora [IP55] danificada ou obstruída)."
+    ],
+    "T12": [
+      "[3] O enrolamento auxiliar sobreaquece principalmente devido a problemas na conexão dos cabos de ligação do motor  .",
+      "[3] Outra causa é a dificuldade na partida do motor, como queda de tensão excessiva, inércia ou torque da carga muito elevado, que pode deixar a bobina auxiliar energizada por muito tempo  ."
+    ],
+    "T15": [
+      "Para armazenar um motor parado por longo período, é recomendável remover a tampa do ventilador e a tampa da caixa de terminais para evitar impactos e danos nos rolamentos.",
+      "Além disso, é aconselhável trocar os capacitores de partida dos motores monofásicos, pois eles perdem suas características operacionais após esse período de armazenamento.",
+      "Após esse período de armazenamento, também é recomendável trocar os capacitores de partida dos motores monofásicos, pois eles perdem suas características operacionais."
+    ],
+    "T20": [
+      "[CONFIDENCIAL] Não há trechos específicos sobre cuidados de segurança na documentação fornecida."
+    ]
+  }
+}

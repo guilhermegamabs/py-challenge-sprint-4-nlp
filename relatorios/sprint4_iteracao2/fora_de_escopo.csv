@@ -1,0 +1,9 @@
+id,pergunta,resposta,recusou,recusa_por_limiar,relevancia_max,confianca_recuperacao,confianca_declarada,motivo_gabarito
+F01,Qual o preço de um motor W22 de 15 cv e o prazo de entrega?,"
+Confiança: MÉDIA — calculada pela recuperação (relevância do melhor trecho: 0,65).",0,0,0.6529,MÉDIA,BAIXA,Informação comercial: não existe nos documentos técnicos indexados.
+F02,Como configuro o inversor de frequência da marca concorrente modelo XYZ-500?,"A documentação técnica disponível não trata deste assunto com aderência suficiente para uma resposta segura. Consulte a engenharia de manutenção ou o canal responsável pela informação.
+Confiança: BAIXA — calculada pela recuperação (relevância do melhor trecho: 0,57).",1,1,0.5712,BAIXA,NAO_GERADA,Equipamento de terceiro fora do escopo do corpus.
+F03,Qual a previsão de chuva para a planta amanhã?,"A documentação técnica disponível não trata deste assunto com aderência suficiente para uma resposta segura. Consulte a engenharia de manutenção ou o canal responsável pela informação.
+Confiança: BAIXA — calculada pela recuperação (relevância do melhor trecho: 0,44).",1,1,0.4396,BAIXA,NAO_GERADA,Pergunta fora do domínio técnico.
+F04,"Qual é a vida útil restante, em horas, do rolamento do MT-008?","
+Confiança: MÉDIA — calculada pela recuperação (relevância do melhor trecho: 0,70).",0,0,0.6972,MÉDIA,BAIXA,Exige modelo de prognóstico (RUL) que não é coberto pela documentação nem pelos alertas da Sprint 3.

@@ -1,0 +1,1618 @@
+id,categoria,pergunta,resposta,resposta_referencia,contexto,corpo,chunks,relevancia_max,recusa_por_limiar,confianca_recuperacao,confianca_declarada,numeros_sem_suporte,n_fontes_citadas,segundos,faithfulness,n_sentencas,answer_relevancy,rouge1_f,rougeL_f
+T01,especificacao,Qual a temperatura máxima do ponto mais quente para a classe de isolamento F e como ela se compõe?,"[FONTE 1] Para a classe de isolamento F, a temperatura máxima do ponto mais quente é de 150 °C [FONTE 1]. [FONTE 1]
+Confiança: MÉDIA — calculada pela recuperação (relevância do melhor trecho: 0,81).","Para a classe F o limite do ponto mais quente é 155 °C, composto por 40 °C de temperatura ambiente, 105 °C de elevação de temperatura medida pelo método da resistência e 10 °C de diferença entre o ponto mais quente e a temperatura média do enrolamento.","[FONTE 1] WEG — Guia de Especificação de Motores Elétricos — 7. Características em Regime > 7.2 Proteção térmica de motores elétricos > 7.1.5 Aplicação a motores elétricos (p. 36)
+abelecido em norma, baseado na prática é 5 oC, para 
+as classes A e E, 10 oC para as classes B e F e 15 °C para 
+a classe H.
+As normas de motores, portanto, estabelecem um máximo 
+para a temperatura ambiente e especificam uma elevação 
+de temperatura máxima para cada classe de isolamento. 
+Deste modo, fica indiretamente limitada a temperatura 
+do ponto mais quente do motor. Os valores numéricos e 
+a composição da temperatura admissível do ponto mais 
+quente, são indicados na Tabela 7.1.
+Figura 7.3 - Visualização do aspecto interno e externo dos termorresistores
+Para o Pt-100, a temperatura pode ser obtida com a fórmula 
+a seguir, ou através de tabelas fornecidas pelos fabricantes.
+ 
+ r - 100
+ t ºC =
+ 
+ 0,385
+onde: r - resistência medida em Ohms
+A proteção térmica é efetuada por meio de termoresistências 
+(resistência calibrada), termistores, termostatos ou protetores 
+térmicos. Os tipos de sensores a serem utilizados são 
+determinados em função da classe de temperatura do 
+isolamento empregado, de cada tipo de máquina e da exigência 
+do cliente.
+7.2.1 Termorresistores (Pt-100)
+
+[FONTE 2] WEG — Guia de Especificação de Motores Elétricos — 7. Características em Regime > 7.1.3 Classes de isolamento (p. 35)
+(180 ºC)
+7.1.4 Medida de Elevação de Temperatura do 
+Enrolamento
+É muito difícil medir a temperatura do enrolamento com 
+termômetros ou termopares, pois a temperatura varia de um 
+ponto a outro e nunca se sabe se o ponto da medição está 
+próximo do ponto mais quente. O método mais confiável de 
+se medir a temperatura de um enrolamento é através da 
+variação de sua resistência ôhmica com a temperatura.
+A elevação da temperatura pelo método da resistência, é 
+calculada por meio da seguinte fórmula:
+ R2 - R1
+Δt = t2 - ta = (235 + t1) + t1 - ta
+ 
+ R1
+onde: 
+Δt = 
+é a elevação de temperatura;
+ 
+t1 = 
+a temperatura do enrolamento antes do ensaio, praticamente 
+ 
+ 
+ 
+igual a do meio refrigerante, medida por termômetro; 
+ 
+t2 = 
+a temperatura dos enrolamentos no fim do ensaio;
+ 
+ta = 
+a temperatura do meio refrigerante no fim do ensaio;
+ 
+R1 = 
+Resistência do enrolamento antes do ensaio;
+ 
+R2 = 
+Resistência do enrolamento no fim do ensaio.
+www.weg.net
+
+Especificação do Motor Elétrico
+36
+Fator de Serviço do Motor (FS)
+Ajuste da Corrente do Relé
+1,0 até 1,15
+In.FS
+≥ 1,15
+(In. FS) - 5%","[FONTE 1] Para a classe de isolamento F, a temperatura máxima do ponto mais quente é de 150 °C [FONTE 1]. [FONTE 1]",CH-0135;CH-0131;CH-0132;CH-0047,0.8081,0,MÉDIA,ALTA,150,1,31.0,0.0,1,0.9092,0.4,0.3143
+T02,especificacao,Como se mede corretamente a elevação de temperatura do enrolamento de um motor?,"Para medir corretamente a elevação de temperatura do enrolamento de um motor, é necessário seguir as instruções fornecidas na Figura 7.1 [FONTE 2]. A elevação de temperatura é a soma da queda interna e da queda externa, como indicado na figura [FONTE 2]. A queda interna pode ser medida no interior do motor, na ranhura onde ocorre o calor proveniente das perdas nos condutores [FONTE 2]. A queda externa é medida na superfície externa do motor, onde o ar é um péssimo condutor de calor [FONTE 2]. A medida precisa deve ser realizada em locais como os pontos mais quentes e os fios externos, conforme mostrado na Figura 7.2 [FONTE 1].
+Confiança: ALTA — calculada pela recuperação (relevância do melhor trecho: 0,97).","O método mais confiável é pela variação da resistência ôhmica do enrolamento, e não por termômetro ou termopar, porque a temperatura varia de ponto a ponto e não se sabe se a medição está próxima do ponto mais quente. A elevação é calculada a partir das resistências antes e depois do ensaio, com a constante 235 para o cobre.","[FONTE 1] WEG — Guia de Especificação de Motores Elétricos — 7. Características em Regime > 7.1.1 Aquecimento do enrolamento (p. 34)
+o, é 
+necessário que a queda interna de temperatura, mostrada 
+na Figura 7.1, seja minimizada. Isto quer dizer que deve 
+haver uma boa transferência de calor do interior do motor 
+até a superfície externa de temperatura.
+O que realmente queremos limitar é a elevação da 
+temperatura no enrolamento sobre a temperatura do ar 
+ambiente. Esta diferença total (Δt) é comumente chamada 
+“elevação de temperatura” do motor e, como é indicado na 
+Figura 7.1, vale a soma da queda interna com a queda externa.
+www.weg.net
+
+Especificação do Motor Elétrico
+35
+Figura 7.2 - Locais para verificação de temperatura no motor elétrico.
+C 
+- Queda no contato entre o núcleo e a carcaça. 
+ 
+ A condução de calor será tanto melhor quanto mais 
+ 
+ perfeito for o contato entre as partes, dependendo do 
+bom alinhamento das chapas, e precisão da usinagem 
+da carcaça. Superfícies irregulares deixam espaços 
+vazios entre elas, resultando mau contato e, portanto, 
+má condução do calor.
+CD - Queda de temperatura por transmissão através da 
+espessura da carcaça.
+
+[FONTE 2] WEG — Guia de Especificação de Motores Elétricos — 7. Características em Regime > 7.1.1 Aquecimento do enrolamento (p. 34)
+ea de dissipação 
+disponível é limitada pela necessidade de fabricar 
+motores pequenos e leves. Isso é compensado em parte, 
+aumentando-se a área disponível por meio de aletas de 
+resfriamento, fundidas com a carcaça.
+Figura 7.1 - Elevação de temperatura do motor
+A 
+- Ponto mais quente do enrolamento, no interior da 
+ranhura, onde é gerado o calor proveniente das perdas 
+nos condutores.
+AB - Queda de temperatura na transferência de calor do 
+ponto mais quente até os fios externos. Como o ar é 
+um péssimo condutor de calor, é importante que não 
+hajam “vazios” no interior da ranhura, isto é, as bobinas 
+devem ser compactas e a impregnação com verniz 
+deve preencher o máximo possível os vazios.
+B 
+- Queda através do isolamento da ranhura e no contato 
+deste com os condutores de um lado, e com as 
+chapas do núcleo, do outro. O emprego de materiais 
+modernos melhora a transmissão de calor através do 
+isolante; a impregnação perfeita, melhora o contato do 
+lado interno, eliminando espaços vazios; o bom 
+alinhamento das chapas estampadas, melhora o","Para medir corretamente a elevação de temperatura do enrolamento de um motor, é necessário seguir as instruções fornecidas na Figura 7.1 [FONTE 2]. A elevação de temperatura é a soma da queda interna e da queda externa, como indicado na figura [FONTE 2]. A queda interna pode ser medida no interior do motor, na ranhura onde ocorre o calor proveniente das perdas nos condutores [FONTE 2]. A queda externa é medida na superfície externa do motor, onde o ar é um péssimo condutor de calor [FONTE 2]. A medida precisa deve ser realizada em locais como os pontos mais quentes e os fios externos, conforme mostrado na Figura 7.2 [FONTE 1].",CH-0125;CH-0123;CH-0131;CH-0134,0.9702,0,ALTA,ALTA,,2,21.0,0.2,5,0.831,0.2791,0.1512
+T03,especificacao,O motor está instalado a 1.500 metros de altitude. Isso afeta a capacidade do motor?,"[FONTE 1] A instalação do motor a 1.500 metros de altitude não afeta diretamente sua capacidade para sobrecargas momentâneas, conforme especificado em [FONTE 1]. [FONTE 2] No entanto, a capacidade de dissipação da potência do motor pode ser reduzida, conforme indicado na tabela 8.3 de [FONTE 2]. [FONTE 3] Segundo a ABNT NBR 17094 e IEC 60034-1, as condições usuais de serviço incluem uma altitude não superior a 1.000 m acima do nível do mar. [FONTE 4] Portanto, a instalação a 1.500 metros pode reduzir a capacidade de dissipação da potência do motor, mas não afeta sua capacidade para sobrecargas momentâneas.
+Confiança: ALTA — calculada pela recuperação (relevância do melhor trecho: 0,89).","Sim. Acima de 1.000 m o ar rarefeito reduz a troca de calor e o motor aquece mais, exigindo redução de perdas e, portanto, de potência. Pela IEC 60034-1, reduz-se 1% dos limites de elevação de temperatura a cada 100 m acima de 1.000 m, regra válida até 4.000 m. No exemplo do guia, um motor classe F com ΔT de 80 K a 1.500 m tem a temperatura ambiente máxima reduzida em 5%, de 40 °C para 36 °C.","[FONTE 1] WEG — Guia de Especificação de Motores Elétricos — 8. Características de ambiente (p. 44)
+acima de sua potência nominal. 
+Isto, entretanto, não muda a sua capacidade para 
+sobrecargas momentâneas. A IEC 60034-1 especifica os 
+fatores de serviço usuais por potência.
+8. Características de Ambiente
+Para analisar a viabilidade do uso de um motor em uma 
+determinada aplicação deve-se levar em consideração 
+alguns parâmetros entre os quais:
+g Altitude em que o motor será instalado;
+g Temperatura do meio refrigerante.
+Conforme ABNT NBR 17094 e IEC 60034-1, as condições 
+usuais de serviço, são:
+a) Altitude não superior a 1.000 m acima do nível do mar;
+b) Meio refrigerante (na maioria dos casos, o ar ambiente) 
+ com temperatura não superior a 40 ºC e isenta de 
+ele
+
+[FONTE 2] WEG — Guia de Especificação de Motores Elétricos — 8. Características de ambiente > 8.2 Temperatura Ambiente (p. 44)
+obredimensionamento do 
+motor.
+8.3 Determinação da Potência Útil do Motor nas 
+Diversas Condições de Temperatura e Altitude 
+Associando os efeitos da variação da temperatura e da 
+altitude, a capacidade de dissipação da potência do motor 
+pode ser obtida multiplicando-se a potência útil pelo fator de 
+multiplicação obtido na Tabela 8.1.
+T ( °C)
+Altitude (m)
+1000
+1500
+2000
+2500
+3000
+3500
+4000
+4500
+5000
+10
+ 
+ 
+ 
+ 
+ 
+ 
+0,97
+0,92
+0,88
+15
+ 
+ 
+ 
+ 
+ 
+0,98
+0,94
+0,90
+0,86
+20
+ 
+ 
+ 
+ 
+1,00
+0,95
+0,91
+0,87
+0,83
+25
+ 
+ 
+ 
+1,00
+0,95
+0,93
+0,89
+0,85
+0,81
+30
+ 
+ 
+1,00
+0,96
+0,92
+0,90
+0,86
+0,82
+0,78
+35
+ 
+1,00
+0,95
+0,93
+0,90
+0,88
+0,84
+0,80
+0,75
+40
+1,00
+0,97
+0,94
+0,90
+0,86
+0,82
+0,80
+0,76
+0,71
+45
+0,95
+0,92
+0,90
+0,88
+0,85
+0,81
+0,78
+0,74
+0,69
+50
+0,92
+0,90
+0,87
+0,85
+0,82
+0,80
+0,77
+0,72
+0,67
+55
+0,88
+0,85
+0,83
+0,81
+0,78
+0,76
+0,73
+0,70
+0,65
+60
+0,83
+0,82
+0,80
+0,77
+0,75
+0,73
+0,70
+0,67
+0,62
+65
+0,79
+0,76
+0,74
+0,72
+0,70
+0,68
+0,66
+0,62
+0,58
+70
+0,74
+0,71
+0,69
+0,67
+0,66
+0,64
+0,62
+0,58
+0,53
+75
+0,70
+0,68
+0,66
+0,64
+0,62
+0,60
+0,58
+0,53
+0,49
+80
+0,65
+0,64
+0,62
+0,60
+0,58
+0,56
+0,55
+0,48
+0,44","[FONTE 1] A instalação do motor a 1.500 metros de altitude não afeta diretamente sua capacidade para sobrecargas momentâneas, conforme especificado em [FONTE 1]. [FONTE 2] No entanto, a capacidade de dissipação da potência do motor pode ser reduzida, conforme indicado na tabela 8.3 de [FONTE 2]. [FONTE 3] Segundo a ABNT NBR 17094 e IEC 60034-1, as condições usuais de serviço incluem uma altitude não superior a 1.000 m acima do nível do mar. [FONTE 4] Portanto, a instalação a 1.500 metros pode reduzir a capacidade de dissipação da potência do motor, mas não afeta sua capacidade para sobrecargas momentâneas.",CH-0163;CH-0167;CH-0164;CH-0165,0.8869,0,ALTA,ALTA,,4,27.3,0.5,4,0.8139,0.3229,0.2292
+T04,especificacao,Quais problemas aparecem em motores que operam abaixo de -20 °C?,"a) Excessiva condensação, exigindo drenagem adicional ou instalação de resistência de aquecimento, caso o motor fique longos períodos parado [FONTE 1].  
+b) Formação de gelo nos mancais, provocando endurecimento das graxas ou lubrificantes nos mancais, exigindo o emprego de lubrificantes especiais ou graxa anticongelante (consulte nosso site) [FONTE 1].
+Confiança: MÉDIA — calculada pela recuperação (relevância do melhor trecho: 0,79).","Ocorre condensação excessiva, exigindo drenagem adicional ou resistência de aquecimento quando o motor fica muito tempo parado, e formação de gelo nos mancais, que endurece a graxa e obriga o uso de lubrificantes especiais ou graxa anticongelante.","[FONTE 1] WEG — Guia de Especificação de Motores Elétricos — 8. Características de ambiente > 8.2 Temperatura Ambiente (p. 44)
+vel de 
+36 °C. Evidentemente, a temperatura ambiente poderá ser 
+maior, desde que a elevação da temperatura seja menor do 
+que a da classe térmica.
+Tamb = 40 - 80 . 0,05 = 36 oC 
+8.2 Temperatura Ambiente
+Motores que trabalham em temperaturas inferiores a -20 oC, 
+apresentam os seguintes problemas:
+a) Excessiva condensação, exigindo drenagem adicional ou 
+ instalação de resistência de aquecimento, caso o motor 
+fique longos períodos parado.
+b) Formação de gelo nos mancais, provocando 
+endurecimento das graxas ou lubrificantes nos mancais, 
+exigindo o emprego de lubrificantes especiais ou graxa 
+anticongelante (consulte nosso site).
+Em motores que trabalham à temperaturas ambientes 
+constantemente superiores a 40 oC, o enrolamento pode 
+atingir temperaturas prejudiciais à isolação. Este fato tem que 
+ser compensado por um projeto especial do motor, usando 
+materiais isolantes especiais ou sobredimensionamento do 
+motor.
+8.3 Determinação da Potência Útil do Motor nas 
+Diversas Condições de Temperatura e Altitude 
+Associando os efeitos da variação da temperatura e da
+
+[FONTE 2] WEG — Guia de Especificação de Motores Elétricos — 8. Características de ambiente (p. 44)
+acima de sua potência nominal. 
+Isto, entretanto, não muda a sua capacidade para 
+sobrecargas momentâneas. A IEC 60034-1 especifica os 
+fatores de serviço usuais por potência.
+8. Características de Ambiente
+Para analisar a viabilidade do uso de um motor em uma 
+determinada aplicação deve-se levar em consideração 
+alguns parâmetros entre os quais:
+g Altitude em que o motor será instalado;
+g Temperatura do meio refrigerante.
+Conforme ABNT NBR 17094 e IEC 60034-1, as condições 
+usuais de serviço, são:
+a) Altitude não superior a 1.000 m acima do nível do mar;
+b) Meio refrigerante (na maioria dos casos, o ar ambiente) 
+ com temperatura não superior a 40 ºC e isenta de 
+ele","a) Excessiva condensação, exigindo drenagem adicional ou instalação de resistência de aquecimento, caso o motor fique longos períodos parado [FONTE 1].  
+b) Formação de gelo nos mancais, provocando endurecimento das graxas ou lubrificantes nos mancais, exigindo o emprego de lubrificantes especiais ou graxa anticongelante (consulte nosso site) [FONTE 1].",CH-0166;CH-0163;CH-0164;CH-0167,0.7888,0,MÉDIA,ALTA,,1,15.4,0.5,2,0.5522,0.5814,0.5349
+T05,especificacao,Como calcular a potência útil de um motor que vai operar a 2.000 m de altitude e 40 °C de temperatura ambiente?,"[FONTE 1] Para calcular a potência útil do motor, primeiro determinamos a redução necessária na temperatura ambiente, que é de 1% para cada 100 m de altitude acima de 1.000 m. Com 2.000 m de altitude, a redução é de 2%. [FONTE 2] Portanto, a temperatura ambiente máxima está em 40 °C - (2% * 40 °C) = 40 °C - 8 °C = 32 °C. [FONTE 1] Com a temperatura ambiente reduzida para 32 °C, usamos a tabela para encontrar o fator de multiplicação. Na tabela, para 2.000 m de altitude e 32 °C, o fator de multiplicação é 0,90. [FONTE 1] Então, a potência útil do motor é calculada multiplicando a potência nominal pelo fator de multiplicação: 2.000 cv * 0,90 = 1.800 cv. [FONTE 1]
+Confiança: ALTA — calculada pela recuperação (relevância do melhor trecho: 1,03).","Multiplica-se a potência útil pelo fator de multiplicação da Tabela 8.1, que combina temperatura ambiente e altitude. Para 40 °C e 2.000 m o fator é 0,94, ou seja, a potência disponível cai para 94% da nominal.","[FONTE 1] WEG — Guia de Especificação de Motores Elétricos — 8. Características de ambiente > 8.2 Temperatura Ambiente (p. 44)
+obredimensionamento do 
+motor.
+8.3 Determinação da Potência Útil do Motor nas 
+Diversas Condições de Temperatura e Altitude 
+Associando os efeitos da variação da temperatura e da 
+altitude, a capacidade de dissipação da potência do motor 
+pode ser obtida multiplicando-se a potência útil pelo fator de 
+multiplicação obtido na Tabela 8.1.
+T ( °C)
+Altitude (m)
+1000
+1500
+2000
+2500
+3000
+3500
+4000
+4500
+5000
+10
+ 
+ 
+ 
+ 
+ 
+ 
+0,97
+0,92
+0,88
+15
+ 
+ 
+ 
+ 
+ 
+0,98
+0,94
+0,90
+0,86
+20
+ 
+ 
+ 
+ 
+1,00
+0,95
+0,91
+0,87
+0,83
+25
+ 
+ 
+ 
+1,00
+0,95
+0,93
+0,89
+0,85
+0,81
+30
+ 
+ 
+1,00
+0,96
+0,92
+0,90
+0,86
+0,82
+0,78
+35
+ 
+1,00
+0,95
+0,93
+0,90
+0,88
+0,84
+0,80
+0,75
+40
+1,00
+0,97
+0,94
+0,90
+0,86
+0,82
+0,80
+0,76
+0,71
+45
+0,95
+0,92
+0,90
+0,88
+0,85
+0,81
+0,78
+0,74
+0,69
+50
+0,92
+0,90
+0,87
+0,85
+0,82
+0,80
+0,77
+0,72
+0,67
+55
+0,88
+0,85
+0,83
+0,81
+0,78
+0,76
+0,73
+0,70
+0,65
+60
+0,83
+0,82
+0,80
+0,77
+0,75
+0,73
+0,70
+0,67
+0,62
+65
+0,79
+0,76
+0,74
+0,72
+0,70
+0,68
+0,66
+0,62
+0,58
+70
+0,74
+0,71
+0,69
+0,67
+0,66
+0,64
+0,62
+0,58
+0,53
+75
+0,70
+0,68
+0,66
+0,64
+0,62
+0,60
+0,58
+0,53
+0,49
+80
+0,65
+0,64
+0,62
+0,60
+0,58
+0,56
+0,55
+0,48
+0,44
+
+[FONTE 2] WEG — Guia de Especificação de Motores Elétricos — 8. Características de ambiente > 8.1 Altitude (p. 44)
+C 60034-1, a 
+redução necessária na temperatura ambiente deve ser 
+de 1% dos limites de elevação de temperatura para cada 
+100 m de altitude acima de 1.000 m. Esta regra é válida 
+para altitudes até 4.000 m. Valores acima, consultar a 
+WEG.
+Exemplo:
+Motor de 100 cv, isolamento F com ΔT 80 K , trabalhando 
+numa altitude de 1.500 m acima do nível do mar, a 
+temperatura ambiente de 40 °C será reduzida em 5%, 
+resultando em uma temperatura ambiente máxima está
+
+[FONTE 3] WEG — Guia de Especificação de Motores Elétricos — 8. Características de ambiente > 8.2 Temperatura Ambiente (p. 44)
+vel de 
+36 °C. Evidentemente, a temperatura ambiente poderá ser 
+maior, desde que a elevação da temperatura seja menor do 
+que a da classe térmica.
+Tamb = 40 - 80 . 0,05 = 36 oC 
+8.2 Temperatura Ambiente
+Motores que trabalham em temperaturas inferiores a -20 oC, 
+apresentam os seguintes problemas:
+a) Excessiva condensação, exigindo drenagem adicional ou 
+ instalação de resistência de aquecimento, caso o motor 
+fique longos períodos parado.
+b) Formação de gelo nos mancais, provocando 
+endurecimento das graxas ou lubrificantes nos mancais, 
+exigindo o emprego de lubrificantes especiais ou graxa 
+anticongelante (consulte nosso site).
+Em motores que trabalham à temperaturas ambientes 
+constantemente superiores a 40 oC, o enrolamento pode 
+atingir temperaturas prejudiciais à isolação. Este fato tem que 
+ser compensado por um projeto especial do motor, usando 
+materiais isolantes especiais ou sobredimensionamento do 
+motor.
+8.3 Determinação da Potência Útil do Motor nas 
+Diversas Condições de Temperatura e Altitude 
+Associando os efeitos da variação da temperatura e da","[FONTE 1] Para calcular a potência útil do motor, primeiro determinamos a redução necessária na temperatura ambiente, que é de 1% para cada 100 m de altitude acima de 1.000 m. Com 2.000 m de altitude, a redução é de 2%. [FONTE 2] Portanto, a temperatura ambiente máxima está em 40 °C - (2% * 40 °C) = 40 °C - 8 °C = 32 °C. [FONTE 1] Com a temperatura ambiente reduzida para 32 °C, usamos a tabela para encontrar o fator de multiplicação. Na tabela, para 2.000 m de altitude e 32 °C, o fator de multiplicação é 0,90. [FONTE 1] Então, a potência útil do motor é calculada multiplicando a potência nominal pelo fator de multiplicação: 2.000 cv * 0,90 = 1.800 cv. [FONTE 1]",CH-0167;CH-0165;CH-0166;CH-0163,1.0272,0,ALTA,ALTA,32;1800,2,32.5,0.0,6,0.8586,0.355,0.2367
+T06,especificacao,Quais são os graus de proteção IP mais usuais em motores e o que eles indicam?,"Os graus de proteção IP mais usuais em motores são IP21, IP23, IP44 e IP55 [FONTE 1]. IP21 e IP23 são motores abertos, enquanto IP44 e IP55 são motores fechados [FONTE 1]. IP55W, IP56 e IP65 são graus de proteção para aplicações especiais mais rigorosas [FONTE 1]. Os motores WEG podem ser fornecidos com vedações dos mancais como g V’Ring, g Retentor e g Labirinto [FONTE 1]. A norma ABNT NBR-IEC 60034-5 define os graus de proteção dos equipamentos elétricos por meio das letras características IP, seguidas por dois algarismos [FONTE 2].
+Confiança: ALTA — calculada pela recuperação (relevância do melhor trecho: 0,92).","Os graus usuais são IP21, IP23, IP44 e IP55. IP21 e IP23 correspondem a motores abertos; IP44 e IP55, a motores fechados. Para aplicações mais rigorosas existem ainda IP55W (proteção contra intempéries), IP56 (água de vagalhões) e IP65 (totalmente protegido contra poeiras).","[FONTE 1] WEG — Guia de Especificação de Motores Elétricos — 8. Características de ambiente > 8.5 Grau de Proteção > 8.5.2 Tipos usuais de graus de proteção (p. 46)
+todas as direções
+IP66
+proteção 
+completa 
+contra toques
+totalmente protegido 
+contra acúmulo de
+poeiras nocivas
+protegido 
+contra água 
+de vargalhões
+Tabela 8.4 - Graus de proteção
+8.5.2 Tipos Usuais de Graus de Proteção
+Embora alguns algarismos indicativos de grau de proteção 
+possam ser combinados de muitas maneiras, somente 
+alguns tipos de proteção são empregados nos casos 
+normais. São eles: IP21, IP23, IP44 e IP55.
+Os dois primeiros são motores abertos e os dois últimos são 
+motores fechados. Para aplicações especiais mais rigorosas, 
+são comuns também os graus de proteção IP55W 
+(proteção contra intempéries), IP56 (proteção contra “água de 
+vagalhões”), IP65 (totalmente protegido contra poeiras) e IP66 
+(totalmente protegido contra poeiras e água de vagalhões).
+Vedação dos mancais
+Para garantir o grau de proteção requerido para cada 
+aplicação, os motores possuem vedações que evitam a 
+entrada de resíduos através dos mancais.
+Os motores WEG podem ser fornecidos com as seguintes 
+vedações dos mancais:
+g V’Ring
+g Retentor
+g Labirinto
+
+[FONTE 2] WEG — Guia de Especificação de Motores Elétricos — 8. Características de ambiente > 8.5 Grau de Proteção > 8.5.1 Código de identificação (p. 46)
+protegida contra poeira
+6
+Máquina totalmente protegida contra poeira
+Tabela 8.2 - 1º ALGARISMO: Indica o grau de proteção contra penetração de 
+corpos sólidos estranhos e contato acidental
+8.5.1 Código de Identificação
+A norma ABNT NBR-IEC 60034-5 define os graus de 
+proteção dos equipamentos elétricos por meio das letras 
+características IP, seguidas por dois algarismos.
+www.weg.net
+
+Especificação do Motor Elétrico
+47
+Carcaça
+Quantidade
+Potência (W)
+63 a 80
+1
+7,5
+90 a 100
+1
+11
+112
+2
+11
+132 a 160
+2
+15
+180 a 200
+2
+19
+225 a 250
+2
+28
+280 a 315
+2
+70
+355 a 315B
+2
+87
+Tabela 8.5 - Resistência de aquecimento
+: As resistências de aquecimento só deverão ser energizadas com o motor desligado, caso contrário o motor poderá 
+sofrer um sobreaquecimento, resultando em potenciais danos. Nos casos de manutenção no motor, o mesmo deverá ser 
+completamente desenergizado, incluindo as resistências de aquecimento.
+Tabela 8.6 - Níveis máximos de potência e pressão sonora para motores trifásicos (IC411,IC511,IC611), a vazio, em dB (A), 60 Hz.","Os graus de proteção IP mais usuais em motores são IP21, IP23, IP44 e IP55 [FONTE 1]. IP21 e IP23 são motores abertos, enquanto IP44 e IP55 são motores fechados [FONTE 1]. IP55W, IP56 e IP65 são graus de proteção para aplicações especiais mais rigorosas [FONTE 1]. Os motores WEG podem ser fornecidos com vedações dos mancais como g V’Ring, g Retentor e g Labirinto [FONTE 1]. A norma ABNT NBR-IEC 60034-5 define os graus de proteção dos equipamentos elétricos por meio das letras características IP, seguidas por dois algarismos [FONTE 2].",CH-0177;CH-0182;CH-0180;CH-0175,0.9226,0,ALTA,ALTA,,2,24.6,1.0,5,0.8646,0.438,0.3504
+T07,manutencao_preventiva,Quando devo usar resistência de aquecimento no motor e o que ela faz?,"Use a resistência de aquecimento quando o motor elétrico está instalado em ambientes muito úmidos, com umidade superior a 95%, e/ou com possibilidade de ficar desligado por longos períodos (acima de 24 horas) [FONTE 1]. Ela aquece o interior do motor alguns graus acima da temperatura ambiente (5 a 10 °C) quando o motor está desligado [FONTE 1]. As resistências de aquecimento são instaladas para impedir o acúmulo de água no interior do motor pela condensação do ar úmido [FONTE 1]. A tensão de alimentação das resistências de aquecimento deve ser especificada [FONTE 1].
+Confiança: ALTA — calculada pela recuperação (relevância do melhor trecho: 0,94).","A resistência de aquecimento é usada em ambientes muito úmidos (umidade acima de 95%) ou quando o motor pode ficar desligado por longos períodos, acima de 24 horas. Ela aquece o interior do motor de 5 a 10 °C acima da temperatura ambiente enquanto ele está desligado, impedindo o acúmulo de água por condensação do ar úmido.","[FONTE 1] WEG — Guia de Especificação de Motores Elétricos — 8. Características de ambiente > 8.6 Resistência de Aquecimento (p. 47)
+7
+225 a 280
+2
+3
+6
+7
+315
+2
+3
+5
+6
+355
+2
+2
+4
+5
+Na Tabela 8.7 estão citados os incrementos a serem considerados nos valores de pressão e potência sonora, em dB (A), para 
+motores operando em carga.
+8.6 Resistência de Aquecimento
+As resistências de aquecimento são instaladas quando um motor elétrico é instalado em ambientes muito úmidos, 
+(umidade > 95%) e/ou com possibilidade de ficar desligados por longos períodos (acima de 24 h), impedindo o acúmulo de 
+água no interior do motor pela condensação do ar úmido. 
+As resistências de aquecimento, aquecem o interior do motor alguns graus acima da temperatura ambiente (5 a 10 °C), 
+quando o motor está desligado. A tensão de alimentação das resistências de aquecimento, deverá ser especificada
+
+[FONTE 2] WEG — Guia de Especificação de Motores Elétricos — 7. Características em Regime > 7.2 Proteção térmica de motores elétricos > 7.2.3 Protetores térmicos bimetálicos - Termostatos (p. 37)
+mperatura positivo
+NTC - coeficiente de temperatura negativo
+O termistor “PTC” apresenta aumento da resistência com o 
+aumento da temperatura e alguns são caracterizados por esta 
+subida ser abrupta, o que os torna úteis em dispositivos de 
+proteção de sobreaquecimento. O termistor “NTC” apresenta 
+redução da resistência com o aumento da temperatura, 
+normalmente não sendo utilizados em motores elétricos. 
+A brusca variação na resistência interrompe a corrente no PTC, 
+acionando um relé de saída, o qual desliga o circuito principal. 
+Os termistores podem ser usados para alarme e desligamento. 
+Nesse caso, são necessários dois termistores, conectados em 
+série, por fase.
+Os termistores possuem tamanho reduzido, não sofrem 
+desgastes mecânicos e têm uma resposta mais rápida em 
+relação aos outros detectores, embora não permitam um 
+acompanhamento contínuo do processo de aquecimento do 
+motor. Os termistores com seus respectivos circuitos 
+eletrônicos de controle oferecem proteção completa contra 
+sobreaquecimento produzido por falta de fase, sobrecarga,","Use a resistência de aquecimento quando o motor elétrico está instalado em ambientes muito úmidos, com umidade superior a 95%, e/ou com possibilidade de ficar desligado por longos períodos (acima de 24 horas) [FONTE 1]. Ela aquece o interior do motor alguns graus acima da temperatura ambiente (5 a 10 °C) quando o motor está desligado [FONTE 1]. As resistências de aquecimento são instaladas para impedir o acúmulo de água no interior do motor pela condensação do ar úmido [FONTE 1]. A tensão de alimentação das resistências de aquecimento deve ser especificada [FONTE 1].",CH-0185;CH-0140;CH-0136;CH-0123,0.941,0,ALTA,ALTA,,1,20.6,0.25,4,0.8404,0.6579,0.5263
+T08,especificacao,Existe norma para o nível de ruído dos motores WEG?,"[FONTE 1] Existe uma tabela que fornece limites máximos de nível de potência sonora em decibéis para os motores WEG, conforme NEMA, IEC e NBR. [FONTE 1]
+Confiança: ALTA — calculada pela recuperação (relevância do melhor trecho: 1,02).","Sim. Os motores WEG atendem às normas NEMA, IEC e NBR, que fixam os limites máximos de nível de potência sonora em decibéis; os valores tabelados no guia seguem a IEC 60034-9 e variam conforme a carcaça e o número de polos.","[FONTE 1] WEG — Guia de Especificação de Motores Elétricos — 8. Características de ambiente > 8.7 Limites de Ruídos (p. 47)
+o estimado para pressão e potência sonora, em dB (A)
+Nota 1: esta tabela fornece o incremento máximo esperado para condição em carga nominal.
+Nota 2: os valores são válidos para 50 Hz e 60 Hz.
+8.7 Limites de Ruídos
+Os motores WEG atendem as normas NEMA, IEC e NBR que especificam os limites máximos de nível de potência sonora, em 
+decibéis. Os valores da Tabela 8.6, estão conforme IEC 60034-9.
+Carcaça
+2 polos
+4 polos
+6 polos
+8 polos
+Potência
+Pressão
+Potência
+Pressão
+Potência
+Pressão
+Potência
+Pressão
+90
+83
+71
+69
+57
+66
+54
+66
+54
+100
+87
+75
+73
+61
+67
+55
+67
+55
+112
+88
+76
+75
+63
+73
+61
+73
+61
+132
+90
+78
+78
+66
+76
+64
+74
+62
+160
+92
+79
+80
+67
+76
+63
+75
+62
+180
+93
+80
+83
+70
+80
+67
+79
+66
+200
+95
+82
+86
+73
+83
+70
+82
+69
+225
+97
+84
+87
+74
+83
+70
+82
+69
+250
+97
+83
+88
+74
+85
+71
+83
+69
+280
+99
+85
+91
+77
+88
+74
+85
+71
+315
+103
+88
+97
+82
+92
+77
+91
+76
+355
+105
+90
+98
+83
+97
+82
+95
+80
+Carcaça
+2 polos
+4 polos
+6 polos
+8 polos
+90 a 160
+2
+5
+7
+8
+180 a 200
+2
+4
+6
+
+[FONTE 2] WEG — Guia de Especificação de Motores Elétricos — 11. Seleção e aplicação dos motores trifásicos > 11.2 Níveis de Rendimentos Exigidos no Brasil > 11.2.1 O programa de eficiência energética no país (p. 58)
+o ruído devido à ventilação diminui) o ruído 
+eletromagnético pode ser a maior fonte de ruído para 
+motores de quaisquer número de polos, devido ao conteúdo 
+harmônico da tensão. 
+Critérios de ruído
+Resultados de ensaios laboratoriais (medições de 4 pontos 
+efetuadas em câmara acústica semi-anecóica com o inversor 
+colocado fora da câmara) realizados com vários motores e 
+inversores WEG utilizando diversas frequências de 
+chaveamento têm mostrado que os motores de indução 
+trifásicos WEG, quando alimentados por inversores de 
+frequência PWM e operando na frequência nominal 
+(tipicamente 50 ou 60 Hz), apresentam no máximo 11 dB(A) 
+de acréscimo no seu nível de pressão sonora global.
+Notas: 
+g O aumento da frequência de chaveamento tende a reduzir o ruído de 
+origem eletromagnética produzido pelo motor.
+g Os critérios de ruído acima valem apenas para motores de carcaças ≤ 355.
+Linha W22
+Tamanho da Carcaça (IEC)
+Padrão
+Opcional
+225 ≤ mod < 315
+g Sem proteção
+g Mancal traseiro isolado 
+g Mancal dianteiro isolado
+g Sistema de aterramento 
+de escovas entre a 
+carcaça e o eixo no lado","[FONTE 1] Existe uma tabela que fornece limites máximos de nível de potência sonora em decibéis para os motores WEG, conforme NEMA, IEC e NBR. [FONTE 1]",CH-0184;CH-0255;CH-0183;CH-0179,1.0244,0,ALTA,ALTA,,1,23.8,1.0,1,0.7119,0.5143,0.3714
+T09,anomalia_eletrica,Como é expressa a corrente de rotor bloqueado nas normas?,"A corrente de rotor bloqueado é expressa nas normas como Ip, onde Ip = Corrente com rotor bloqueado. [FONTE 1]
+Confiança: MÉDIA — calculada pela recuperação (relevância do melhor trecho: 0,82).","Os limites máximos de corrente com rotor bloqueado são expressos em termos da potência aparente absorvida com rotor bloqueado em relação à potência nominal, na razão kVA/cv ou kVA/kW (Sp/Pn), calculada a partir da corrente de partida e da tensão nominal. Os limites valem para qualquer número de polos, variando conforme a faixa de potência.","[FONTE 1] WEG — Guia de Especificação de Motores Elétricos — 4. Características de aceleração > 4.5 Corrente de Rotor Bloqueado > 4.5.1 Valores máximos normalizados (p. 29)
+aquecimento e 
+consequente queima do motor elétrico. 
+Em caso de dúvidas consulte a WEG.
+4.5 Corrente de Rotor Bloqueado
+4.5.1 Valores Máximos Normalizados 
+Os limites máximos da corrente com rotor bloqueado, em 
+função da potência nominal do motor são válidos para qualquer 
+número de polos, estão indicados na Tabela 4.4, expressos em 
+termos da potência aparente absorvida com rotor bloqueado 
+em relação à potência nominal, kVA/cv ou kVA/kW.
+www.weg.net
+
+Especificação do Motor Elétrico
+30
+ 
+ 3 Ip . U 
+ 
+kVA/cv = 
+ 
+ P (cv) . 1000 
+ 
+ 
+ 
+ 3 Ip . U
+kVA/kW = 
+ 
+ 
+ 
+ 
+ 
+ P (kW) . 1000
+sendo: Ip - Corrente de rotor bloqueado, ou corrente de partida
+ 
+U - Tensão nominal (V)
+ 
+P - Potência nominal (cv ou kW)
+√ 
+√
+Faixa de potências 
+Sp / Pn
+kW
+cv
+ kVA/kW
+ kVA/cv
+> 0,37 < 6,3
+> 0,5 < 8,6
+ 13
+ 9,6
+> 6,3 < 25
+> 8,6 < 34
+ 12
+ 8,8
+> 25 < 63
+> 34 < 86
+ 11
+ 8,1
+> 63 < 630
+ > 86 < 856
+ 10
+ 7,4
+Tabela 4.4 - Valores máximos de potência aparente com rotor bloqueado 
+(Sp / Pn ), expressos pela razão para a potência de saída nominal (Pn )
+5. Regulagem da Velocidade de Motores Assíncronos 
+de Indução
+
+[FONTE 2] WEG — Guia de Especificação de Motores Elétricos — 13. Ensaios (p. 64)
+orme norma
+1
+Resistência do 
+enrolamento a frio
+X
+X
+NBR 17094-3
+2
+Ensaio de rotor bloqueado – 
+Corrente
+X
+X
+NBR 17094-3
+3
+Ensaio de rotor bloqueado – 
+Desempenho de partida
+N.A.
+X
+NBR 17094-3
+4
+Ensaio de elevação 
+de temperatura
+N.A.
+X
+NBR 17094-3
+5
+Ensaio em carga
+N.A.
+X
+NBR 17094-3
+6
+Ensaio de conjugado máximo
+N.A.
+X
+NBR 17094-3
+7
+Ensaio em vazio
+X
+X
+NBR 17094-3
+8
+Ensaio de vibração
+N.A.
+N.A.
+X
+NBR/IEC 60034-14
+9
+Nivel de ruído
+N.A.
+N.A.
+X
+NBR/IEC 60034-9
+10
+Ensaio de tensão 
+aplicada (dielétrico)
+X
+X
+NBR 17094-3
+11
+Ensaio de resistência 
+de isolamento
+X
+X
+NBR 17094-3
+12
+Índice de polarização
+N.A.
+N.A.
+X
+NBR 17094-3
+13
+Curva conjugado x rpm
+N.A.
+N.A.
+X
+NBR 17094-3
+14
+Sobrevelocidade
+N.A.
+N.A.
+X
+NBR 17094-3
+15
+Tensão no eixo
+N.A.
+N.A.
+X
+NBR 17094-3
+16
+Resistência de 
+isolamento dos mancais
+N.A.
+N.A.
+X
+NBR 17094-3
+17
+Excesso de conjugado 
+momentâneo
+N.A.
+N.A.
+X
+NBR 17094-1
+18
+Sobrecorrente ocasional
+N.A.
+N.A.
+X
+NBR 17094-1
+Critérios de proteção dos mancais
+Quando há utilização de motores de indução trifásicos de 
+baixa tensão WEG com inversores de frequência, devem ser
+
+[FONTE 3] WEG — Guia de Especificação de Motores Elétricos — 4. Características de aceleração > 5.1 Variação do Número de Polos > independentes (p. 30)
+cia a plena carga.
+Ip = Corrente com rotor bloqueado; 
+In = Corrente nominal
+5.1.1 Motores de Duas Velocidades com Enrolamentos
+Independentes
+Esta versão apresenta a vantagem de se combinar 
+enrolamentos com qualquer número de polos, porém, 
+limitada pelo","A corrente de rotor bloqueado é expressa nas normas como Ip, onde Ip = Corrente com rotor bloqueado. [FONTE 1]",CH-0102;CH-0259;CH-0106;CH-0037,0.8177,0,MÉDIA,ALTA,,1,18.5,1.0,1,0.7691,0.2597,0.1558
+T10,anomalia_eletrica,O enrolamento principal do motor monofásico apresentou curto entre espiras. Quais são as causas prováveis?,"[FONTE 1] Curto entre espiras no enrolamento principal pode ser causado por um curto entre espiras na própria espira ou por um curto entre espiras entre diferentes espiras. [FONTE 1]
+Confiança: MÉDIA — calculada pela recuperação (relevância do melhor trecho: 0,80).","As causas prováveis são contaminação interna do motor, falha do esmalte de isolação do fio, falha do verniz de impregnação e oscilações rápidas na tensão de alimentação.","[FONTE 1] WEG — Danos em Enrolamentos de Motores Monofásicos — Característica da queima (p. 1)
+rolamentos e suas possíveis causas.
+Danos em Enrolamentos
+Dúvidas? Consulte-nos! www.weg.net
+Curto no interior 
+da ranhura
+Rotor travado
+Sobreaquecimento no 
+enrolamento principal
+Sobreaquecimento no
+enrolamento auxiliar
+Curto na saída 
+da ranhura
+Curto na conexão
+Metade do enrolamento 
+principal sobreaquecido
+Curto entre espiras no 
+enrolamento auxiliar
+Curto entre enrolamentos principal e auxiliar
+Curto entre espiras no enrolamento principal
+
+[FONTE 2] WEG — Guia de Especificação de Motores Elétricos — 4. Características de aceleração > 4.4 Regime de Partida (p. 29)
+minal
+Cm 
+= 
+Conjugado do motor
+Cr 
+= 
+Conjugado da carga
+Ca 
+= 
+Conjugado médio de aceleração
+Nn 
+= 
+Rotação nominal
+4.4 Regime de Partida
+Devido ao valor elevado da corrente de partida dos motores 
+de indução, o tempo gasto na aceleração de cargas de 
+inércia elevada resulta na elevação rápida da temperatura do 
+motor. Se o intervalo entre partidas sucessivas for muito 
+reduzido, isto levará a um aumento de temperatura excessivo 
+no enrolamento, danificando-o ou reduzindo a sua vida útil. 
+As normas ABNT NBR 17094 e IEC 60034-1 estabelecem 
+um regime de partida mínimo (S1) que os motores devem ser 
+capazes de realizar:
+a) Duas partidas sucessivas, sendo a primeira feita com o 
+motor frio, isto é, com seus enrolamentos à temperatura 
+ambiente e a segunda logo a seguir, porém, após o motor ter 
+desacelerado até o repouso.
+b) Uma partida com o motor quente, ou seja, com os 
+ enrolamentos à temperatura de regime.
+A primeira condição simula o caso em que a primeira partida 
+do motor é malograda, por exemplo, pelo desligamento da
+
+[FONTE 3] WEG — Rendimento nos Motores Monofásicos — WEG em Revista (p. 1)
+ase fictícia, permitindo a formação do campo girante necessário para a partida.
+A seguir apresentaremos o seu
+funcionamento, características, vantagens e aplicações dos diferentes
+tipos de motores monofásicos de indução rotor de gaiola de esquilo.
+n
+Motor de Fase Dividida
+(Split-Phase)
+Este motor possui um enrolamento principal e um auxiliar (para
+a partida), ambos defasados em 90°
+elétricos no espaço. O enrolamento auxiliar cria um deslocamento da
+fase que produz o torque necessário para a rotação inicial e a sua
+aceleração. Quando o motor atinge
+uma determinada rotação, o enrolamento auxiliar é desligado da rede
+através de uma chave que normalmente é atuada por uma força centrífuga (chave centrífuga) ou, em
+casos específicos, por chaves eletrônicas, relé de corrente ou outros
+dispositivos especiais. Estes motores apresentam um conjugado de
+partida igual ou um pouco superior
+que o nominal, o que limita a sua
+aplicação em potências fracionárias e em cargas que exigem baixo",[FONTE 1] Curto entre espiras no enrolamento principal pode ser causado por um curto entre espiras na própria espira ou por um curto entre espiras entre diferentes espiras. [FONTE 1],CH-0324;CH-0097;CH-0328;CH-0332,0.7951,0,MÉDIA,ALTA,,1,14.8,1.0,1,0.6235,0.0351,0.0351
+T11,anomalia_eletrica,O que pode causar sobreaquecimento do enrolamento principal em um motor IP55?,"O sobreaquecimento do enrolamento principal em um motor IP55 pode ser causado por excesso de carga na ponta de eixo (permanente ou eventual/periódico) [FONTE 1], sobretensão ou subtensão na rede de alimentação (permanente ou eventual/periódico) [FONTE 1], ventilação deficiente (temperatura ambiente elevada, motor operando em local confinado, obstrução das entradas de ar do motor, sujeira sobre a carcaça, tampa defletora [IP55] danificada ou obstruída) [FONTE 1], ou conexão incorreta dos cabos de ligação do motor [FONTE 1].
+Confiança: MÉDIA — calculada pela recuperação (relevância do melhor trecho: 0,80).","Cabos de alimentação muito longos ou muito finos, conexão incorreta dos cabos de ligação, excesso de carga na ponta de eixo, sobretensão ou subtensão na rede de alimentação e ventilação deficiente — temperatura ambiente elevada, motor em local confinado, obstrução das entradas de ar, sujeira sobre a carcaça ou tampa defletora danificada ou obstruída.","[FONTE 1] WEG — Danos em Enrolamentos de Motores Monofásicos — Característica da queima (p. 1)
+orque da carga muito elevado);
+g Travamento do eixo da carga.
+Sobreaquecimento do 
+enrolamento principal 
+Motores IP21 e IP55
+g Cabos de alimentação muito longos e/ou muito finos;
+g Conexão incorreta dos cabos de ligação do motor;
+g Excesso de carga na ponta de eixo (permanente ou eventual/periódico);
+g Sobretensão ou subtensão na rede de alimentação (permanente ou eventual/periódico);
+g Ventilação deficiente (temperatura ambiente elevada, motor operando em local confinado, obstrução das entradas de ar do motor, sujeira sobre a carcaça, tampa defletora [IP55] 
+danificada ou obstruída).
+Motores IP21
+g Circuito auxiliar aberto:
+ g Motor de capacitor de partida: problema no capacitor, no platinado ou no centrífugo;
+ g Motor de capacitor permanente: problema no capacitor;
+ g Motor split-phase: problema no platinado ou no centrífugo.
+Motores IP55
+g Circuito auxiliar aberto: problema no capacitor, platinado ou centrífugo.
+Sobreaquecimento do 
+enrolamento auxiliar
+Motores com capacitor 
+de partida ou split-phase 
+(sem capacitor)
+g Conexão incorreta dos cabos de ligação do motor;
+
+[FONTE 2] WEG — Danos em Enrolamentos de Motores Monofásicos — Característica da queima (p. 1)
+a e possíveis causas
+Cód: 50009254 | Rev: 07 | Data (m/a): 08/2019 - Sujeito a alterações sem aviso prévio. As informações contidas são valores de referência. 
+Motores Monofásicos
+A especificação correta do motor (tensão, frequência, polaridade, grau de proteção, entre outros) para sua aplicação é o primeiro requisito básico para que o 
+tempo de vida útil do motor seja alto. Porém, não é apenas isto que irá garantir o correto funcionamento. A instalação, manutenção e operação corretas são 
+imprescindíveis. Caso ocorra a queima de um motor elétrico, a primeira providência a se tomar é identificar a causa (ou possíveis causas) da queima, mediante 
+a análise do enrolamento danificado. É fundamental que a causa da queima seja identificada e eliminada, para evitar eventuais novas queimas do motor. Para 
+auxiliar na análise, as fotos e o quadro abaixo apresentam as características de alguns tipos de queimas de enrolamentos e suas possíveis causas.
+Danos em Enrolamentos
+Dúvidas? Consulte-nos! www.weg.net
+Curto no interior 
+da ranhura
+Rotor travado
+Sobreaquecimento no 
+enrolamento principal","O sobreaquecimento do enrolamento principal em um motor IP55 pode ser causado por excesso de carga na ponta de eixo (permanente ou eventual/periódico) [FONTE 1], sobretensão ou subtensão na rede de alimentação (permanente ou eventual/periódico) [FONTE 1], ventilação deficiente (temperatura ambiente elevada, motor operando em local confinado, obstrução das entradas de ar do motor, sujeira sobre a carcaça, tampa defletora [IP55] danificada ou obstruída) [FONTE 1], ou conexão incorreta dos cabos de ligação do motor [FONTE 1].",CH-0321;CH-0323;CH-0140;CH-0123,0.8003,0,MÉDIA,ALTA,,1,19.6,1.0,1,0.9065,0.6818,0.5606
+T12,anomalia_eletrica,Por que o enrolamento auxiliar de um motor monofásico sobreaquece?,"O enrolamento auxiliar sobreaquece devido a uma ou mais das seguintes causas [FONTE 2]: g Conexão incorreta dos cabos de ligação do motor; g Dificuldade na partida do motor (queda de tensão excessiva, inércia e/ou torque da carga muito elevado); g Excessivo número de partidas em tempo curto; g Motor operando em vazio ou com carga muito baixa.
+Confiança: MÉDIA — calculada pela recuperação (relevância do melhor trecho: 0,84).","Por conexão incorreta dos cabos de ligação, por dificuldade na partida — queda de tensão excessiva, inércia ou torque de carga elevados — que retarda a abertura do conjunto centrífugo/platinado e mantém a bobina auxiliar energizada por muito tempo, por número excessivo de partidas em curto intervalo e por penetração de objetos estranhos que impedem a abertura do conjunto centrífugo.","[FONTE 1] WEG — Guia de Especificação de Motores Elétricos — 1.5 Motor de Indução Trifásico (p. 13)
+32 . 220 = 380 V
+ 
+I 
+= If = 5,77 A
+1.5 Motor de Indução Trifásico
+O motor de indução trifásico (Figura 1.10) é composto 
+fundamentalmente de duas partes: estator e rotor.
+Estator
+g Carcaça (1) - é a estrutura suporte do conjunto de 
+construção robusta em ferro fundido, aço ou alumínio 
+injetado, resistente à corrosão e normalmente com aletas.
+g Núcleo de chapas (2) - as chapas são de aço magnético.
+g Enrolamento trifásico (8) - três conjuntos iguais de bobinas, 
+uma para cada fase, formando um sistema trifásico 
+equilibrado ligado à rede trifásica de alimentação.
+I = If
+U = 3 . Uf = 1,732 . Uf
+U = Uf1 - Uf2 (Figura 1.9c)
+√
+→
+→
+→
+→
+→
+→
+120°
+120°
+120°
+120°
+120°
+120°
+I
+U1
+www.weg.net
+
+Especificação do Motor Elétrico
+14
+a) Na Figura 1.11a é indicado um “enrolamento monofásico” 
+atravessado por uma corrente I e o campo H criado por 
+ela. Enrolamento é constituído de um par de polos (um 
+polo “norte” e um polo “sul”), cujos efeitos se somam para 
+estabelecer o campo H. O fluxo magnético atravessa o 
+rotor entre os dois polos e se fecha através do núcleo do 
+estator.
+
+[FONTE 2] WEG — Danos em Enrolamentos de Motores Monofásicos — Característica da queima (p. 1)
+inado ou centrífugo.
+Sobreaquecimento do 
+enrolamento auxiliar
+Motores com capacitor 
+de partida ou split-phase 
+(sem capacitor)
+g Conexão incorreta dos cabos de ligação do motor;
+g Dificuldade na partida do motor (queda de tensão excessiva, inércia ou torque da carga muito elevado), não permitindo a rápida abertura do conjunto centrífugo/platinado, deixando a 
+bobina auxiliar energizada por muito tempo;
+g Excessivo número de partida em tempo curto; 
+g Penetração de objetos estranhos no motor pode também causar a não abertura do conjunto centrífugo platinado. 
+Motores com capacitor 
+permante
+g Conexão incorreta dos cabos de ligação do motor;
+g Dificuldade na partida do motor (queda de tensão excessiva, inércia e/ou torque da carga muito elevado);
+g Excessivo número de partidas em tempo curto;
+g Motor operando em vazio ou com carga muito baixa.
+Tabela de características da queima e possíveis causas
+Cód: 50009254 | Rev: 07 | Data (m/a): 08/2019 - Sujeito a alterações sem aviso prévio. As informações contidas são valores de referência. 
+Motores Monofásicos","O enrolamento auxiliar sobreaquece devido a uma ou mais das seguintes causas [FONTE 2]: g Conexão incorreta dos cabos de ligação do motor; g Dificuldade na partida do motor (queda de tensão excessiva, inércia e/ou torque da carga muito elevado); g Excessivo número de partidas em tempo curto; g Motor operando em vazio ou com carga muito baixa.",CH-0034;CH-0322;CH-0123;CH-0324,0.8416,0,MÉDIA,ALTA,,1,17.2,0.0,1,0.6816,0.5085,0.3898
+T13,anomalia_eletrica,Metade do enrolamento principal queimou e a outra metade está intacta. O que isso indica?,"A documentação técnica disponível não trata deste assunto com aderência suficiente para uma resposta segura. Consulte a engenharia de manutenção ou o canal responsável pela informação.
+Confiança: BAIXA — calculada pela recuperação (relevância do melhor trecho: 0,55).","Indica falha da chave comutadora de tensão posicionada para a menor tensão de alimentação, ou picos de sobrecarga que provocam o fechamento do centrífugo e do platinado com o motor alimentado na maior tensão. A metade que queima é a que não está em paralelo com o enrolamento auxiliar.","[FONTE 1] WEG — Danos em Enrolamentos de Motores Monofásicos — Característica da queima (p. 1)
+Característica da queima
+Possíveis causas
+Curto entre espiras no enrolamento principal
+g Contaminação interna do motor;
+g Falha do esmalte de isolação do fio; 
+g Falha do verniz de impregnação;
+g Rápidas oscilações na tensão de alimentação.
+Curto entre espiras no enrolamento auxiliar
+g Contaminação interna do motor;
+g Falha do esmalte de isolação do fio;
+g Falha do verniz de impregnação.
+Metade do enrolamento principal sobreaquecido
+g Falha da chave comutadora de tensão quando posicionada para alimentação na menor tensão;
+g Picos de sobrecarga que chegam a provocar o fechamento do centrífugo e do platinado, com o motor alimentado na maior tensão. A metade do enrolamento que queima é aquela que 
+não está em paralelo com o enrolamento auxiliar.
+Curto entre enrolamentos 
+principal e auxiliar
+Motores com capacitor 
+de partida ou split-phase 
+(sem capacitor) 
+g Contaminação interna do motor;
+g Falha do esmalte de isolação do fio;
+g Falha do verniz de impregnação.
+Motores com capacitor 
+permante
+g Contaminação interna do motor;
+
+[FONTE 2] WEG — Danos em Enrolamentos de Motores Monofásicos — Característica da queima (p. 1)
+a e possíveis causas
+Cód: 50009254 | Rev: 07 | Data (m/a): 08/2019 - Sujeito a alterações sem aviso prévio. As informações contidas são valores de referência. 
+Motores Monofásicos
+A especificação correta do motor (tensão, frequência, polaridade, grau de proteção, entre outros) para sua aplicação é o primeiro requisito básico para que o 
+tempo de vida útil do motor seja alto. Porém, não é apenas isto que irá garantir o correto funcionamento. A instalação, manutenção e operação corretas são 
+imprescindíveis. Caso ocorra a queima de um motor elétrico, a primeira providência a se tomar é identificar a causa (ou possíveis causas) da queima, mediante 
+a análise do enrolamento danificado. É fundamental que a causa da queima seja identificada e eliminada, para evitar eventuais novas queimas do motor. Para 
+auxiliar na análise, as fotos e o quadro abaixo apresentam as características de alguns tipos de queimas de enrolamentos e suas possíveis causas.
+Danos em Enrolamentos
+Dúvidas? Consulte-nos! www.weg.net
+Curto no interior 
+da ranhura
+Rotor travado
+Sobreaquecimento no 
+enrolamento principal",A documentação técnica disponível não trata deste assunto com aderência suficiente para uma resposta segura. Consulte a engenharia de manutenção ou o canal responsável pela informação.,CH-0319;CH-0323;CH-0131;CH-0123,0.5453,1,BAIXA,NAO_GERADA,,0,0.0,1.0,2,0.1367,0.2133,0.1333
+T14,manutencao_preventiva,Um motor queimou. Qual a primeira providência antes de rebobinar?,"A primeira providência é identificar a causa da queima, mediante a análise do enrolamento danificado [FONTE 2]. É fundamental que a causa seja identificada e eliminada para evitar novas queimas [FONTE 2]. Caso não seja possível identificar a causa, a próxima etapa é a rebobinação do enrolamento [FONTE 2]. Após a rebobinação, é necessário realizar um ajuste do entreferro do motofreio, conforme descrito em [FONTE 1] [FONTE 1]. A manutenção periódica do entreferro é importante para evitar o desgaste desuniforme das pastilhas [FONTE 1].
+Confiança: MÉDIA — calculada pela recuperação (relevância do melhor trecho: 0,67).","Identificar a causa da queima pela análise do enrolamento danificado. A causa precisa ser identificada e eliminada, caso contrário a falha se repetirá — a especificação correta do motor é o primeiro requisito, mas instalação, operação e manutenção corretas também são imprescindíveis.","[FONTE 1] WEG — Guia de Especificação de Motores Elétricos — 6. Motofreio Trifásico > 6.5 Ajuste do Entreferro (p. 33)
+icamente dispostas evitando que 
+continue existindo fricção mesmo após acionado o motor, 
+e ocasione o desgaste desuniforme das pastilhas.
+6.5 Ajuste do Entreferro
+Os motofreios são fornecidos com o entreferro inicial, ou 
+seja, a distância entre a armadura e a carcaça com o freio 
+aplicado, pré-ajustado pela fábrica em seu valor mínimo 
+indicado na Tabela 6.1.
+Por serem de construção simples, os motofreios 
+praticamente dispensam manutenção, a não ser a ajustagem 
+periódica do entreferro. Recomenda-se proceder uma 
+limpeza interna, quando houver penetração de água, 
+poeiras, etc, ou por ocasião da manutenção periódica do 
+motor.
+Com o desgaste natural das pastilhas, o entreferro aumenta 
+gradativamente, não afetando o bom funcionamento do freio 
+até que ele atinja o valor máximo indicado na Tabela 6.1.
+Para reajustar o entreferro a seus valores iniciais, procede-se 
+como segue:
+a) Retirar os parafusos de fixação e remover a Tampa 
+ defletora;
+b) Remover o anel de proteção;
+c) Medir o entreferro em três pontos, próximos aos parafusos
+
+[FONTE 2] WEG — Danos em Enrolamentos de Motores Monofásicos — Característica da queima (p. 1)
+a e possíveis causas
+Cód: 50009254 | Rev: 07 | Data (m/a): 08/2019 - Sujeito a alterações sem aviso prévio. As informações contidas são valores de referência. 
+Motores Monofásicos
+A especificação correta do motor (tensão, frequência, polaridade, grau de proteção, entre outros) para sua aplicação é o primeiro requisito básico para que o 
+tempo de vida útil do motor seja alto. Porém, não é apenas isto que irá garantir o correto funcionamento. A instalação, manutenção e operação corretas são 
+imprescindíveis. Caso ocorra a queima de um motor elétrico, a primeira providência a se tomar é identificar a causa (ou possíveis causas) da queima, mediante 
+a análise do enrolamento danificado. É fundamental que a causa da queima seja identificada e eliminada, para evitar eventuais novas queimas do motor. Para 
+auxiliar na análise, as fotos e o quadro abaixo apresentam as características de alguns tipos de queimas de enrolamentos e suas possíveis causas.
+Danos em Enrolamentos
+Dúvidas? Consulte-nos! www.weg.net
+Curto no interior 
+da ranhura
+Rotor travado
+Sobreaquecimento no 
+enrolamento principal","A primeira providência é identificar a causa da queima, mediante a análise do enrolamento danificado [FONTE 2]. É fundamental que a causa seja identificada e eliminada para evitar novas queimas [FONTE 2]. Caso não seja possível identificar a causa, a próxima etapa é a rebobinação do enrolamento [FONTE 2]. Após a rebobinação, é necessário realizar um ajuste do entreferro do motofreio, conforme descrito em [FONTE 1] [FONTE 1]. A manutenção periódica do entreferro é importante para evitar o desgaste desuniforme das pastilhas [FONTE 1].",CH-0118;CH-0323;CH-0098;CH-0123,0.6651,0,MÉDIA,ALTA,,2,19.8,1.0,5,0.6114,0.352,0.32
+T15,manutencao_preventiva,Como armazenar um motor parado por longo período sem danificar os rolamentos?,"Para armazenar um motor parado por longo período, é recomendável remover o ventilador e a tampa da caixa de terminais para evitar impactos nos rolamentos [FONTE 2]. Após esse período de armazenamento, também é recomendável trocar os capacitores de partida dos motores monofásicos, pois eles perdem suas características operacionais [FONTE 2]. Não manuseie os motores pelos componentes poliméricos, tampa do ventilador, caixa de terminais e/ou tampa da caixa de terminais [FONTE 2]. Para remover a tampa do ventilador, use duas chaves de fenda ou ferramenta posicionadas perto da região de encaixe e levante um lado, repita para os outros lados [FONTE 2]. Para remover a tampa da caixa de terminais, use uma chave de fenda ou ferramenta semelhante, posicionada dentro da posição de encaixe como uma alavanca e levante [FONTE 2].
+Confiança: MÉDIA — calculada pela recuperação (relevância do melhor trecho: 0,78).","Girar o eixo do motor pelo menos uma vez por mês, no mínimo cinco voltas, deixando-o sempre em posição diferente, para evitar marcas nos rolamentos e garantir distribuição uniforme do lubrificante. Motores com lubrificação por névoa de óleo devem ser armazenados na horizontal, com óleo ISO VG 68 no rolamento, independentemente da configuração de montagem. Após armazenamento prolongado recomenda-se também trocar os capacitores de partida dos motores monofásicos.","[FONTE 1] WEG — Guia de Especificação de Motores Elétricos — 6. Motofreio Trifásico > 6.5 Ajuste do Entreferro (p. 33)
+icamente dispostas evitando que 
+continue existindo fricção mesmo após acionado o motor, 
+e ocasione o desgaste desuniforme das pastilhas.
+6.5 Ajuste do Entreferro
+Os motofreios são fornecidos com o entreferro inicial, ou 
+seja, a distância entre a armadura e a carcaça com o freio 
+aplicado, pré-ajustado pela fábrica em seu valor mínimo 
+indicado na Tabela 6.1.
+Por serem de construção simples, os motofreios 
+praticamente dispensam manutenção, a não ser a ajustagem 
+periódica do entreferro. Recomenda-se proceder uma 
+limpeza interna, quando houver penetração de água, 
+poeiras, etc, ou por ocasião da manutenção periódica do 
+motor.
+Com o desgaste natural das pastilhas, o entreferro aumenta 
+gradativamente, não afetando o bom funcionamento do freio 
+até que ele atinja o valor máximo indicado na Tabela 6.1.
+Para reajustar o entreferro a seus valores iniciais, procede-se 
+como segue:
+a) Retirar os parafusos de fixação e remover a Tampa 
+ defletora;
+b) Remover o anel de proteção;
+c) Medir o entreferro em três pontos, próximos aos parafusos
+
+[FONTE 2] WEG — Manual de Instalação, Operação e Manutenção (WMO Safe Area) — 2 TRANSPORTE, ARMAZENAMENTO E MANUSEIO (p. 16)
+pós esse período de armazenamento, 
+também é recomendável trocar os capacitores de partida dos motores monofásicos, pois eles 
+perdem suas características operacionais.
+
+PORTUGUÊS
+Motores Elétricos de Baixa e Alta Tensão | 17 
+ATENÇÃO!
+Manuseie sempre o motor com cuidado para evitar impactos e danos nos rolamentos e 
+instale sempre o dispositivo de transporte/bloqueio do eixo (se fornecido) ao transportar 
+o motor.
+Não manuseie os motores pelos componentes poliméricos: tampa do ventilador, caixa 
+de terminais e/ou tampa da caixa de terminais.
+Para motores com tampa do ventilador polimérica montada por encaixe, para remover 
+a tampa do ventilador polimérica, use duas chaves de fenda ou ferramenta semelhante 
+posicionada perto da região de encaixe e remova um lado levantando com cuidado, repita 
+para os outros lados até a remoção completa da tampa do ventilador.
+Para remover a tampa da caixa de terminais, use uma chave de fenda ou ferramenta 
+semelhante, posicionada dentro da posição de encaixe como uma alavanca e levante","Para armazenar um motor parado por longo período, é recomendável remover o ventilador e a tampa da caixa de terminais para evitar impactos nos rolamentos [FONTE 2]. Após esse período de armazenamento, também é recomendável trocar os capacitores de partida dos motores monofásicos, pois eles perdem suas características operacionais [FONTE 2]. Não manuseie os motores pelos componentes poliméricos, tampa do ventilador, caixa de terminais e/ou tampa da caixa de terminais [FONTE 2]. Para remover a tampa do ventilador, use duas chaves de fenda ou ferramenta posicionadas perto da região de encaixe e levante um lado, repita para os outros lados [FONTE 2]. Para remover a tampa da caixa de terminais, use uma chave de fenda ou ferramenta semelhante, posicionada dentro da posição de encaixe como uma alavanca e levante [FONTE 2].",CH-0118;CH-0278;CH-0281;CH-0293,0.7811,0,MÉDIA,ALTA,,1,20.5,0.6,5,0.8326,0.2673,0.1782
+T16,anomalia_mecanica,O motor apresenta vibração excessiva depois de acoplado à carga. O que verificar na instalação?,"A vibração excessiva pode ser causada por desbalanceamento da carga ou desalinhamento dos motores [FONTE 1]. Verifique a alinhamento dos motores e a carga [FONTE 2]. [FONTE 3] Não ignore vibrações de baixa frequência, que podem indicar desbalanceamento da carga [FONTE 4].
+Confiança: MÉDIA — calculada pela recuperação (relevância do melhor trecho: 0,70).","Alinhamento incorreto e tensão inadequada da correia danificam os rolamentos e provocam vibração excessiva, podendo até romper o eixo. Devem ser respeitadas as cargas radiais e axiais admissíveis do eixo indicadas no manual e, sempre que possível, deve-se usar acoplamento flexível.","[FONTE 1] WEG — Guia de Especificação de Motores Elétricos — 1.5 Motor de Indução Trifásico (p. 13)
+houvesse um único par de polos girantes, de intensidade 
+constante. Este campo girante, criado pelo enrolamento 
+trifásico do estator, induz tensões nas barras do rotor (linhas 
+de fluxo magnético cortam as barras do rotor), que por estar 
+curto-circuitadas geram correntes, e, consequentemente, 
+um campo no rotor, de polaridade oposta à do campo 
+Figura 1.12 - Soma gráfica de vetores
+girante do estator. Como campos opostos se atraem e como 
+o campo do estator é rotativo, o rotor tende a acompanhar a 
+rotação deste campo. Desenvolve-se então, no rotor, um 
+conjugado motor que faz com que ele gire, acionando a 
+carga.
+1.5.2 Velocidade Síncrona (ns)
+A velocidade síncrona do motor é definida pela velocidade 
+de rotação do campo girante, a qual depende do número de 
+polos (2p) do motor e da frequência (f) da rede, em Hertz.
+Os enrolamentos podem ser construídos com um ou mais pares 
+de polos, que se distribuem alternadamente (um “norte” e um 
+“sul”) ao longo da periferia do núcleo magnético. O campo 
+girante percorre um par de polos (p) a cada ciclo. Assim, como
+
+[FONTE 2] WEG — Guia de Especificação de Motores Elétricos — 1.6 Materiais e Sistemas de Isolação (p. 15)
+to e da 
+velocidade síncrona.
+ s % 
+n = ns . (1 - ) rpm
+ 100
+1.6 Materiais e Sistemas de Isolação
+Sendo o motor de indução, uma máquina robusta e 
+de construção simples, a sua vida útil depende quase 
+exclusivamente da vida útil da isolação do enrolamento. 
+Esta é afetada por muitos fatores, como umidade, vibrações, 
+ambientes corrosivos e outros. Dentre todos os fatores, o 
+mais importante é, sem dúvida, a temperatura suportada 
+pelos materiais isolantes empregados. 
+Um aumento de 8 a 10 graus acima do limite da classe 
+térmica da temperatura da isolação, pode reduzir a vida útil 
+do enrolamento pela metade. Para um maior tempo de vida 
+do motor elétrico recomendamos a utilização de sensores 
+térmicos para proteção do enrolamento. 
+Quando falamos em diminuição da vida útil do motor, não 
+nos referimos às temperaturas elevadas, quando o isolante 
+se queima e o enrolamento é destruído repentinamente. 
+Vida útil da isolação (em termos de temperatura de trabalho, 
+bem abaixo daquela em que o material se queima), refere-se 
+ao envelhecimento gradual do isolante, que vai se tornando","A vibração excessiva pode ser causada por desbalanceamento da carga ou desalinhamento dos motores [FONTE 1]. Verifique a alinhamento dos motores e a carga [FONTE 2]. [FONTE 3] Não ignore vibrações de baixa frequência, que podem indicar desbalanceamento da carga [FONTE 4].",CH-0037;CH-0042;CH-0341;CH-0081,0.7021,0,MÉDIA,ALTA,,4,15.2,1.0,3,0.6662,0.1667,0.119
+T17,anomalia_eletrica,Que dispositivos de proteção devem ser instalados com o motor?,"Deve ser instalado um dispositivo de proteção contra sobrecarga [FONTE 1]. Para motores trifásicos, recomenda-se instalar um dispositivo de proteção contra falha de fase [FONTE 1]. Quando o motor estiver equipado com dispositivos de monitoramento de temperatura nos enrolamentos do estator e/ou rolamentos, eles devem ser conectados durante a operação e mesmo durante os testes [FONTE 1]. Certifique-se do funcionamento correto dos acessórios instalados no motor antes de ligá-lo [FONTE 1]. Protetores térmicos manuais ou automáticos devem ser instalados conforme a especificação do fabricante [FONTE 2].
+Confiança: ALTA — calculada pela recuperação (relevância do melhor trecho: 1,06).","O motor deve ser instalado com dispositivos de proteção contra sobrecarga e, em motores trifásicos, recomenda-se também dispositivo de proteção contra falha de fase. Quando o motor tem monitoramento de temperatura nos enrolamentos do estator e/ou nos rolamentos, esses dispositivos devem estar conectados durante a operação e mesmo durante os testes.","[FONTE 1] WEG — Manual de Instalação, Operação e Manutenção (WMO Safe Area) — 3 INSTALAÇÃO (p. 17)
+deve ser instalado com dispositivos de proteção contra sobrecarga. Para motores 
+trifásicos, recomenda-se instalar um dispositivo de proteção contra falha de fase. Quando o motor 
+estiver equipado com dispositivos de monitoramento de temperatura nos enrolamentos do estator 
+e/ou rolamentos, eles devem ser conectados durante a operação e mesmo durante os testes.
+Certifique-se do funcionamento correto dos acessórios (freio, codificador, proteção térmica, 
+ventilação forçada, etc.) instalados no motor antes de ligá-lo.
+ATENÇÃO!
+Os motores equipados com protetores térmicos automáticos serão reiniciados 
+automaticamente assim que o motor esfriar. Portanto, não utilize motores com proteção 
+térmica automática em aplicações em que o reinício automático desse dispositivo possa 
+causar ferimentos a pessoas ou danos ao equipamento. Os motores equipados com 
+protetores térmicos manuais requerem reinicialização manual após serem acionados. Se 
+o protetor térmico automático ou o protetor térmico manual forem acionados, desconecte
+
+[FONTE 2] WEG — Guia de Especificação de Motores Elétricos — 7. Características em Regime > 7.2 Proteção térmica de motores elétricos > 7.2.4 Protetores térmicos fenólicos (p. 38)
+comenda utilizar sensores de temperatura na proteção do enrolamento e rolamentos, com o intuito de aumentar a vida útil e 
+confiabilidade do motor elétrico.
+7.2.4 Protetores Térmicos Fenólicos
+São dispositivos do tipo bimetálico com contatos normalmente 
+fechados utilizados principalmente em motores de indução 
+monofásicos para proteção contra sobreaquecimento provocado 
+por sobrecargas, travamento do rotor, quedas de tensão, etc. 
+O protetor térmico consiste basicamente em um disco bimetálico 
+que possui dois contatos móveis, uma resistência e um par de 
+contatos fixos. O protetor é ligado em série com a alimentação e 
+devido à dissipação térmica causada pela passagem da corrente 
+através da resistência interna, ocorre uma deformação do disco, 
+fazendo com que os contatos abram e a alimentação do motor 
+seja interrompida. 
+Quando atingida uma temperatura inferior à especificada, o 
+protetor deve religar. Existem dois tipos de protetores que atuam 
+em função do religamento:
+a) Protetor com religamento automático;
+b) Protetor com religamento manual.","Deve ser instalado um dispositivo de proteção contra sobrecarga [FONTE 1]. Para motores trifásicos, recomenda-se instalar um dispositivo de proteção contra falha de fase [FONTE 1]. Quando o motor estiver equipado com dispositivos de monitoramento de temperatura nos enrolamentos do estator e/ou rolamentos, eles devem ser conectados durante a operação e mesmo durante os testes [FONTE 1]. Certifique-se do funcionamento correto dos acessórios instalados no motor antes de ligá-lo [FONTE 1]. Protetores térmicos manuais ou automáticos devem ser instalados conforme a especificação do fabricante [FONTE 2].",CH-0287;CH-0142;CH-0133;CH-0260,1.0643,0,ALTA,ALTA,,2,19.4,1.0,5,0.7771,0.6154,0.5734
+T18,anomalia_mecanica,Posso usar um motor com rolamento de rolos em acoplamento direto?,"Não é recomendável usar um motor com rolamentos de rolos em acoplamento direto [FONTE 1]. Esses rolamentos requerem carga radial para funcionamento adequado [FONTE 1]. Portanto, não é seguro usar um motor com rolamentos de rolos em acoplamento direto [FONTE 1].
+Confiança: MÉDIA — calculada pela recuperação (relevância do melhor trecho: 0,83).",Não. Rolamentos de rolos não devem ser usados em acoplamento direto: motores equipados com eles exigem carga radial para funcionar adequadamente.,"[FONTE 1] WEG — Manual de Instalação, Operação e Manutenção (WMO Safe Area) — 4 OPERAÇÃO (p. 19)
+G mais próximo.
+Não utilize rolamentos de rolos para acoplamento direto. Motores equipados com rolamentos 
+de rolos requerem carga radial para garantir seu funcionamento adequado.
+Para motores equipados com sistemas de lubrificação a óleo ou névoa de óleo, o sistema de 
+resfriamento deve estar ligado mesmo após a máquina ser desligada e até que a máquina 
+esteja completamente parada.
+Após a paragem completa, os sistemas de refrigeração e lubrificação (se existirem) devem ser 
+desligados e os aquecedores devem ser ligados.
+
+[FONTE 2] WEG — Guia de Especificação de Motores Elétricos — 1.5 Motor de Indução Trifásico (p. 13)
+houvesse um único par de polos girantes, de intensidade 
+constante. Este campo girante, criado pelo enrolamento 
+trifásico do estator, induz tensões nas barras do rotor (linhas 
+de fluxo magnético cortam as barras do rotor), que por estar 
+curto-circuitadas geram correntes, e, consequentemente, 
+um campo no rotor, de polaridade oposta à do campo 
+Figura 1.12 - Soma gráfica de vetores
+girante do estator. Como campos opostos se atraem e como 
+o campo do estator é rotativo, o rotor tende a acompanhar a 
+rotação deste campo. Desenvolve-se então, no rotor, um 
+conjugado motor que faz com que ele gire, acionando a 
+carga.
+1.5.2 Velocidade Síncrona (ns)
+A velocidade síncrona do motor é definida pela velocidade 
+de rotação do campo girante, a qual depende do número de 
+polos (2p) do motor e da frequência (f) da rede, em Hertz.
+Os enrolamentos podem ser construídos com um ou mais pares 
+de polos, que se distribuem alternadamente (um “norte” e um 
+“sul”) ao longo da periferia do núcleo magnético. O campo 
+girante percorre um par de polos (p) a cada ciclo. Assim, como
+
+[FONTE 3] WEG — Manual de Instalação, Operação e Manutenção (WMO Safe Area) — 3 INSTALAÇÃO (p. 17)
+3 INSTALAÇÃO
+ATENÇÃO!
+Durante a instalação, os motores devem ser protegidos contra energização acidental. 
+Verifique o sentido de rotação do motor, girando-o sem carga antes de acoplá-lo 
+à carga. Ao girar o eixo dos motores de ímã permanente (W23 Sync+, WMagnet 
+e WQuattro), é necessário certificar-se de que os terminais estejam isolados para 
+eliminar o risco de choque elétrico devido à tensão induzida.
+Remova os dispositivos de transporte e o dispositivo de travamento do eixo (se fornecido) antes 
+de iniciar a instalação do motor.
+Os motores devem ser instalados apenas em locais compatíveis com suas características de 
+montagem e em aplicações e ambientes para os quais foram projetados.
+Os motores com pés devem ser instalados em bases devidamente planejadas para evitar 
+vibrações e garantir um alinhamento perfeito. O eixo do motor deve estar devidamente alinhado 
+com o eixo da máquina acionada. O alinhamento incorreto, assim como a tensão inadequada 
+da correia, certamente danificará os rolamentos, resultando em vibrações excessivas e até 
+mesmo causando a ruptura do eixo.","Não é recomendável usar um motor com rolamentos de rolos em acoplamento direto [FONTE 1]. Esses rolamentos requerem carga radial para funcionamento adequado [FONTE 1]. Portanto, não é seguro usar um motor com rolamentos de rolos em acoplamento direto [FONTE 1].",CH-0292;CH-0037;CH-0281;CH-0118,0.8301,0,MÉDIA,ALTA,,1,17.1,1.0,3,0.7346,0.3871,0.3226
+T19,manutencao_preventiva,O que deve ser inspecionado na manutenção periódica do motor e onde encontro o intervalo de lubrificação?,"O intervalo de lubrificação recomendado é pelo menos uma vez por mês, girando o eixo do motor pelo menos cinco voltas [FONTE 1]. Para rolamentos com sistemas de lubrificação por névoa de óleo, o motor deve ser armazenado horizontalmente e o eixo deve ser girado semanalmente [FONTE 1]. Além disso, se os motores forem armazenados por mais de dois anos, recomenda-se relubrificar os rolamentos ou removê-los, lavá-los, inspecioná-los e relubrificá-los antes do comissionamento do motor [FONTE 1]. [FONTE 1] não menciona onde encontrar o intervalo de lubrificação.
+Confiança: MÉDIA — calculada pela recuperação (relevância do melhor trecho: 0,79).","Deve-se inspecionar regularmente o funcionamento do motor conforme a aplicação, garantindo fluxo de ar livre, e verificar vedações, parafusos de fixação, rolamentos, níveis de vibração e ruído e o funcionamento do dreno. O intervalo de lubrificação está especificado na placa de identificação do motor.","[FONTE 1] WEG — Manual de Instalação, Operação e Manutenção (WMO Safe Area) — 2 TRANSPORTE, ARMAZENAMENTO E MANUSEIO (p. 16)
+ntos e garantir uma distribuição uniforme do lubrificante, gire o eixo do motor pelo menos 
+uma vez por mês (pelo menos cinco voltas), deixando-o sempre em uma posição diferente. 
+Para rolamentos com sistemas de lubrificação por névoa de óleo, o motor deve ser armazenado 
+horizontalmente, independentemente da configuração de montagem, com óleo ISO VG 68 no 
+rolamento (a quantidade é indicada no manual do motor disponível no site www.weg.net) e o 
+eixo deve ser girado semanalmente. Se os motores com rolamentos abertos forem armazenados 
+por mais de seis meses, os rolamentos devem ser relubrificados com a quantidade de graxa 
+indicada na placa de identificação antes do comissionamento do motor. Se os motores forem 
+armazenados por mais de dois anos, recomenda-se trocar os rolamentos ou removê-los, lavá-los, 
+inspecioná-los e relubrificá-los antes de ligar o motor. Após esse período de armazenamento, 
+também é recomendável trocar os capacitores de partida dos motores monofásicos, pois eles 
+perdem suas características operacionais.
+
+PORTUGUÊS
+
+[FONTE 2] WEG — Guia de Especificação de Motores Elétricos — 7. Características em Regime > 7.3 Regime de Serviço > 7.3.1 Regimes padronizados (p. 39)
+te para permitir 
+que a máquina alcance o equilíbrio térmico. A carga 
+mínima durante um ciclo de regime pode ter o valor zero 
+(funcionamento em vazio ou repouso desenergizado). 
+Figuras 7.18a, b e c.
+Figura 7.18c - Regime de serviço S10
+Nota: nos regimes S3 e S8, o período é geralmente curto demais para que 
+seja atingido o equilíbrio térmico, de modo que o motor vai se aquecendo e 
+resfriando parcialmente a cada ciclo. Depois de um grande número de ciclos 
+o motor atinge uma faixa de elevação de temperatura e equilíbrio.
+k) Regimes especiais
+Onde a carga pode variar durante os períodos de 
+funcionamento, existe reversão ou frenagem por contracorrente, etc., a escolha do motor adequado, deve ser feita 
+mediante consulta à fábrica e depende de uma descrição 
+completa do ciclo:
+g Potência necessária para acionar a carga. Se a carga varia 
+ciclicamente, deve-se fornecer um gráfico de 
+ carga x tempo, como exemplificado na Figura 7.15.
+g Conjugado resistente da carga.
+g Momento de inércia total (GD2 ou J) da máqui","O intervalo de lubrificação recomendado é pelo menos uma vez por mês, girando o eixo do motor pelo menos cinco voltas [FONTE 1]. Para rolamentos com sistemas de lubrificação por névoa de óleo, o motor deve ser armazenado horizontalmente e o eixo deve ser girado semanalmente [FONTE 1]. Além disso, se os motores forem armazenados por mais de dois anos, recomenda-se relubrificar os rolamentos ou removê-los, lavá-los, inspecioná-los e relubrificá-los antes do comissionamento do motor [FONTE 1]. [FONTE 1] não menciona onde encontrar o intervalo de lubrificação.",CH-0277;CH-0154;CH-0261;CH-0217,0.7859,0,MÉDIA,MÉDIA,,1,20.4,0.75,4,0.7655,0.3066,0.1898
+T20,manutencao_preventiva,Quais cuidados de segurança devo tomar antes de iniciar uma manutenção no motor?,"[FONTE 1] Antes de iniciar a manutenção, é necessário desligar o motor e esperar que ele esfrie completamente [FONTE 1]. [FONTE 2] Além disso, é recomendável usar equipamentos de proteção individual adequados, como luvas e óculos de proteção [FONTE 2]. [FONTE 3] É importante verificar se todos os dispositivos de segurança estão desligados e desabilitados [FONTE 3]. [FONTE 4] Após a manutenção, é necessário realizar uma verificação final para garantir que todos os componentes estão funcionando corretamente [FONTE 4].
+Confiança: MÉDIA — calculada pela recuperação (relevância do melhor trecho: 0,81).","Garantir que o motor esteja parado, desconectado da fonte de alimentação e protegido contra energização acidental. Mesmo parado pode haver tensão perigosa nos terminais do aquecedor, e motores com capacitores exigem que eles sejam descarregados antes de qualquer manuseio. Durante o período de garantia, a desmontagem só pode ser feita por centro de serviço autorizado WEG; motores de ímã permanente exigem dispositivos adequados por causa das forças de atração e repulsão dos ímãs.","[FONTE 1] WEG — Guia de Especificação de Motores Elétricos — 6. Motofreio Trifásico > 6.5 Ajuste do Entreferro (p. 33)
+icamente dispostas evitando que 
+continue existindo fricção mesmo após acionado o motor, 
+e ocasione o desgaste desuniforme das pastilhas.
+6.5 Ajuste do Entreferro
+Os motofreios são fornecidos com o entreferro inicial, ou 
+seja, a distância entre a armadura e a carcaça com o freio 
+aplicado, pré-ajustado pela fábrica em seu valor mínimo 
+indicado na Tabela 6.1.
+Por serem de construção simples, os motofreios 
+praticamente dispensam manutenção, a não ser a ajustagem 
+periódica do entreferro. Recomenda-se proceder uma 
+limpeza interna, quando houver penetração de água, 
+poeiras, etc, ou por ocasião da manutenção periódica do 
+motor.
+Com o desgaste natural das pastilhas, o entreferro aumenta 
+gradativamente, não afetando o bom funcionamento do freio 
+até que ele atinja o valor máximo indicado na Tabela 6.1.
+Para reajustar o entreferro a seus valores iniciais, procede-se 
+como segue:
+a) Retirar os parafusos de fixação e remover a Tampa 
+ defletora;
+b) Remover o anel de proteção;
+c) Medir o entreferro em três pontos, próximos aos parafusos
+
+[FONTE 2] WEG — Guia de Especificação de Motores Elétricos — 6. Motofreio Trifásico > 6.5 Ajuste do Entreferro (p. 33)
+nto até que sua ponta 
+ 
+fique apoiada na tampa do motor. Não apertar em
+ 
+demasia;
+Tabela 6.1 - Distâncias recomendadas de entreferro
+www.weg.net
+
+Especificação do Motor Elétrico
+34
+ 4. Apertar firmemente as contraporcas;
+ 5. Fazer verificação final do entreferro, procedendo as 
+ 
+medições conforme o item 2;
+ 6. Recolocar a cinta de proteção;
+ 7. Recolocar a tampa defletora, fixando com os 
+ 
+ 
+parafusos.
+Intervalos para inspeção e ajuste do entreferro
+O intervalo de tempo entre as reajustagens periódicas do 
+entreferro, ou seja, o número de operações de frenagem até 
+que o desgaste das pastilhas leve o entreferro ao seu valor 
+máximo, depende da carga, das condições de serviço, das 
+impurezas do ambiente de trabalho, etc. O intervalo ideal 
+poderá ser determinado pela manutenção, observando-se o 
+comportamento do motofreio nos primeiros meses de 
+funcionamento, nas condições reais de trabalho. 
+O desgaste das pastilhas depende do momento de inércia 
+da carga acionada.
+A WEG dispõe de outras","[FONTE 1] Antes de iniciar a manutenção, é necessário desligar o motor e esperar que ele esfrie completamente [FONTE 1]. [FONTE 2] Além disso, é recomendável usar equipamentos de proteção individual adequados, como luvas e óculos de proteção [FONTE 2]. [FONTE 3] É importante verificar se todos os dispositivos de segurança estão desligados e desabilitados [FONTE 3]. [FONTE 4] Após a manutenção, é necessário realizar uma verificação final para garantir que todos os componentes estão funcionando corretamente [FONTE 4].",CH-0118;CH-0120;CH-0281;CH-0293,0.809,0,MÉDIA,ALTA,,4,19.4,0.75,4,0.7884,0.2237,0.1316

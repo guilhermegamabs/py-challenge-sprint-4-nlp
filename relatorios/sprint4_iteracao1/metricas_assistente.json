@@ -1,0 +1,98 @@
+{
+  "modelo_llm": "F:/hf-cache/hub/models--Qwen--Qwen2.5-3B-Instruct-GGUF/snapshots/7dabda4d13d513e3e842b20f0d435c732f172cbe/qwen2.5-3b-instruct-q4_k_m.gguf",
+  "n_perguntas": 20,
+  "faithfulness_medio": 0.76,
+  "answer_relevancy_medio": 0.7604,
+  "rouge1_f_medio": 0.4031,
+  "rougeL_f_medio": 0.3117,
+  "respostas_com_citacao_pct": 95.0,
+  "confianca_declarada_pct": 100.0,
+  "tempo_medio_s": 22.3,
+  "por_categoria": {
+    "faithfulness": {
+      "anomalia_eletrica": 0.8333,
+      "anomalia_mecanica": 1.0,
+      "especificacao": 0.6286,
+      "manutencao_preventiva": 0.76
+    },
+    "answer_relevancy": {
+      "anomalia_eletrica": 0.7037,
+      "anomalia_mecanica": 0.6876,
+      "especificacao": 0.8092,
+      "manutencao_preventiva": 0.7893
+    },
+    "rouge1_f": {
+      "anomalia_eletrica": 0.4605,
+      "anomalia_mecanica": 0.2699,
+      "especificacao": 0.419,
+      "manutencao_preventiva": 0.3651
+    }
+  },
+  "fora_de_escopo_recusa_pct": 100.0,
+  "fora_de_escopo_recusa_por_limiar": 2,
+  "recusas_indevidas_no_gabarito": [
+    "T13"
+  ],
+  "distribuicao_confianca_recuperacao": {
+    "MÉDIA": 12,
+    "ALTA": 7,
+    "BAIXA": 1
+  },
+  "distribuicao_confianca_modelo": {
+    "ALTA": 19,
+    "NAO_GERADA": 1
+  },
+  "respostas_com_numero_sem_suporte": [
+    "T01",
+    "T05",
+    "T18"
+  ],
+  "faithfulness_por_confianca": {
+    "ALTA": 0.6857,
+    "BAIXA": 1.0,
+    "MÉDIA": 0.7833
+  },
+  "sentencas_sem_suporte": {
+    "T01": [
+      "A temperatura máxima do ponto mais quente para a classe de isolamento F é 150 °C  .",
+      "Esta temperatura é determinada pela elevação de temperatura máxima especificada para cada classe de isolamento, que é 15 °C para a classe F  .",
+      "A composição da temperatura admissível do ponto mais quente é composta pela temperatura ambiente e a elevação de temperatura máxima para cada classe de isolamento  .",
+      "indica que para a classe F, a elevação de temperatura máxima é 15 °C."
+    ],
+    "T02": [
+      "A elevação de temperatura é visualizada na Figura 7.1, onde é indicado a soma da queda interna com a queda externa  ."
+    ],
+    "T03": [
+      "Portanto, a capacidade do motor pode ser reduzida  .",
+      "Segundo a tabela 8.3, a capacidade de dissipação da potência do motor pode ser diminuída em até 20%  ."
+    ],
+    "T05": [
+      "A redução é de 5% para cada 100 m de altitude, então para 2.000 m, a redução é de 10%  .",
+      "A nova temperatura ambiente é de 40 °C - (40 °C * 0,10) = 36 °C  .",
+      "A potência útil do motor é 100 cv * 0,98 = 98 cv  ."
+    ],
+    "T07": [
+      "As resistências de aquecimento aquecem o interior do motor alguns graus acima da temperatura ambiente (5 a 10 °C), quando o motor está desligado  .",
+      "A tensão de alimentação das resistências de aquecimento deve ser especificada  .",
+      "Os termistores PTC e NTC são usados para proteção contra sobreaquecimento, com termistores PTC interrompendo a corrente e desligando o circuito principal  ."
+    ],
+    "T08": [
+      "Os motores WEG apresentam no máximo 11 dB(A) de acréscimo no nível de pressão sonora global quando alimentados por inversores de frequência PWM e operando na frequência nominal  ."
+    ],
+    "T09": [
+      "A corrente de rotor bloqueado é expressa nas normas como: Ip = Corrente com rotor bloqueado; In = Corrente nominal  .",
+      "A corrente de rotor bloqueado é expressa em termos da potência aparente absorvida com rotor bloqueado em relação à potência nominal, kVA/cv ou kVA/kW  ."
+    ],
+    "T12": [
+      "Outra causa é a dificuldade na partida do motor, como queda de tensão excessiva, inércia ou torque da carga muito elevado, que pode deixar a bobina auxiliar energizada por muito tempo  .",
+      "Penetração de objetos estranhos no motor pode impedir a abertura do conjunto centrífugo/platinado, mantendo a bobina auxiliar energizada  ."
+    ],
+    "T15": [
+      "Após esse período de armazenamento, também é recomendável trocar os capacitores de partida dos motores monofásicos, pois eles perdem suas características operacionais  ."
+    ],
+    "T20": [
+      "Para iniciar a manutenção no motor, é necessário desligar o motor e esperar que ele esfrie completamente  .",
+      "Em seguida, remova o anel de proteção e a tampa defletora para acessar o interior do motor  ."
+    ]
+  }
+}

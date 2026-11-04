@@ -1,0 +1,124 @@
+# execucao: 2026-11-04T15:08:29-03:00
+== retriever ==
+{'configuracao': 'denso_puro', 'context_precision': 0.25, 'context_recall': 0.8, 'hit_rate': 0.8, 'mrr': 0.5625}
+{'configuracao': 'denso_lexical', 'context_precision': 0.3375, 'context_recall': 0.9, 'hit_rate': 0.9, 'mrr': 0.7583}
+{'configuracao': 'denso_lexical_contexto', 'context_precision': 0.3125, 'context_recall': 0.9, 'hit_rate': 0.9, 'mrr': 0.6958}
+
+== respostas do assistente ==
+backend: llama_cpp | modelo: F:/hf-cache/hub/models--Qwen--Qwen2.5-3B-Instruct-GGUF/snapshots/7dabda4d13d513e3e842b20f0d435c732f172cbe/qwen2.5-3b-instruct-q4_k_m.gguf
+[1/20] T01 (19.0s)
+[2/20] T02 (23.8s)
+[3/20] T03 (19.6s)
+[4/20] T04 (15.9s)
+[5/20] T05 (31.2s)
+[6/20] T06 (23.6s)
+[7/20] T07 (21.6s)
+[8/20] T08 (17.3s)
+[9/20] T09 (18.6s)
+[10/20] T10 (14.7s)
+[11/20] T11 (23.7s)
+[12/20] T12 (21.7s)
+[13/20] T13 (0.0s)
+[14/20] T14 (13.6s)
+[15/20] T15 (16.0s)
+[16/20] T16 (24.2s)
+[17/20] T17 (20.6s)
+[18/20] T18 (16.2s)
+[19/20] T19 (24.0s)
+[20/20] T20 (11.7s)
+
+== fora de escopo ==
+[fora de escopo] F01 recusou=0
+[fora de escopo] F02 recusou=1
+[fora de escopo] F03 recusou=1
+[fora de escopo] F04 recusou=0
+
+== cenarios de demonstracao ==
+[cenario anomalia_eletrica] turno respondido
+[cenario anomalia_eletrica] turno respondido
+[cenario anomalia_mecanica] turno respondido
+[cenario anomalia_mecanica] turno respondido
+[cenario manutencao_preventiva] turno respondido
+[cenario manutencao_preventiva] turno respondido
+
+== metricas de geracao ==
+{
+  "modelo_llm": "F:/hf-cache/hub/models--Qwen--Qwen2.5-3B-Instruct-GGUF/snapshots/7dabda4d13d513e3e842b20f0d435c732f172cbe/qwen2.5-3b-instruct-q4_k_m.gguf",
+  "n_perguntas": 20,
+  "faithfulness_medio": 0.6375,
+  "answer_relevancy_medio": 0.6646,
+  "rouge1_f_medio": 0.3546,
+  "rougeL_f_medio": 0.2723,
+  "respostas_com_citacao_pct": 90.0,
+  "confianca_declarada_pct": 100.0,
+  "tempo_medio_s": 18.9,
+  "fora_de_escopo_recusa_pct": 50.0,
+  "fora_de_escopo_recusa_por_limiar": 2,
+  "recusas_indevidas_no_gabarito": [
+    "T13"
+  ],
+  "distribuicao_confianca_recuperacao": {
+    "MÉDIA": 12,
+    "ALTA": 7,
+    "BAIXA": 1
+  },
+  "distribuicao_confianca_modelo": {
+    "ALTA": 18,
+    "NAO_GERADA": 1,
+    "BAIXA": 1
+  },
+  "respostas_com_numero_sem_suporte": [
+    "T05"
+  ],
+  "faithfulness_por_confianca": {
+    "ALTA": 0.5357,
+    "BAIXA": 1.0,
+    "MÉDIA": 0.6667
+  }
+}
+{
+  "sprint3": {
+    "faithfulness_medio": 0.7433,
+    "answer_relevancy_medio": 0.7248,
+    "respostas_com_citacao_pct": 100.0,
+    "fora_de_escopo_recusadas": "3 de 4",
+    "fora_de_escopo_nao_recusadas": [
+      "F02"
+    ],
+    "confianca_exibida": {
+      "ALTA": 20
+    },
+    "confianca_do_modelo": {
+      "ALTA": 20
+    },
+    "respostas_com_numero_sem_suporte": [
+      "T01",
+      "T05"
+    ],
+    "tempo_medio_s": 20.3
+  },
+  "sprint4": {
+    "faithfulness_medio": 0.6375,
+    "answer_relevancy_medio": 0.6646,
+    "respostas_com_citacao_pct": 90.0,
+    "fora_de_escopo_recusadas": "2 de 4",
+    "fora_de_escopo_nao_recusadas": [
+      "F01",
+      "F04"
+    ],
+    "confianca_exibida": {
+      "MÉDIA": 12,
+      "ALTA": 7,
+      "BAIXA": 1
+    },
+    "confianca_do_modelo": {
+      "ALTA": 18,
+      "NAO_GERADA": 1,
+      "BAIXA": 1
+    },
+    "respostas_com_numero_sem_suporte": [
+      "T05"
+    ],
+    "tempo_medio_s": 18.9
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "narrativa": {
+    "n_alertas": 24,
+    "rouge_f1": {
+      "rouge1_f": 0.5498,
+      "rouge2_f": 0.2962,
+      "rougeL_f": 0.4053
+    },
+    "checklist_score_medio": 1.0,
+    "checklist_aprovacao_pct": {
+      "clareza_tamanho": 100.0,
+      "clareza_frases_curtas": 100.0,
+      "clareza_sem_placeholder": 100.0,
+      "precisao_identifica_ativo": 100.0,
+      "precisao_identifica_grandeza": 100.0,
+      "precisao_sem_numero_alucinado": 100.0,
+      "precisao_direcao_do_desvio": 100.0,
+      "utilidade_recomendacao": 100.0,
+      "utilidade_tom_de_urgencia": 100.0,
+      "rastreabilidade_fonte": 100.0
+    }
+  },
+  "classificacao": {
+    "zero_shot_teste_macro_f1": 0.6032,
+    "zero_shot_total_macro_f1": 0.6038,
+    "hibrido_teste_macro_f1": 0.8377,
+    "hibrido_total_macro_f1": 0.7975,
+    "baseline_teste_macro_f1": 0.7626,
+    "zero_shot_f1_por_categoria": {
+      "manutencao_corretiva": 0.1429,
+      "manutencao_preventiva": 0.6667,
+      "anomalia_eletrica": 0.7586,
+      "anomalia_mecanica": 0.5909,
+      "operacao_normal": 0.8571
+    },
+    "hibrido_f1_por_categoria": {
+      "manutencao_corretiva": 0.963,
+      "manutencao_preventiva": 0.7826,
+      "anomalia_eletrica": 0.7857,
+      "anomalia_mecanica": 0.8,
+      "operacao_normal": 0.8571
+    },
+    "baseline_f1_por_categoria": {
+      "manutencao_corretiva": 0.7407,
+      "manutencao_preventiva": 0.7586,
+      "anomalia_eletrica": 0.9286,
+      "anomalia_mecanica": 0.6897,
+      "operacao_normal": 0.6957
+    }
+  }
+}

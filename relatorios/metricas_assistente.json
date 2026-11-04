@@ -1,0 +1,99 @@
+{
+  "modelo_llm": "F:/hf-cache/hub/models--Qwen--Qwen2.5-3B-Instruct-GGUF/snapshots/7dabda4d13d513e3e842b20f0d435c732f172cbe/qwen2.5-3b-instruct-q4_k_m.gguf",
+  "n_perguntas": 20,
+  "faithfulness_medio": 0.6775,
+  "answer_relevancy_medio": 0.7338,
+  "rouge1_f_medio": 0.3783,
+  "rougeL_f_medio": 0.2912,
+  "respostas_com_citacao_pct": 95.0,
+  "confianca_declarada_pct": 100.0,
+  "tempo_medio_s": 19.9,
+  "por_categoria": {
+    "faithfulness": {
+      "anomalia_eletrica": 0.8333,
+      "anomalia_mecanica": 1.0,
+      "especificacao": 0.4571,
+      "manutencao_preventiva": 0.67
+    },
+    "answer_relevancy": {
+      "anomalia_eletrica": 0.6491,
+      "anomalia_mecanica": 0.7004,
+      "especificacao": 0.7916,
+      "manutencao_preventiva": 0.7677
+    },
+    "rouge1_f": {
+      "anomalia_eletrica": 0.3856,
+      "anomalia_mecanica": 0.2769,
+      "especificacao": 0.413,
+      "manutencao_preventiva": 0.3615
+    }
+  },
+  "fora_de_escopo_recusa_pct": 100.0,
+  "fora_de_escopo_recusa_por_limiar": 2,
+  "recusas_indevidas_no_gabarito": [
+    "T13"
+  ],
+  "distribuicao_confianca_recuperacao": {
+    "MÉDIA": 12,
+    "ALTA": 7,
+    "BAIXA": 1
+  },
+  "distribuicao_confianca_modelo": {
+    "ALTA": 18,
+    "NAO_GERADA": 1,
+    "MÉDIA": 1
+  },
+  "respostas_com_numero_sem_suporte": [
+    "T01",
+    "T05"
+  ],
+  "faithfulness_por_confianca": {
+    "ALTA": 0.5643,
+    "BAIXA": 1.0,
+    "MÉDIA": 0.7167
+  },
+  "sentencas_sem_suporte": {
+    "T01": [
+      "Para a classe de isolamento F, a temperatura máxima do ponto mais quente é de 150 °C  ."
+    ],
+    "T02": [
+      "A elevação de temperatura é a soma da queda interna e da queda externa, como indicado na figura  .",
+      "A queda interna pode ser medida no interior do motor, na ranhura onde ocorre o calor proveniente das perdas nos condutores  .",
+      "A queda externa é medida na superfície externa do motor, onde o ar é um péssimo condutor de calor  .",
+      "A medida precisa deve ser realizada em locais como os pontos mais quentes e os fios externos, conforme mostrado na Figura 7.2  ."
+    ],
+    "T03": [
+      "No entanto, a capacidade de dissipação da potência do motor pode ser reduzida, conforme indicado na tabela 8.3 de  .",
+      "Portanto, a instalação a 1.500 metros pode reduzir a capacidade de dissipação da potência do motor, mas não afeta sua capacidade para sobrecargas momentâneas."
+    ],
+    "T04": [
+      "b) Formação de gelo nos mancais, provocando endurecimento das graxas ou lubrificantes nos mancais, exigindo o emprego de lubrificantes especiais ou graxa anticongelante (consulte nosso site)  ."
+    ],
+    "T05": [
+      "Para calcular a potência útil do motor, primeiro determinamos a redução necessária na temperatura ambiente, que é de 1% para cada 100 m de altitude acima de 1.000 m.",
+      "Com 2.000 m de altitude, a redução é de 2%.",
+      "Portanto, a temperatura ambiente máxima está em 40 °C - (2% * 40 °C) = 40 °C - 8 °C = 32 °C.",
+      "Com a temperatura ambiente reduzida para 32 °C, usamos a tabela para encontrar o fator de multiplicação.",
+      "Na tabela, para 2.000 m de altitude e 32 °C, o fator de multiplicação é 0,90.",
+      "Então, a potência útil do motor é calculada multiplicando a potência nominal pelo fator de multiplicação: 2.000 cv * 0,90 = 1.800 cv."
+    ],
+    "T07": [
+      "Use a resistência de aquecimento quando o motor elétrico está instalado em ambientes muito úmidos, com umidade superior a 95%, e/ou com possibilidade de ficar desligado por longos períodos (acima de 24 horas)  .",
+      "Ela aquece o interior do motor alguns graus acima da temperatura ambiente (5 a 10 °C) quando o motor está desligado  .",
+      "A tensão de alimentação das resistências de aquecimento deve ser especificada  ."
+    ],
+    "T12": [
+      "O enrolamento auxiliar sobreaquece devido a uma ou mais das seguintes causas  : g Conexão incorreta dos cabos de ligação do motor; g Dificuldade na partida do motor (queda de tensão excessiva, inércia e/ou torque da carga muito elevado); g Excessivo número de partidas em tempo curto; g Motor operando em vazio ou com carga muito baixa."
+    ],
+    "T15": [
+      "Para armazenar um motor parado por longo período, é recomendável remover o ventilador e a tampa da caixa de terminais para evitar impactos nos rolamentos  .",
+      "Após esse período de armazenamento, também é recomendável trocar os capacitores de partida dos motores monofásicos, pois eles perdem suas características operacionais  ."
+    ],
+    "T19": [
+      "não menciona onde encontrar o intervalo de lubrificação."
+    ],
+    "T20": [
+      "Antes de iniciar a manutenção, é necessário desligar o motor e esperar que ele esfrie completamente  ."
+    ]
+  }
+}

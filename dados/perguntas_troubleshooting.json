@@ -1,0 +1,203 @@
+{
+  "metadata": {
+    "descricao": "Conjunto de avaliação do assistente conversacional de troubleshooting (Sprint 4). 20 perguntas com resposta de referência extraída manualmente dos documentos técnicos indexados, mais 4 perguntas fora de escopo para documentar os limites do sistema.",
+    "autoria": "Grupo CodeX — perguntas e respostas de referência escritas a partir da leitura direta dos manuais WEG indexados em indice_rag/.",
+    "data": "2026-06-20",
+    "total_no_escopo": 20,
+    "total_fora_de_escopo": 4,
+    "uso": "context precision e recall do retriever (via fontes_gold), faithfulness e answer relevancy das respostas geradas (via resposta_referencia).",
+    "campos": {
+      "categoria": "anomalia_eletrica | anomalia_mecanica | manutencao_preventiva | especificacao",
+      "fontes_gold": "documento e trecho de seção que sustentam a resposta; um chunk recuperado conta como relevante quando casa com uma destas entradas",
+      "chunks_gold": "ids observados no índice atual (referência auxiliar; a avaliação usa fontes_gold)"
+    }
+  },
+  "perguntas": [
+    {
+      "id": "T01",
+      "categoria": "especificacao",
+      "pergunta": "Qual a temperatura máxima do ponto mais quente para a classe de isolamento F e como ela se compõe?",
+      "resposta_referencia": "Para a classe F o limite do ponto mais quente é 155 °C, composto por 40 °C de temperatura ambiente, 105 °C de elevação de temperatura medida pelo método da resistência e 10 °C de diferença entre o ponto mais quente e a temperatura média do enrolamento.",
+      "fontes_gold": [{"doc_id": "guia_especificacao", "secao_contem": "7.1.3 Classes de isolamento"}],
+      "chunks_gold": ["CH-0132"]
+    },
+    {
+      "id": "T02",
+      "categoria": "especificacao",
+      "pergunta": "Como se mede corretamente a elevação de temperatura do enrolamento de um motor?",
+      "resposta_referencia": "O método mais confiável é pela variação da resistência ôhmica do enrolamento, e não por termômetro ou termopar, porque a temperatura varia de ponto a ponto e não se sabe se a medição está próxima do ponto mais quente. A elevação é calculada a partir das resistências antes e depois do ensaio, com a constante 235 para o cobre.",
+      "fontes_gold": [{"doc_id": "guia_especificacao", "secao_contem": "7.1.3 Classes de isolamento"}],
+      "chunks_gold": ["CH-0131"]
+    },
+    {
+      "id": "T03",
+      "categoria": "especificacao",
+      "pergunta": "O motor está instalado a 1.500 metros de altitude. Isso afeta a capacidade do motor?",
+      "resposta_referencia": "Sim. Acima de 1.000 m o ar rarefeito reduz a troca de calor e o motor aquece mais, exigindo redução de perdas e, portanto, de potência. Pela IEC 60034-1, reduz-se 1% dos limites de elevação de temperatura a cada 100 m acima de 1.000 m, regra válida até 4.000 m. No exemplo do guia, um motor classe F com ΔT de 80 K a 1.500 m tem a temperatura ambiente máxima reduzida em 5%, de 40 °C para 36 °C.",
+      "fontes_gold": [{"doc_id": "guia_especificacao", "secao_contem": "8.1 Altitude"}],
+      "chunks_gold": ["CH-0164", "CH-0165"]
+    },
+    {
+      "id": "T04",
+      "categoria": "especificacao",
+      "pergunta": "Quais problemas aparecem em motores que operam abaixo de -20 °C?",
+      "resposta_referencia": "Ocorre condensação excessiva, exigindo drenagem adicional ou resistência de aquecimento quando o motor fica muito tempo parado, e formação de gelo nos mancais, que endurece a graxa e obriga o uso de lubrificantes especiais ou graxa anticongelante.",
+      "fontes_gold": [{"doc_id": "guia_especificacao", "secao_contem": "8.2 Temperatura Ambiente"}],
+      "chunks_gold": ["CH-0166"]
+    },
+    {
+      "id": "T05",
+      "categoria": "especificacao",
+      "pergunta": "Como calcular a potência útil de um motor que vai operar a 2.000 m de altitude e 40 °C de temperatura ambiente?",
+      "resposta_referencia": "Multiplica-se a potência útil pelo fator de multiplicação da Tabela 8.1, que combina temperatura ambiente e altitude. Para 40 °C e 2.000 m o fator é 0,94, ou seja, a potência disponível cai para 94% da nominal.",
+      "fontes_gold": [{"doc_id": "guia_especificacao", "secao_contem": "8.2 Temperatura Ambiente"}],
+      "chunks_gold": ["CH-0167"]
+    },
+    {
+      "id": "T06",
+      "categoria": "especificacao",
+      "pergunta": "Quais são os graus de proteção IP mais usuais em motores e o que eles indicam?",
+      "resposta_referencia": "Os graus usuais são IP21, IP23, IP44 e IP55. IP21 e IP23 correspondem a motores abertos; IP44 e IP55, a motores fechados. Para aplicações mais rigorosas existem ainda IP55W (proteção contra intempéries), IP56 (água de vagalhões) e IP65 (totalmente protegido contra poeiras).",
+      "fontes_gold": [{"doc_id": "guia_especificacao", "secao_contem": "8.5.2 Tipos usuais de graus de proteção"}],
+      "chunks_gold": ["CH-0177"]
+    },
+    {
+      "id": "T07",
+      "categoria": "manutencao_preventiva",
+      "pergunta": "Quando devo usar resistência de aquecimento no motor e o que ela faz?",
+      "resposta_referencia": "A resistência de aquecimento é usada em ambientes muito úmidos (umidade acima de 95%) ou quando o motor pode ficar desligado por longos períodos, acima de 24 horas. Ela aquece o interior do motor de 5 a 10 °C acima da temperatura ambiente enquanto ele está desligado, impedindo o acúmulo de água por condensação do ar úmido.",
+      "fontes_gold": [{"doc_id": "guia_especificacao", "secao_contem": "8.6 Resistência de Aquecimento"}],
+      "chunks_gold": ["CH-0185"]
+    },
+    {
+      "id": "T08",
+      "categoria": "especificacao",
+      "pergunta": "Existe norma para o nível de ruído dos motores WEG?",
+      "resposta_referencia": "Sim. Os motores WEG atendem às normas NEMA, IEC e NBR, que fixam os limites máximos de nível de potência sonora em decibéis; os valores tabelados no guia seguem a IEC 60034-9 e variam conforme a carcaça e o número de polos.",
+      "fontes_gold": [{"doc_id": "guia_especificacao", "secao_contem": "8.7 Limites de Ruídos"}],
+      "chunks_gold": ["CH-0184"]
+    },
+    {
+      "id": "T09",
+      "categoria": "anomalia_eletrica",
+      "pergunta": "Como é expressa a corrente de rotor bloqueado nas normas?",
+      "resposta_referencia": "Os limites máximos de corrente com rotor bloqueado são expressos em termos da potência aparente absorvida com rotor bloqueado em relação à potência nominal, na razão kVA/cv ou kVA/kW (Sp/Pn), calculada a partir da corrente de partida e da tensão nominal. Os limites valem para qualquer número de polos, variando conforme a faixa de potência.",
+      "fontes_gold": [{"doc_id": "guia_especificacao", "secao_contem": "4.5.1 Valores máximos normalizados"}],
+      "chunks_gold": ["CH-0102"]
+    },
+    {
+      "id": "T10",
+      "categoria": "anomalia_eletrica",
+      "pergunta": "O enrolamento principal do motor monofásico apresentou curto entre espiras. Quais são as causas prováveis?",
+      "resposta_referencia": "As causas prováveis são contaminação interna do motor, falha do esmalte de isolação do fio, falha do verniz de impregnação e oscilações rápidas na tensão de alimentação.",
+      "fontes_gold": [{"doc_id": "danos_enrolamento", "secao_contem": "Característica da queima"}],
+      "chunks_gold": ["CH-0319"]
+    },
+    {
+      "id": "T11",
+      "categoria": "anomalia_eletrica",
+      "pergunta": "O que pode causar sobreaquecimento do enrolamento principal em um motor IP55?",
+      "resposta_referencia": "Cabos de alimentação muito longos ou muito finos, conexão incorreta dos cabos de ligação, excesso de carga na ponta de eixo, sobretensão ou subtensão na rede de alimentação e ventilação deficiente — temperatura ambiente elevada, motor em local confinado, obstrução das entradas de ar, sujeira sobre a carcaça ou tampa defletora danificada ou obstruída.",
+      "fontes_gold": [{"doc_id": "danos_enrolamento", "secao_contem": "Característica da queima"}],
+      "chunks_gold": ["CH-0321"]
+    },
+    {
+      "id": "T12",
+      "categoria": "anomalia_eletrica",
+      "pergunta": "Por que o enrolamento auxiliar de um motor monofásico sobreaquece?",
+      "resposta_referencia": "Por conexão incorreta dos cabos de ligação, por dificuldade na partida — queda de tensão excessiva, inércia ou torque de carga elevados — que retarda a abertura do conjunto centrífugo/platinado e mantém a bobina auxiliar energizada por muito tempo, por número excessivo de partidas em curto intervalo e por penetração de objetos estranhos que impedem a abertura do conjunto centrífugo.",
+      "fontes_gold": [{"doc_id": "danos_enrolamento", "secao_contem": "Característica da queima"}],
+      "chunks_gold": ["CH-0322"]
+    },
+    {
+      "id": "T13",
+      "categoria": "anomalia_eletrica",
+      "pergunta": "Metade do enrolamento principal queimou e a outra metade está intacta. O que isso indica?",
+      "resposta_referencia": "Indica falha da chave comutadora de tensão posicionada para a menor tensão de alimentação, ou picos de sobrecarga que provocam o fechamento do centrífugo e do platinado com o motor alimentado na maior tensão. A metade que queima é a que não está em paralelo com o enrolamento auxiliar.",
+      "fontes_gold": [{"doc_id": "danos_enrolamento", "secao_contem": "Característica da queima"}],
+      "chunks_gold": ["CH-0319"]
+    },
+    {
+      "id": "T14",
+      "categoria": "manutencao_preventiva",
+      "pergunta": "Um motor queimou. Qual a primeira providência antes de rebobinar?",
+      "resposta_referencia": "Identificar a causa da queima pela análise do enrolamento danificado. A causa precisa ser identificada e eliminada, caso contrário a falha se repetirá — a especificação correta do motor é o primeiro requisito, mas instalação, operação e manutenção corretas também são imprescindíveis.",
+      "fontes_gold": [{"doc_id": "danos_enrolamento", "secao_contem": "Característica da queima"}],
+      "chunks_gold": ["CH-0323"]
+    },
+    {
+      "id": "T15",
+      "categoria": "manutencao_preventiva",
+      "pergunta": "Como armazenar um motor parado por longo período sem danificar os rolamentos?",
+      "resposta_referencia": "Girar o eixo do motor pelo menos uma vez por mês, no mínimo cinco voltas, deixando-o sempre em posição diferente, para evitar marcas nos rolamentos e garantir distribuição uniforme do lubrificante. Motores com lubrificação por névoa de óleo devem ser armazenados na horizontal, com óleo ISO VG 68 no rolamento, independentemente da configuração de montagem. Após armazenamento prolongado recomenda-se também trocar os capacitores de partida dos motores monofásicos.",
+      "fontes_gold": [{"doc_id": "manual_wmo", "secao_contem": "TRANSPORTE, ARMAZENAMENTO E MANUSEIO"}],
+      "chunks_gold": ["CH-0277"]
+    },
+    {
+      "id": "T16",
+      "categoria": "anomalia_mecanica",
+      "pergunta": "O motor apresenta vibração excessiva depois de acoplado à carga. O que verificar na instalação?",
+      "resposta_referencia": "Alinhamento incorreto e tensão inadequada da correia danificam os rolamentos e provocam vibração excessiva, podendo até romper o eixo. Devem ser respeitadas as cargas radiais e axiais admissíveis do eixo indicadas no manual e, sempre que possível, deve-se usar acoplamento flexível.",
+      "fontes_gold": [{"doc_id": "manual_wmo", "secao_contem": "INSTALAÇÃO"}],
+      "chunks_gold": ["CH-0282"]
+    },
+    {
+      "id": "T17",
+      "categoria": "anomalia_eletrica",
+      "pergunta": "Que dispositivos de proteção devem ser instalados com o motor?",
+      "resposta_referencia": "O motor deve ser instalado com dispositivos de proteção contra sobrecarga e, em motores trifásicos, recomenda-se também dispositivo de proteção contra falha de fase. Quando o motor tem monitoramento de temperatura nos enrolamentos do estator e/ou nos rolamentos, esses dispositivos devem estar conectados durante a operação e mesmo durante os testes.",
+      "fontes_gold": [{"doc_id": "manual_wmo", "secao_contem": "INSTALAÇÃO"}],
+      "chunks_gold": ["CH-0287"]
+    },
+    {
+      "id": "T18",
+      "categoria": "anomalia_mecanica",
+      "pergunta": "Posso usar um motor com rolamento de rolos em acoplamento direto?",
+      "resposta_referencia": "Não. Rolamentos de rolos não devem ser usados em acoplamento direto: motores equipados com eles exigem carga radial para funcionar adequadamente.",
+      "fontes_gold": [{"doc_id": "manual_wmo", "secao_contem": "OPERAÇÃO"}],
+      "chunks_gold": ["CH-0292"]
+    },
+    {
+      "id": "T19",
+      "categoria": "manutencao_preventiva",
+      "pergunta": "O que deve ser inspecionado na manutenção periódica do motor e onde encontro o intervalo de lubrificação?",
+      "resposta_referencia": "Deve-se inspecionar regularmente o funcionamento do motor conforme a aplicação, garantindo fluxo de ar livre, e verificar vedações, parafusos de fixação, rolamentos, níveis de vibração e ruído e o funcionamento do dreno. O intervalo de lubrificação está especificado na placa de identificação do motor.",
+      "fontes_gold": [{"doc_id": "manual_wmo", "secao_contem": "MANUTENÇÃO"}],
+      "chunks_gold": ["CH-0295"]
+    },
+    {
+      "id": "T20",
+      "categoria": "manutencao_preventiva",
+      "pergunta": "Quais cuidados de segurança devo tomar antes de iniciar uma manutenção no motor?",
+      "resposta_referencia": "Garantir que o motor esteja parado, desconectado da fonte de alimentação e protegido contra energização acidental. Mesmo parado pode haver tensão perigosa nos terminais do aquecedor, e motores com capacitores exigem que eles sejam descarregados antes de qualquer manuseio. Durante o período de garantia, a desmontagem só pode ser feita por centro de serviço autorizado WEG; motores de ímã permanente exigem dispositivos adequados por causa das forças de atração e repulsão dos ímãs.",
+      "fontes_gold": [{"doc_id": "manual_wmo", "secao_contem": "MANUTENÇÃO"}],
+      "chunks_gold": ["CH-0293", "CH-0294"]
+    }
+  ],
+  "fora_de_escopo": [
+    {
+      "id": "F01",
+      "pergunta": "Qual o preço de um motor W22 de 15 cv e o prazo de entrega?",
+      "motivo": "Informação comercial: não existe nos documentos técnicos indexados.",
+      "comportamento_esperado": "Declarar que a documentação indexada não cobre preço e prazo e orientar a consulta ao canal comercial."
+    },
+    {
+      "id": "F02",
+      "pergunta": "Como configuro o inversor de frequência da marca concorrente modelo XYZ-500?",
+      "motivo": "Equipamento de terceiro fora do escopo do corpus.",
+      "comportamento_esperado": "Recusar por falta de fonte, sem inventar parâmetros de configuração."
+    },
+    {
+      "id": "F03",
+      "pergunta": "Qual a previsão de chuva para a planta amanhã?",
+      "motivo": "Pergunta fora do domínio técnico.",
+      "comportamento_esperado": "Informar que a pergunta está fora do escopo do assistente."
+    },
+    {
+      "id": "F04",
+      "pergunta": "Qual é a vida útil restante, em horas, do rolamento do MT-008?",
+      "motivo": "Exige modelo de prognóstico (RUL) que não é coberto pela documentação nem pelos alertas da Sprint 3.",
+      "comportamento_esperado": "Explicar que o sistema informa o estado atual e as recomendações, mas não estima vida útil restante."
+    }
+  ]
+}
