@@ -1,0 +1,842 @@
+[
+  {
+    "id": "AT001",
+    "campo": "tag",
+    "valor_original": "W22-100L-2P-3CV-1F",
+    "valor_normalizado": "W22-100L-2P-3CV-1F",
+    "tipo": "identificacao",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "AT002",
+    "campo": "descricao",
+    "valor_original": "Motor Elétrico Monofásico W22 3 CV 2 Polos Carcaça 100L 60 Hz",
+    "valor_normalizado": "motor eletrico monofasico w22 3 cv 2 polos carcaca 100l 60 hz",
+    "tipo": "identificacao",
+    "idioma": "pt",
+    "fonte": "Catalogo W22 WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "AT003",
+    "campo": "fabricante",
+    "valor_original": "WEG",
+    "valor_normalizado": "WEG",
+    "tipo": "identificacao",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "AT004",
+    "campo": "modelo",
+    "valor_original": "W22",
+    "valor_normalizado": "W22",
+    "tipo": "identificacao",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "AT005",
+    "campo": "localizacao",
+    "valor_original": "Linha de Produção A - Bomba Centrífuga 01",
+    "valor_normalizado": "linha de producao a - bomba centrifuga 01",
+    "tipo": "identificacao",
+    "idioma": "pt",
+    "fonte": "Cadastro Operacional",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "ET001",
+    "campo": "potencia",
+    "valor_original": "2.2 kW (3 HP-cv)",
+    "valor_normalizado": "2.2 kW",
+    "tipo": "especificacao_eletrica",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "ET002",
+    "campo": "tensao_nominal",
+    "valor_original": "110-127/220-254 V",
+    "valor_normalizado": "110-127/220-254 V",
+    "tipo": "especificacao_eletrica",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "ET003",
+    "campo": "corrente_nominal",
+    "valor_original": "25.0-21.7/12.5-10.8 A",
+    "valor_normalizado": "25.0-21.7/12.5-10.8 A",
+    "tipo": "especificacao_eletrica",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "ET004",
+    "campo": "frequencia",
+    "valor_original": "60 Hz",
+    "valor_normalizado": "60 Hz",
+    "tipo": "especificacao_eletrica",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "ET005",
+    "campo": "numero_de_polos",
+    "valor_original": "2",
+    "valor_normalizado": "2",
+    "tipo": "especificacao_eletrica",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "ET006",
+    "campo": "corrente_de_partida",
+    "valor_original": "217-188/109-94.2 A",
+    "valor_normalizado": "217-188/109-94.2 A",
+    "tipo": "especificacao_eletrica",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "ET007",
+    "campo": "relacao_ip_in",
+    "valor_original": "8.7",
+    "valor_normalizado": "8.7",
+    "tipo": "especificacao_eletrica",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "ET008",
+    "campo": "corrente_a_vazio",
+    "valor_original": "7.60-6.58/3.80-3.29 A",
+    "valor_normalizado": "7.60-6.58/3.80-3.29 A",
+    "tipo": "especificacao_eletrica",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "ET009",
+    "campo": "fator_de_potencia_50pct",
+    "valor_original": "0.92",
+    "valor_normalizado": "0.92",
+    "tipo": "especificacao_eletrica",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "ET010",
+    "campo": "fator_de_potencia_75pct",
+    "valor_original": "0.95",
+    "valor_normalizado": "0.95",
+    "tipo": "especificacao_eletrica",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "ET011",
+    "campo": "fator_de_potencia_100pct",
+    "valor_original": "0.98",
+    "valor_normalizado": "0.98",
+    "tipo": "especificacao_eletrica",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "EM001",
+    "campo": "carcaca",
+    "valor_original": "100L",
+    "valor_normalizado": "100L",
+    "tipo": "especificacao_mecanica",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "EM002",
+    "campo": "rotacao_nominal",
+    "valor_original": "3525 rpm",
+    "valor_normalizado": "3525 rpm",
+    "tipo": "especificacao_mecanica",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "EM003",
+    "campo": "escorregamento",
+    "valor_original": "2.08 %",
+    "valor_normalizado": "2.08 %",
+    "tipo": "especificacao_mecanica",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "EM004",
+    "campo": "conjugado_nominal",
+    "valor_original": "0.608 kgfm",
+    "valor_normalizado": "0.608 kgfm",
+    "tipo": "especificacao_mecanica",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "EM005",
+    "campo": "conjugado_de_partida",
+    "valor_original": "229 %",
+    "valor_normalizado": "229 %",
+    "tipo": "especificacao_mecanica",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "EM006",
+    "campo": "conjugado_maximo",
+    "valor_original": "300 %",
+    "valor_normalizado": "300 %",
+    "tipo": "especificacao_mecanica",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "EM007",
+    "campo": "massa_aproximada",
+    "valor_original": "38.6 kg",
+    "valor_normalizado": "38.6 kg",
+    "tipo": "especificacao_mecanica",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "EM008",
+    "campo": "nivel_de_ruido",
+    "valor_original": "72.0 dB(A)",
+    "valor_normalizado": "72.0 dB(A)",
+    "tipo": "especificacao_mecanica",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "EM009",
+    "campo": "material_carcaca",
+    "valor_original": "Ferro fundido",
+    "valor_normalizado": "ferro fundido",
+    "tipo": "especificacao_mecanica",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "EM010",
+    "campo": "material_eixo",
+    "valor_original": "Aço carbono SAE 1040/45",
+    "valor_normalizado": "aco carbono SAE 1040/45",
+    "tipo": "especificacao_mecanica",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "EM011",
+    "campo": "material_ventilador",
+    "valor_original": "Plástico",
+    "valor_normalizado": "plastico",
+    "tipo": "especificacao_mecanica",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "EM012",
+    "campo": "vedacao_mancal_traseiro",
+    "valor_original": "V'Ring",
+    "valor_normalizado": "v-ring",
+    "tipo": "especificacao_mecanica",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "EM013",
+    "campo": "vedacao_mancal_dianteiro",
+    "valor_original": "V'Ring",
+    "valor_normalizado": "v-ring",
+    "tipo": "especificacao_mecanica",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "NR001",
+    "campo": "classe_de_isolamento",
+    "valor_original": "F",
+    "valor_normalizado": "classe F",
+    "tipo": "classificacao",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "NR002",
+    "campo": "grau_de_protecao",
+    "valor_original": "IP55",
+    "valor_normalizado": "IP55",
+    "tipo": "classificacao",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "NR003",
+    "campo": "regime_de_servico",
+    "valor_original": "S1",
+    "valor_normalizado": "S1 - servico continuo",
+    "tipo": "classificacao",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "NR004",
+    "campo": "refrigeracao",
+    "valor_original": "IC411 - TFVE",
+    "valor_normalizado": "IC411 - TFVE",
+    "tipo": "classificacao",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "NR005",
+    "campo": "forma_construtiva",
+    "valor_original": "B3D",
+    "valor_normalizado": "B3D",
+    "tipo": "classificacao",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "NR006",
+    "campo": "metodo_de_partida",
+    "valor_original": "Partida direta",
+    "valor_normalizado": "partida direta",
+    "tipo": "classificacao",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "NR007",
+    "campo": "pintura",
+    "valor_original": "RAL 5009 207A (ISO 12944 - C3)",
+    "valor_normalizado": "RAL 5009 207A - ISO 12944 C3",
+    "tipo": "classificacao",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "OP001",
+    "campo": "temperatura_ambiente",
+    "valor_original": "-20°C a +40°C",
+    "valor_normalizado": "-20 a +40 graus celsius",
+    "tipo": "condicao_operacao",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "OP002",
+    "campo": "altitude_maxima",
+    "valor_original": "1000 m",
+    "valor_normalizado": "1000 m",
+    "tipo": "condicao_operacao",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "OP003",
+    "campo": "elevacao_de_temperatura",
+    "valor_original": "105 K",
+    "valor_normalizado": "105 K",
+    "tipo": "condicao_operacao",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "OP004",
+    "campo": "tempo_rotor_bloqueado",
+    "valor_original": "16s (frio) 9s (quente)",
+    "valor_normalizado": "16 s frio / 9 s quente",
+    "tipo": "condicao_operacao",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "OP005",
+    "campo": "sentido_de_rotacao",
+    "valor_original": "Ambos",
+    "valor_normalizado": "ambos",
+    "tipo": "condicao_operacao",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "EF001",
+    "campo": "eficiencia_50pct",
+    "valor_original": "72.7 %",
+    "valor_normalizado": "72.7 %",
+    "tipo": "desempenho",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "EF002",
+    "campo": "eficiencia_75pct",
+    "valor_original": "79.2 %",
+    "valor_normalizado": "79.2 %",
+    "tipo": "desempenho",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "EF003",
+    "campo": "eficiencia_100pct",
+    "valor_original": "81.8 %",
+    "valor_normalizado": "81.8 %",
+    "tipo": "desempenho",
+    "idioma": "pt",
+    "fonte": "Ficha Tecnica WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "DC001",
+    "campo": "descricao_refrigeracao",
+    "valor_original": "O sistema de refrigeração (ventilador, tampa traseira e tampa defletora) é projetado para obter o mínimo de ruído e garantir a eficiência térmica",
+    "valor_normalizado": "sistema de refrigeracao ventilador tampa traseira tampa defletora projetado para minimo de ruido e eficiencia termica",
+    "tipo": "descricao_tecnica",
+    "idioma": "pt",
+    "fonte": "Catalogo W22 WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "DC002",
+    "campo": "descricao_carcaca",
+    "valor_original": "Carcaça em ferro fundido FC-200 (EN GJL 200) com índice de proteção contra impactos mecânicos IK08 (5J) assegurando resistência mecânica superior",
+    "valor_normalizado": "carcaca ferro fundido FC-200 protecao impactos mecanicos IK08 resistencia mecanica superior",
+    "tipo": "descricao_tecnica",
+    "idioma": "pt",
+    "fonte": "Catalogo W22 WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "DC003",
+    "campo": "descricao_eixo",
+    "valor_original": "Aço carbono AISI 1040/45, garantindo alta resistência mecânica e minimizando flexão sob carga e fadiga",
+    "valor_normalizado": "aco carbono AISI 1040/45 alta resistencia mecanica minimizando flexao sob carga e fadiga",
+    "tipo": "descricao_tecnica",
+    "idioma": "pt",
+    "fonte": "Catalogo W22 WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "DC004",
+    "campo": "descricao_enrolamento",
+    "valor_original": "Enrolamentos com fio esmaltado de classe H, impregnados com resina poliester livre de solventes",
+    "valor_normalizado": "enrolamentos fio esmaltado classe H impregnados resina poliester livre solventes",
+    "tipo": "descricao_tecnica",
+    "idioma": "pt",
+    "fonte": "Catalogo W22 WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "DC005",
+    "campo": "descricao_placa_identificacao",
+    "valor_original": "A placa de identificação (em aço inoxidável) contém as informações que descrevem as características construtivas e o desempenho do motor",
+    "valor_normalizado": "placa identificacao aco inoxidavel informacoes caracteristicas construtivas desempenho motor",
+    "tipo": "descricao_tecnica",
+    "idioma": "pt",
+    "fonte": "Catalogo W22 WEG",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "LG001",
+    "campo": "log_operacao",
+    "valor_original": "Motor W22-100L operando em rot. 3520 rpm. Tens. 220V. Corr. 12.3A. Temp. 38°C. Status: normal.",
+    "valor_normalizado": "motor w22-100l operando em rotacao 3520 rpm tensao 220v corrente 12.3a temperatura 38 graus celsius status normal",
+    "tipo": "log_operacao",
+    "idioma": "pt",
+    "fonte": "Sistema SCADA",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "LG002",
+    "campo": "log_operacao",
+    "valor_original": "Alerta: corr. partida 110A detectada. Tempo part. 4.2s. Verif. carga mec. acoplada.",
+    "valor_normalizado": "alerta corrente partida 110a detectada tempo partida 4.2s verificar carga mecanica acoplada",
+    "tipo": "log_operacao",
+    "idioma": "pt",
+    "fonte": "Sistema SCADA",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "LG003",
+    "campo": "log_operacao",
+    "valor_original": "Manutenção preventiva: lubrif. rolamentos. Vibr. 2.1 mm/s. Temp. mancal: 42°C. OK.",
+    "valor_normalizado": "manutencao preventiva lubrificacao rolamentos vibracao 2.1 mm/s temperatura mancal 42 graus celsius ok",
+    "tipo": "log_operacao",
+    "idioma": "pt",
+    "fonte": "Sistema SCADA",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "LG004",
+    "campo": "log_operacao",
+    "valor_original": "Falha: superaquec. detectado. Temp. 95°C > limite 85°C. Deslig. térmico ativado.",
+    "valor_normalizado": "falha superaquecimento detectado temperatura 95 graus celsius acima limite 85 graus celsius desligamento termico ativado",
+    "tipo": "log_operacao",
+    "idioma": "pt",
+    "fonte": "Sistema SCADA",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "LG005",
+    "campo": "log_operacao",
+    "valor_original": "Inspeção: ruído anormal no mancal traseiro. Possível desgaste de rolamento. Agendar troca.",
+    "valor_normalizado": "inspecao ruido anormal mancal traseiro possivel desgaste rolamento agendar troca",
+    "tipo": "log_operacao",
+    "idioma": "pt",
+    "fonte": "Ordem de Servico",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "FA001",
+    "campo": "tipo_falha",
+    "valor_original": "Curto entre espiras no enrolamento principal",
+    "valor_normalizado": "curto entre espiras enrolamento principal",
+    "tipo": "tipo_de_falha",
+    "idioma": "pt",
+    "fonte": "WEG Danos em Enrolamentos (PT)",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "FA002",
+    "campo": "tipo_falha",
+    "valor_original": "Curto entre espiras no enrolamento auxiliar",
+    "valor_normalizado": "curto entre espiras enrolamento auxiliar",
+    "tipo": "tipo_de_falha",
+    "idioma": "pt",
+    "fonte": "WEG Danos em Enrolamentos (PT)",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "FA003",
+    "campo": "tipo_falha",
+    "valor_original": "Curto entre enrolamentos principal e auxiliar",
+    "valor_normalizado": "curto entre enrolamentos principal auxiliar",
+    "tipo": "tipo_de_falha",
+    "idioma": "pt",
+    "fonte": "WEG Danos em Enrolamentos (PT)",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "FA004",
+    "campo": "tipo_falha",
+    "valor_original": "Curto na conexão",
+    "valor_normalizado": "curto na conexao",
+    "tipo": "tipo_de_falha",
+    "idioma": "pt",
+    "fonte": "WEG Danos em Enrolamentos (PT)",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "FA005",
+    "campo": "tipo_falha",
+    "valor_original": "Curto na saída da ranhura ou no interior da ranhura",
+    "valor_normalizado": "curto saida ranhura interior ranhura",
+    "tipo": "tipo_de_falha",
+    "idioma": "pt",
+    "fonte": "WEG Danos em Enrolamentos (PT)",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "FA006",
+    "campo": "tipo_falha",
+    "valor_original": "Rotor travado",
+    "valor_normalizado": "rotor travado",
+    "tipo": "tipo_de_falha",
+    "idioma": "pt",
+    "fonte": "WEG Danos em Enrolamentos (PT)",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "FA007",
+    "campo": "tipo_falha",
+    "valor_original": "Sobreaquecimento do enrolamento principal",
+    "valor_normalizado": "sobreaquecimento enrolamento principal",
+    "tipo": "tipo_de_falha",
+    "idioma": "pt",
+    "fonte": "WEG Danos em Enrolamentos (PT)",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "FA008",
+    "campo": "tipo_falha",
+    "valor_original": "Sobreaquecimento do enrolamento auxiliar",
+    "valor_normalizado": "sobreaquecimento enrolamento auxiliar",
+    "tipo": "tipo_de_falha",
+    "idioma": "pt",
+    "fonte": "WEG Danos em Enrolamentos (PT)",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "FA009",
+    "campo": "tipo_falha",
+    "valor_original": "Metade do enrolamento principal sobreaquecido",
+    "valor_normalizado": "metade enrolamento principal sobreaquecido",
+    "tipo": "tipo_de_falha",
+    "idioma": "pt",
+    "fonte": "WEG Danos em Enrolamentos (PT)",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "FA001E",
+    "campo": "tipo_falha",
+    "valor_original": "Short circuit between turns in the main winding",
+    "valor_normalizado": "short circuit turns main winding",
+    "tipo": "tipo_de_falha",
+    "idioma": "en",
+    "fonte": "WEG Winding Damages (EN)",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "FA002E",
+    "campo": "tipo_falha",
+    "valor_original": "Short circuit between turns in the auxiliary winding",
+    "valor_normalizado": "short circuit turns auxiliary winding",
+    "tipo": "tipo_de_falha",
+    "idioma": "en",
+    "fonte": "WEG Winding Damages (EN)",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "FA006E",
+    "campo": "tipo_falha",
+    "valor_original": "Stuck rotor",
+    "valor_normalizado": "stuck rotor",
+    "tipo": "tipo_de_falha",
+    "idioma": "en",
+    "fonte": "WEG Winding Damages (EN)",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "FA007E",
+    "campo": "tipo_falha",
+    "valor_original": "Overheating in the main winding",
+    "valor_normalizado": "overheating main winding",
+    "tipo": "tipo_de_falha",
+    "idioma": "en",
+    "fonte": "WEG Winding Damages (EN)",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "FA008E",
+    "campo": "tipo_falha",
+    "valor_original": "Overheating in the auxiliary winding",
+    "valor_normalizado": "overheating auxiliary winding",
+    "tipo": "tipo_de_falha",
+    "idioma": "en",
+    "fonte": "WEG Winding Damages (EN)",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "CA001",
+    "campo": "causa_falha",
+    "valor_original": "Contaminação interna do motor",
+    "valor_normalizado": "contaminacao interna motor",
+    "tipo": "causa_de_falha",
+    "idioma": "pt",
+    "fonte": "WEG Danos em Enrolamentos (PT)",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "CA002",
+    "campo": "causa_falha",
+    "valor_original": "Falha do esmalte de isolação do fio",
+    "valor_normalizado": "falha esmalte isolacao fio",
+    "tipo": "causa_de_falha",
+    "idioma": "pt",
+    "fonte": "WEG Danos em Enrolamentos (PT)",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "CA003",
+    "campo": "causa_falha",
+    "valor_original": "Falha do verniz de impregnação",
+    "valor_normalizado": "falha verniz impregnacao",
+    "tipo": "causa_de_falha",
+    "idioma": "pt",
+    "fonte": "WEG Danos em Enrolamentos (PT)",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "CA004",
+    "campo": "causa_falha",
+    "valor_original": "Rápidas oscilações na tensão de alimentação",
+    "valor_normalizado": "rapidas oscilacoes tensao alimentacao",
+    "tipo": "causa_de_falha",
+    "idioma": "pt",
+    "fonte": "WEG Danos em Enrolamentos (PT)",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "CA005",
+    "campo": "causa_falha",
+    "valor_original": "Degradação do material isolante por ressecamento causada por excesso de temperatura",
+    "valor_normalizado": "degradacao material isolante ressecamento excesso temperatura",
+    "tipo": "causa_de_falha",
+    "idioma": "pt",
+    "fonte": "WEG Danos em Enrolamentos (PT)",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "CA006",
+    "campo": "causa_falha",
+    "valor_original": "Sobretensão ou subtensão na rede de alimentação",
+    "valor_normalizado": "sobretensao subtensao rede alimentacao",
+    "tipo": "causa_de_falha",
+    "idioma": "pt",
+    "fonte": "WEG Danos em Enrolamentos (PT)",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "CA007",
+    "campo": "causa_falha",
+    "valor_original": "Ventilação deficiente — temperatura ambiente elevada, motor em local confinado, obstrução das entradas de ar",
+    "valor_normalizado": "ventilacao deficiente temperatura elevada motor confinado obstrucao entradas ar",
+    "tipo": "causa_de_falha",
+    "idioma": "pt",
+    "fonte": "WEG Danos em Enrolamentos (PT)",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "CA008",
+    "campo": "causa_falha",
+    "valor_original": "Conexão incorreta dos cabos de ligação do motor",
+    "valor_normalizado": "conexao incorreta cabos ligacao motor",
+    "tipo": "causa_de_falha",
+    "idioma": "pt",
+    "fonte": "WEG Danos em Enrolamentos (PT)",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "CA009",
+    "campo": "causa_falha",
+    "valor_original": "Excessivo número de partidas em tempo curto",
+    "valor_normalizado": "excessivo numero partidas tempo curto",
+    "tipo": "causa_de_falha",
+    "idioma": "pt",
+    "fonte": "WEG Danos em Enrolamentos (PT)",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "CA010",
+    "campo": "causa_falha",
+    "valor_original": "Excessiva dificuldade na partida do motor — elevada queda de tensão, inércia e/ou torque da carga muito elevado",
+    "valor_normalizado": "dificuldade partida queda tensao inercia torque carga elevado",
+    "tipo": "causa_de_falha",
+    "idioma": "pt",
+    "fonte": "WEG Danos em Enrolamentos (PT)",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "CA011",
+    "campo": "causa_falha",
+    "valor_original": "Circuito auxiliar aberto — problema no capacitor, platinado ou centrífugo",
+    "valor_normalizado": "circuito auxiliar aberto problema capacitor platinado centrifugo",
+    "tipo": "causa_de_falha",
+    "idioma": "pt",
+    "fonte": "WEG Danos em Enrolamentos (PT)",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "PR001",
+    "campo": "procedimento",
+    "valor_original": "A instalação, operação e manutenção do motor devem ser sempre realizadas por pessoal qualificado, utilizando ferramentas e métodos adequados",
+    "valor_normalizado": "instalacao operacao manutencao motor pessoal qualificado ferramentas metodos adequados",
+    "tipo": "procedimento_manutencao",
+    "idioma": "pt",
+    "fonte": "WEG Manual Instalação e Operação (PT)",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "PR002",
+    "campo": "procedimento",
+    "valor_original": "Não cubra nem bloqueie as aberturas de ventilação do motor. Garanta uma distância mínima de 25% do diâmetro da entrada de ar da tampa do ventilador em relação às paredes",
+    "valor_normalizado": "nao bloquear aberturas ventilacao motor distancia minima 25% diametro entrada ar tampa ventilador",
+    "tipo": "procedimento_manutencao",
+    "idioma": "pt",
+    "fonte": "WEG Manual Instalação e Operação (PT)",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "PR003",
+    "campo": "procedimento",
+    "valor_original": "Instalar dispositivos de proteção contra sobrecarga. Para motores trifásicos, recomenda-se instalar um dispositivo de proteção contra falha de fase",
+    "valor_normalizado": "instalar protecao sobrecarga motores trifasicos protecao falha de fase",
+    "tipo": "procedimento_manutencao",
+    "idioma": "pt",
+    "fonte": "WEG Manual Instalação e Operação (PT)",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "PR004",
+    "campo": "procedimento",
+    "valor_original": "Comportamentos diferentes ocasionais durante a operação normal (acionamento de proteções térmicas, nível de ruído, nível de vibração, aumento de temperatura e corrente) devem sempre ser avaliados por pessoal qualificado",
+    "valor_normalizado": "comportamento anormal operacao protecao termica ruido vibracao temperatura corrente avaliar pessoal qualificado",
+    "tipo": "procedimento_manutencao",
+    "idioma": "pt",
+    "fonte": "WEG Manual Instalação e Operação (PT)",
+    "data_extracao": "2026-04-25"
+  },
+  {
+    "id": "PR005",
+    "campo": "procedimento",
+    "valor_original": "Elementos de transmissão, como polias, acoplamentos, devem ser devidamente balanceados antes de serem instalados no eixo do motor",
+    "valor_normalizado": "elementos transmissao polias acoplamentos balanceados antes instalacao eixo motor",
+    "tipo": "procedimento_manutencao",
+    "idioma": "pt",
+    "fonte": "WEG Manual Instalação e Operação (PT)",
+    "data_extracao": "2026-04-25"
+  }
+]

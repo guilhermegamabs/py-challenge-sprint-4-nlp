@@ -1,0 +1,68 @@
+{
+  "data_geracao": "2026-11-04",
+  "documentos_processados": 7,
+  "tokens_totais": 69671,
+  "vocabulario_unico": 15658,
+  "razao_type_token": 0.2247,
+  "registros_corpus_estruturado": 84,
+  "comprimento_medio_tokens": 4.71,
+  "tipos_de_campo": {
+    "tipo_de_falha": 14,
+    "especificacao_mecanica": 13,
+    "especificacao_eletrica": 11,
+    "causa_de_falha": 11,
+    "classificacao": 7,
+    "identificacao": 5,
+    "condicao_operacao": 5,
+    "descricao_tecnica": 5,
+    "log_operacao": 5,
+    "procedimento_manutencao": 5,
+    "desempenho": 3
+  },
+  "distribuicao_idioma": {
+    "pt": 79,
+    "en": 5
+  },
+  "top_10_termos": [
+    {
+      "termo": "motores",
+      "freq": 416
+    },
+    {
+      "termo": "motors",
+      "freq": 379
+    },
+    {
+      "termo": "torque",
+      "freq": 251
+    },
+    {
+      "termo": "power",
+      "freq": 250
+    },
+    {
+      "termo": "tensao",
+      "freq": 214
+    },
+    {
+      "termo": "nao",
+      "freq": 204
+    },
+    {
+      "termo": "potencia",
+      "freq": 200
+    },
+    {
+      "termo": "temperatura",
+      "freq": 198
+    },
+    {
+      "termo": "temperature",
+      "freq": 198
+    },
+    {
+      "termo": "voltage",
+      "freq": 194
+    }
+  ]
+}

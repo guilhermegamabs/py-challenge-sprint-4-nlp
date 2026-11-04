@@ -1,0 +1,1532 @@
+[
+  {
+    "id": "SEC_1_1",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Motores Elétricos",
+    "en": "Electric Motors",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_1_2_1",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Conjugado (Torque)",
+    "en": "Torque",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_1_2_2",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Energia e potência mecânica",
+    "en": "Mechanical Energy & Power",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_1_2_5",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Fator de Potência",
+    "en": "Power Factor",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_1_2_7",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Relação entre Conjugado e Potência",
+    "en": "Torque Versus Power Ratio",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_1_3_1",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Ligações em Série e Paralelo",
+    "en": "Connection: Parallel and Series",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_1_4",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Sistemas de Corrente Alternada Trifásica",
+    "en": "Three-Phase AC System",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_1_4_1",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Ligação Triângulo",
+    "en": "Delta Connection",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_1_5",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Motor de Indução Trifásico",
+    "en": "Three-Phase Induction Motor",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_1_5_4",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Velocidade Nominal",
+    "en": "Rated Speed",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_1_6",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Materiais e Sistemas de Isolação",
+    "en": "Insulation Materials and Insulation Systems",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_1_6_2",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Sistema Isolante",
+    "en": "Insulation System",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_1_6_3",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Classes Térmicas",
+    "en": "Thermal Classes",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_1_6_4",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Materiais Isolantes em Sistemas de Isolação",
+    "en": "Insulating Materials in Insulation Systems",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_10_2",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Formas Construtivas Normalizadas",
+    "en": "Standardized Type of Construction and Mounting",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_10_3",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Dimensões dos Flanges",
+    "en": "Flanges Dimensions",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_10_4",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Pintura",
+    "en": "Painting",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_10_4_1",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Pintura Tropicalizada ou Tropicalização",
+    "en": "Tropicalized Painting",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_11_1",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Seleção do Tipo de Motor para Diferentes Cargas",
+    "en": "Motor Type Selection for Different Loads",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_11_3",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Aplicação de Motores de Indução com Inversores",
+    "en": "Application of Induction Motors with VFD",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_11_3_1",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Aspectos Normativos",
+    "en": "Normative Aspects",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_11_3_2",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Variação da Velocidade do Motor por Inversor",
+    "en": "Induction Machine Speed Variation by Frequency Inverter",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_11_3_3",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Características dos Inversores de Frequência",
+    "en": "Characteristics of the Frequency Inverter",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_11_3_4",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Influência do Inversor no Desempenho do Motor",
+    "en": "Inverter Influencing Motor Performance",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_13_1",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Motores Alimentados por Inversores",
+    "en": "Variable Frequency Drive Motors",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_2_1_1",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Trifásico",
+    "en": "Three-Phase System",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_2_1_2",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Monofásico",
+    "en": "Single-Phase System",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_3_1",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Tensão Nominal",
+    "en": "Rated Voltage",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_3_2",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Sentido de Rotação de Motores de Indução",
+    "en": "Direction of Rotation of Induction Motors",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_3_2_1",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Ligação em Frequências Diferentes",
+    "en": "Connection to Different Frequencies",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_3_4_1",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Partida Direta",
+    "en": "D.O.L Starting",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_3_4_6",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Partida Eletrônica (Soft-Starter)",
+    "en": "Electronic Start ( Soft-Starter )",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_4_1",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Conjugados Nominais",
+    "en": "Torque",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_4_1_2",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Categorias - Valores Mínimos Normalizados de Conjugado",
+    "en": "Designs - Minimum Standardized Torque Values",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_4_1_3",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Características dos Motores WEG",
+    "en": "Characteristics of WEG Motors",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_4_3",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Tempo de Aceleração",
+    "en": "Acceleration Time",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_4_5",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Corrente de Rotor Bloqueado",
+    "en": "Locked Rotor Current",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_5_1",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Variação do Número de Polos",
+    "en": "Changing the Number of Poles",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_5_1_3",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Motores com Mais de Duas Velocidades",
+    "en": "Motors with Two or More Speeds",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_5_3",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Inversores de Frequência",
+    "en": "Frequency Inverters",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_6_1",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Funcionamento do Freio",
+    "en": "Brake Operation",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_6_3",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Alimentação da Bobina do Freio",
+    "en": "Brake Coil Power Supply",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_6_5",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Ajuste do Entreferro",
+    "en": "Air Gap Adjustment",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_7_1_1",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Aquecimento do Enrolamento",
+    "en": "Winding Heating Up",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_7_1_3",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Classes de Isolamento",
+    "en": "Insulation Classes",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_7_1_4",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Medida de Elevação de Temperatura do Enrolamento",
+    "en": "Winding Temperature Rise Measurement",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_7_3_1",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Regimes Padronizados",
+    "en": "Standardized Service Duties",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_7_3_2",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Designação do Regime Tipo",
+    "en": "Duty Type Designation",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_7_3_3",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Potência Nominal",
+    "en": "Rated Output",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_8_1",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Fator de Serviço (FS)",
+    "en": "Service Factor (SF)",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_8_3",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Determinação da Potência Útil do Motor",
+    "en": "Determining Useful Motor Output",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_8_5_2",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Tipos Usuais de Graus de Proteção",
+    "en": "Usual Degrees of Protection",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_8_6",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Resistência de Aquecimento",
+    "en": "Space Heater",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_8_7",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Limites de Ruídos",
+    "en": "Noise Levels",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_9_2",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Atmosfera Explosiva",
+    "en": "Explosive Atmosphere",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_9_3",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Classificação das Áreas de Risco",
+    "en": "Classification of Hazardous Areas",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_9_3_2",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Tipo de Proteção do Invólucro",
+    "en": "Protection by Enclosure",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "SEC_9_5",
+    "categoria": "conceito_tecnico",
+    "fonte": "Guia de Especificacao WEG (PT/EN)",
+    "pt": "Equipamentos para Áreas de Risco",
+    "en": "Equipment for Explosive Atmospheres",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "PLACA_CARCACA",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "carcaca",
+    "en": "frame",
+    "abreviacao_pt": "carc.",
+    "unidade": null
+  },
+  {
+    "id": "PLACA_POTENCIA",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "potencia",
+    "en": "power",
+    "abreviacao_pt": "pot.",
+    "unidade": "kW"
+  },
+  {
+    "id": "PLACA_NUMERO_DE_POLOS",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "numero de polos",
+    "en": "number of poles",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "PLACA_FREQUENCIA",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "frequencia",
+    "en": "frequency",
+    "abreviacao_pt": "freq.",
+    "unidade": "Hz"
+  },
+  {
+    "id": "PLACA_ROTACAO_NOMINAL",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "rotacao nominal",
+    "en": "rated speed",
+    "abreviacao_pt": "rot.",
+    "unidade": "rpm"
+  },
+  {
+    "id": "PLACA_ESCORREGAMENTO",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "escorregamento",
+    "en": "slip",
+    "abreviacao_pt": "escorr.",
+    "unidade": "%"
+  },
+  {
+    "id": "PLACA_TENSAO_NOMINAL",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "tensao nominal",
+    "en": "rated voltage",
+    "abreviacao_pt": "tens.",
+    "unidade": "V"
+  },
+  {
+    "id": "PLACA_CORRENTE_NOMINAL",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "corrente nominal",
+    "en": "rated current",
+    "abreviacao_pt": "corr.",
+    "unidade": "A"
+  },
+  {
+    "id": "PLACA_CORRENTE_DE_PARTIDA",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "corrente de partida",
+    "en": "starting current",
+    "abreviacao_pt": null,
+    "unidade": "A"
+  },
+  {
+    "id": "PLACA_RELACAO_IP_IN",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "relacao Ip/In",
+    "en": "starting current ratio",
+    "abreviacao_pt": "Ip/In",
+    "unidade": null
+  },
+  {
+    "id": "PLACA_CORRENTE_A_VAZIO",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "corrente a vazio",
+    "en": "no-load current",
+    "abreviacao_pt": null,
+    "unidade": "A"
+  },
+  {
+    "id": "PLACA_CONJUGADO_NOMINAL",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "conjugado nominal",
+    "en": "rated torque",
+    "abreviacao_pt": "conj.",
+    "unidade": "kgfm"
+  },
+  {
+    "id": "PLACA_CONJUGADO_DE_PARTIDA",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "conjugado de partida",
+    "en": "starting torque",
+    "abreviacao_pt": null,
+    "unidade": "%"
+  },
+  {
+    "id": "PLACA_CONJUGADO_MAXIMO",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "conjugado maximo",
+    "en": "breakdown torque",
+    "abreviacao_pt": null,
+    "unidade": "%"
+  },
+  {
+    "id": "PLACA_TEMPO_DE_ROTOR_BLOQUEADO",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "tempo de rotor bloqueado",
+    "en": "locked rotor time",
+    "abreviacao_pt": null,
+    "unidade": "s"
+  },
+  {
+    "id": "PLACA_CLASSE_DE_ISOLAMENTO",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "classe de isolamento",
+    "en": "insulation class",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "PLACA_ELEVACAO_DE_TEMPERATURA",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "elevacao de temperatura",
+    "en": "temperature rise",
+    "abreviacao_pt": null,
+    "unidade": "K"
+  },
+  {
+    "id": "PLACA_METODO_DE_PARTIDA",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "metodo de partida",
+    "en": "starting method",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "PLACA_REGIME_DE_SERVICO",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "regime de servico",
+    "en": "duty cycle",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "PLACA_TEMPERATURA_AMBIENTE",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "temperatura ambiente",
+    "en": "ambient temperature",
+    "abreviacao_pt": "temp. amb.",
+    "unidade": "degC"
+  },
+  {
+    "id": "PLACA_ALTITUDE",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "altitude",
+    "en": "altitude",
+    "abreviacao_pt": null,
+    "unidade": "m"
+  },
+  {
+    "id": "PLACA_GRAU_DE_PROTECAO",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "grau de protecao",
+    "en": "protection degree",
+    "abreviacao_pt": "IP",
+    "unidade": null
+  },
+  {
+    "id": "PLACA_REFRIGERACAO",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "refrigeracao",
+    "en": "cooling method",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "PLACA_FORMA_CONSTRUTIVA",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "forma construtiva",
+    "en": "mounting arrangement",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "PLACA_SENTIDO_DE_ROTACAO",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "sentido de rotacao",
+    "en": "rotation direction",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "PLACA_NIVEL_DE_RUIDO",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "nivel de ruido",
+    "en": "noise level",
+    "abreviacao_pt": null,
+    "unidade": "dB(A)"
+  },
+  {
+    "id": "PLACA_MASSA_APROXIMADA",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "massa aproximada",
+    "en": "approximate weight",
+    "abreviacao_pt": null,
+    "unidade": "kg"
+  },
+  {
+    "id": "PLACA_EFICIENCIA",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "eficiencia",
+    "en": "efficiency",
+    "abreviacao_pt": "eff.",
+    "unidade": "%"
+  },
+  {
+    "id": "PLACA_FATOR_DE_POTENCIA",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "fator de potencia",
+    "en": "power factor",
+    "abreviacao_pt": "fp",
+    "unidade": null
+  },
+  {
+    "id": "PLACA_MATERIAL_DA_CARCACA",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "material da carcaca",
+    "en": "frame material",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "PLACA_MATERIAL_DO_EIXO",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "material do eixo",
+    "en": "shaft material",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "PLACA_VEDACAO_DO_MANCAL",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "vedacao do mancal",
+    "en": "bearing seal",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "PLACA_FIXACAO_DO_ROLAMENTO",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "fixacao do rolamento",
+    "en": "bearing fixing",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "PLACA_PINTURA",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "pintura",
+    "en": "painting",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "PLACA_TIPO_DE_ATERRAMENTO",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "tipo de aterramento",
+    "en": "grounding type",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "PLACA_MATERIAL_DO_VENTILADOR",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "material do ventilador",
+    "en": "fan material",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "PLACA_METODO_DE_IMPREGNACAO",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "metodo de impregnacao",
+    "en": "impregnation method",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "PLACA_PLACA_DE_BORNES",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "placa de bornes",
+    "en": "terminal board",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "PLACA_TAMPA_DEFLETORA",
+    "categoria": "campo_placa_motor",
+    "fonte": "Catalogo W22 WEG / Ficha Tecnica",
+    "pt": "tampa defletora",
+    "en": "deflector cover",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "FALHA_SOBRECARGA",
+    "categoria": "tipo_de_falha",
+    "fonte": "Dominio industrial / normas",
+    "pt": "sobrecarga",
+    "en": "overload",
+    "abreviacao_pt": "sobrecarg.",
+    "unidade": null
+  },
+  {
+    "id": "FALHA_SUPERAQUECIMENTO",
+    "categoria": "tipo_de_falha",
+    "fonte": "Dominio industrial / normas",
+    "pt": "superaquecimento",
+    "en": "overheating",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "FALHA_CURTO_CIRCUITO",
+    "categoria": "tipo_de_falha",
+    "fonte": "Dominio industrial / normas",
+    "pt": "curto-circuito",
+    "en": "short circuit",
+    "abreviacao_pt": "CC",
+    "unidade": null
+  },
+  {
+    "id": "FALHA_ROTOR_BLOQUEADO",
+    "categoria": "tipo_de_falha",
+    "fonte": "Dominio industrial / normas",
+    "pt": "rotor bloqueado",
+    "en": "locked rotor",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "FALHA_VIBRACAO_EXCESSIVA",
+    "categoria": "tipo_de_falha",
+    "fonte": "Dominio industrial / normas",
+    "pt": "vibracao excessiva",
+    "en": "excessive vibration",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "FALHA_FALHA_DE_ISOLAMENTO",
+    "categoria": "tipo_de_falha",
+    "fonte": "Dominio industrial / normas",
+    "pt": "falha de isolamento",
+    "en": "insulation failure",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "FALHA_DESEQUILIBRIO_DE_TENSAO",
+    "categoria": "tipo_de_falha",
+    "fonte": "Dominio industrial / normas",
+    "pt": "desequilibrio de tensao",
+    "en": "voltage unbalance",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "FALHA_FALHA_DE_ROLAMENTO",
+    "categoria": "tipo_de_falha",
+    "fonte": "Dominio industrial / normas",
+    "pt": "falha de rolamento",
+    "en": "bearing failure",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "FALHA_FALHA_DE_PARTIDA",
+    "categoria": "tipo_de_falha",
+    "fonte": "Dominio industrial / normas",
+    "pt": "falha de partida",
+    "en": "starting failure",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "FALHA_CORRENTE_DE_FUGA",
+    "categoria": "tipo_de_falha",
+    "fonte": "Dominio industrial / normas",
+    "pt": "corrente de fuga",
+    "en": "leakage current",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "FALHA_DESLIGAMENTO_TERMICO",
+    "categoria": "tipo_de_falha",
+    "fonte": "Dominio industrial / normas",
+    "pt": "desligamento termico",
+    "en": "thermal trip",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "FALHA_INVERSAO_DE_FASE",
+    "categoria": "tipo_de_falha",
+    "fonte": "Dominio industrial / normas",
+    "pt": "inversao de fase",
+    "en": "phase reversal",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "FALHA_FALTA_DE_FASE",
+    "categoria": "tipo_de_falha",
+    "fonte": "Dominio industrial / normas",
+    "pt": "falta de fase",
+    "en": "phase loss",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "FALHA_DESBALANCEAMENTO",
+    "categoria": "tipo_de_falha",
+    "fonte": "Dominio industrial / normas",
+    "pt": "desbalanceamento",
+    "en": "unbalance",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "FALHA_DESGASTE_DE_ESCOVAS",
+    "categoria": "tipo_de_falha",
+    "fonte": "Dominio industrial / normas",
+    "pt": "desgaste de escovas",
+    "en": "brush wear",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "NORM_NORMA_BRASILEIRA",
+    "categoria": "norma_classificacao",
+    "fonte": "Normas ABNT / IEC / WEG",
+    "pt": "norma brasileira",
+    "en": "Brazilian standard",
+    "abreviacao_pt": "ABNT NBR",
+    "unidade": null
+  },
+  {
+    "id": "NORM_NORMA_INTERNACIONAL",
+    "categoria": "norma_classificacao",
+    "fonte": "Normas ABNT / IEC / WEG",
+    "pt": "norma internacional",
+    "en": "international standard",
+    "abreviacao_pt": "IEC",
+    "unidade": null
+  },
+  {
+    "id": "NORM_INDICE_DE_PROTECAO",
+    "categoria": "norma_classificacao",
+    "fonte": "Normas ABNT / IEC / WEG",
+    "pt": "indice de protecao",
+    "en": "ingress protection",
+    "abreviacao_pt": "IP",
+    "unidade": null
+  },
+  {
+    "id": "NORM_CLASSE_TERMICA",
+    "categoria": "norma_classificacao",
+    "fonte": "Normas ABNT / IEC / WEG",
+    "pt": "classe termica",
+    "en": "thermal class",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "NORM_REGIME_DE_SERVICO_S1",
+    "categoria": "norma_classificacao",
+    "fonte": "Normas ABNT / IEC / WEG",
+    "pt": "regime de servico S1",
+    "en": "continuous duty S1",
+    "abreviacao_pt": "S1",
+    "unidade": null
+  },
+  {
+    "id": "NORM_REGIME_DE_SERVICO_S2",
+    "categoria": "norma_classificacao",
+    "fonte": "Normas ABNT / IEC / WEG",
+    "pt": "regime de servico S2",
+    "en": "short-time duty S2",
+    "abreviacao_pt": "S2",
+    "unidade": null
+  },
+  {
+    "id": "NORM_REGIME_DE_SERVICO_S3",
+    "categoria": "norma_classificacao",
+    "fonte": "Normas ABNT / IEC / WEG",
+    "pt": "regime de servico S3",
+    "en": "intermittent duty S3",
+    "abreviacao_pt": "S3",
+    "unidade": null
+  },
+  {
+    "id": "NORM_EFICIENCIA_IE1",
+    "categoria": "norma_classificacao",
+    "fonte": "Normas ABNT / IEC / WEG",
+    "pt": "eficiencia IE1",
+    "en": "IE1 efficiency",
+    "abreviacao_pt": "IE1",
+    "unidade": null
+  },
+  {
+    "id": "NORM_EFICIENCIA_IE2",
+    "categoria": "norma_classificacao",
+    "fonte": "Normas ABNT / IEC / WEG",
+    "pt": "eficiencia IE2",
+    "en": "IE2 efficiency",
+    "abreviacao_pt": "IE2",
+    "unidade": null
+  },
+  {
+    "id": "NORM_EFICIENCIA_IE3",
+    "categoria": "norma_classificacao",
+    "fonte": "Normas ABNT / IEC / WEG",
+    "pt": "eficiencia IE3",
+    "en": "IE3 efficiency",
+    "abreviacao_pt": "IE3",
+    "unidade": null
+  },
+  {
+    "id": "NORM_FORMA_CONSTRUTIVA_B3",
+    "categoria": "norma_classificacao",
+    "fonte": "Normas ABNT / IEC / WEG",
+    "pt": "forma construtiva B3",
+    "en": "foot mounting B3",
+    "abreviacao_pt": "B3",
+    "unidade": null
+  },
+  {
+    "id": "NORM_FORMA_CONSTRUTIVA_B3D",
+    "categoria": "norma_classificacao",
+    "fonte": "Normas ABNT / IEC / WEG",
+    "pt": "forma construtiva B3D",
+    "en": "foot mounting B3D",
+    "abreviacao_pt": "B3D",
+    "unidade": null
+  },
+  {
+    "id": "NORM_RESFRIAMENTO_IC411",
+    "categoria": "norma_classificacao",
+    "fonte": "Normas ABNT / IEC / WEG",
+    "pt": "resfriamento IC411",
+    "en": "cooling IC411",
+    "abreviacao_pt": "IC411",
+    "unidade": null
+  },
+  {
+    "id": "NORM_RESFRIAMENTO_TFVE",
+    "categoria": "norma_classificacao",
+    "fonte": "Normas ABNT / IEC / WEG",
+    "pt": "resfriamento TFVE",
+    "en": "TEFC cooling",
+    "abreviacao_pt": "TFVE",
+    "unidade": null
+  },
+  {
+    "id": "NORM_PROTECAO_IP55",
+    "categoria": "norma_classificacao",
+    "fonte": "Normas ABNT / IEC / WEG",
+    "pt": "protecao IP55",
+    "en": "IP55 protection",
+    "abreviacao_pt": "IP55",
+    "unidade": null
+  },
+  {
+    "id": "NORM_PROTECAO_IP65",
+    "categoria": "norma_classificacao",
+    "fonte": "Normas ABNT / IEC / WEG",
+    "pt": "protecao IP65",
+    "en": "IP65 protection",
+    "abreviacao_pt": "IP65",
+    "unidade": null
+  },
+  {
+    "id": "NORM_PARTIDA_DIRETA",
+    "categoria": "norma_classificacao",
+    "fonte": "Normas ABNT / IEC / WEG",
+    "pt": "partida direta",
+    "en": "direct-on-line starting",
+    "abreviacao_pt": "DOL",
+    "unidade": null
+  },
+  {
+    "id": "NORM_PARTIDA_ESTRELA_TRIANGULO",
+    "categoria": "norma_classificacao",
+    "fonte": "Normas ABNT / IEC / WEG",
+    "pt": "partida estrela-triangulo",
+    "en": "star-delta starting",
+    "abreviacao_pt": "Y-D",
+    "unidade": null
+  },
+  {
+    "id": "NORM_INVERSOR_DE_FREQUENCIA",
+    "categoria": "norma_classificacao",
+    "fonte": "Normas ABNT / IEC / WEG",
+    "pt": "inversor de frequencia",
+    "en": "variable frequency drive",
+    "abreviacao_pt": "VFD",
+    "unidade": null
+  },
+  {
+    "id": "FALHA_CURTO_ESPIRAS_PRINCIPAL",
+    "categoria": "tipo_de_falha",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "curto entre espiras no enrolamento principal",
+    "en": "short circuit between turns in the main winding",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "FALHA_CURTO_ESPIRAS_AUXILIAR",
+    "categoria": "tipo_de_falha",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "curto entre espiras no enrolamento auxiliar",
+    "en": "short circuit between turns in the auxiliary winding",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "FALHA_CURTO_ENROLAMENTOS",
+    "categoria": "tipo_de_falha",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "curto entre enrolamentos principal e auxiliar",
+    "en": "short circuit between main and auxiliary winding",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "FALHA_CURTO_CONEXAO",
+    "categoria": "tipo_de_falha",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "curto na conexao",
+    "en": "short circuit in the connection",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "FALHA_CURTO_SAIDA_RANHURA",
+    "categoria": "tipo_de_falha",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "curto na saida da ranhura",
+    "en": "short circuit at the end of the slot",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "FALHA_CURTO_INTERIOR_RANHURA",
+    "categoria": "tipo_de_falha",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "curto no interior da ranhura",
+    "en": "short circuit within the slot",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "FALHA_METADE_PRINCIPAL_SOBREAQ",
+    "categoria": "tipo_de_falha",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "metade do enrolamento principal sobreaquecido",
+    "en": "overheating in half of the main winding",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "FALHA_SOBREAQ_ENROL_PRINCIPAL",
+    "categoria": "tipo_de_falha",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "sobreaquecimento do enrolamento principal",
+    "en": "overheating in the main winding",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "FALHA_SOBREAQ_ENROL_AUXILIAR",
+    "categoria": "tipo_de_falha",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "sobreaquecimento do enrolamento auxiliar",
+    "en": "overheating in the auxiliary winding",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "FALHA_ROTOR_TRAVADO",
+    "categoria": "tipo_de_falha",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "rotor travado",
+    "en": "stuck rotor",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "CAUSA_CONTAMINACAO_INTERNA",
+    "categoria": "causa_de_falha",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "contaminacao interna do motor",
+    "en": "internal contamination of the motor",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "CAUSA_FALHA_ESMALTE",
+    "categoria": "causa_de_falha",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "falha do esmalte de isolacao do fio",
+    "en": "fault in the wire insulating enamel",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "CAUSA_FALHA_VERNIZ",
+    "categoria": "causa_de_falha",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "falha do verniz de impregnacao",
+    "en": "fault in the impregnation varnish",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "CAUSA_OSCILACAO_TENSAO",
+    "categoria": "causa_de_falha",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "rapidas oscilacoes na tensao de alimentacao",
+    "en": "fast oscillations in the power supply",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "CAUSA_DEGRADACAO_ISOLANTE",
+    "categoria": "causa_de_falha",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "degradacao do material isolante por ressecamento",
+    "en": "degradation of the insulating material by drying out",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "CAUSA_EXCESSO_CARGA",
+    "categoria": "causa_de_falha",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "excesso de carga na ponta de eixo",
+    "en": "load excess on the shaft end",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "CAUSA_DESVIO_TENSAO",
+    "categoria": "causa_de_falha",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "sobretensao ou subtensao na rede",
+    "en": "overvoltage or undervoltage in the power supply",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "CAUSA_VENTILACAO_DEFICIENTE",
+    "categoria": "causa_de_falha",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "ventilacao deficiente",
+    "en": "poor ventilation",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "CAUSA_CONEXAO_INCORRETA",
+    "categoria": "causa_de_falha",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "conexao incorreta dos cabos de ligacao",
+    "en": "incorrect wiring of the motor connecting cables",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "CAUSA_EXCESSO_PARTIDAS",
+    "categoria": "causa_de_falha",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "excessivo numero de partidas em tempo curto",
+    "en": "excessive number of starts in a short time",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "CAUSA_CIRCUITO_AUX_ABERTO",
+    "categoria": "causa_de_falha",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "circuito auxiliar aberto",
+    "en": "auxiliary circuit open",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "CAUSA_EIXO_TRAVADO",
+    "categoria": "causa_de_falha",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "travamento do eixo da carga",
+    "en": "load shaft is stuck",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "COMP_ENROLAMENTO_PRINCIPAL",
+    "categoria": "componente",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "enrolamento principal",
+    "en": "main winding",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "COMP_ENROLAMENTO_AUXILIAR",
+    "categoria": "componente",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "enrolamento auxiliar",
+    "en": "auxiliary winding",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "COMP_CAPACITOR_PARTIDA",
+    "categoria": "componente",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "capacitor de partida",
+    "en": "start capacitor",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "COMP_CAPACITOR_PERMANENTE",
+    "categoria": "componente",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "capacitor permanente",
+    "en": "permanent capacitor",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "COMP_CENTRIFUGO_PLATINADO",
+    "categoria": "componente",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "conjunto centrifugo platinado",
+    "en": "centrifugal stationary switch",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "COMP_VERNIZ_IMPREGNACAO",
+    "categoria": "componente",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "verniz de impregnacao",
+    "en": "impregnation varnish",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "COMP_ESMALTE_ISOLACAO",
+    "categoria": "componente",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "esmalte de isolacao do fio",
+    "en": "wire insulating enamel",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "COMP_ROLAMENTO",
+    "categoria": "componente",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "rolamento",
+    "en": "bearing",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "COMP_TAMPA_VENTILADOR",
+    "categoria": "componente",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "tampa do ventilador",
+    "en": "fan cover",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "COMP_CAIXA_TERMINAIS",
+    "categoria": "componente",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "caixa de terminais",
+    "en": "terminal box",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "COMP_PLACA_IDENTIFICACAO",
+    "categoria": "componente",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "placa de identificacao",
+    "en": "nameplate",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "PROC_INSTALACAO",
+    "categoria": "procedimento_manutencao",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "instalacao do motor",
+    "en": "motor installation",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "PROC_LUBRIFICACAO",
+    "categoria": "procedimento_manutencao",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "lubrificacao dos rolamentos",
+    "en": "bearing lubrication",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "PROC_PROTECAO_SOBRECARGA",
+    "categoria": "procedimento_manutencao",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "protecao contra sobrecarga",
+    "en": "overload protection",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "PROC_MONITORAMENTO_TEMP",
+    "categoria": "procedimento_manutencao",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "monitoramento de temperatura nos enrolamentos",
+    "en": "temperature monitoring in the windings",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "PROC_BALANCEAMENTO",
+    "categoria": "procedimento_manutencao",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "balanceamento dinamico",
+    "en": "dynamic balancing",
+    "abreviacao_pt": null,
+    "unidade": null
+  },
+  {
+    "id": "PROC_TORQUE_APERTO",
+    "categoria": "procedimento_manutencao",
+    "fonte": "WEG Danos em Enrolamentos / Winding Damages",
+    "pt": "torque de aperto",
+    "en": "tightening torque",
+    "abreviacao_pt": null,
+    "unidade": null
+  }
+]

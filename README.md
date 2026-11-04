@@ -19,8 +19,8 @@
 | Entregável | Arquivo |
 |------------|---------|
 | Documento final (4 seções do enunciado) | [`docs/Documentacao_Final_PLN.pdf`](docs/Documentacao_Final_PLN.pdf) · [`.docx`](docs/Documentacao_Final_PLN.docx) · fonte em [`.md`](docs/Documentacao_Final_PLN.md) |
-| Notebook Sprint 1 (executado) | [`../../challenge-sprint-1/processamento-linguagem-natural/sprint1_pln_corpus.ipynb`](../../challenge-sprint-1/processamento-linguagem-natural/sprint1_pln_corpus.ipynb) |
-| Notebook Sprint 2 (executado) | [`../../challenge-sprint-2/processamento-linguagem-natural/sprint2_pln_consulta.ipynb`](../../challenge-sprint-2/processamento-linguagem-natural/sprint2_pln_consulta.ipynb) |
+| Notebook Sprint 1 (executado), com glossário, corpus e documento | [`sprints_anteriores/sprint1/`](sprints_anteriores/sprint1/) |
+| Notebook Sprint 2 (executado) | repositório [`py-challenge-sprint-2-nlp`](https://github.com/guilhermegamabs/py-challenge-sprint-2-nlp/blob/main/sprint2_pln_consulta.ipynb) |
 | Notebook Sprint 3 (executado) | [`sprint3_pln_alertas.ipynb`](sprint3_pln_alertas.ipynb) |
 | Notebook Sprint 4 — RAG, com seção antes × depois (executado) | [`sprint4_pln_rag.ipynb`](sprint4_pln_rag.ipynb) |
 | Demonstração: três cenários de falha | [`evidencias/demo_cenarios_falha.md`](evidencias/demo_cenarios_falha.md) |
@@ -57,6 +57,7 @@ relatorios/   saídas finais; sprint3_baseline/ e sprint4_iteracao*/ para compar
 scripts/      geração, avaliação, comparativo, evidências, notebooks e documento
 evidencias/   logs, figuras e transcrições
 docs/         documento final (.md → .docx/.pdf)
+sprints_anteriores/sprint1/   notebook executado, glossário, corpus e documento da Sprint 1
 ```
 
 A pasta `chalenge-sprint-3/` foi mantida como entregue em agosto, como referência do "antes".

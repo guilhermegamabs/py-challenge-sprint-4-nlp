@@ -1,0 +1,85 @@
+﻿id,campo,valor_original,valor_normalizado,tipo,idioma,fonte,data_extracao
+AT001,tag,W22-100L-2P-3CV-1F,W22-100L-2P-3CV-1F,identificacao,pt,Ficha Tecnica WEG,2026-04-25
+AT002,descricao,Motor Elétrico Monofásico W22 3 CV 2 Polos Carcaça 100L 60 Hz,motor eletrico monofasico w22 3 cv 2 polos carcaca 100l 60 hz,identificacao,pt,Catalogo W22 WEG,2026-04-25
+AT003,fabricante,WEG,WEG,identificacao,pt,Ficha Tecnica WEG,2026-04-25
+AT004,modelo,W22,W22,identificacao,pt,Ficha Tecnica WEG,2026-04-25
+AT005,localizacao,Linha de Produção A - Bomba Centrífuga 01,linha de producao a - bomba centrifuga 01,identificacao,pt,Cadastro Operacional,2026-04-25
+ET001,potencia,2.2 kW (3 HP-cv),2.2 kW,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+ET002,tensao_nominal,110-127/220-254 V,110-127/220-254 V,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+ET003,corrente_nominal,25.0-21.7/12.5-10.8 A,25.0-21.7/12.5-10.8 A,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+ET004,frequencia,60 Hz,60 Hz,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+ET005,numero_de_polos,2,2,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+ET006,corrente_de_partida,217-188/109-94.2 A,217-188/109-94.2 A,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+ET007,relacao_ip_in,8.7,8.7,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+ET008,corrente_a_vazio,7.60-6.58/3.80-3.29 A,7.60-6.58/3.80-3.29 A,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+ET009,fator_de_potencia_50pct,0.92,0.92,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+ET010,fator_de_potencia_75pct,0.95,0.95,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+ET011,fator_de_potencia_100pct,0.98,0.98,especificacao_eletrica,pt,Ficha Tecnica WEG,2026-04-25
+EM001,carcaca,100L,100L,especificacao_mecanica,pt,Ficha Tecnica WEG,2026-04-25
+EM002,rotacao_nominal,3525 rpm,3525 rpm,especificacao_mecanica,pt,Ficha Tecnica WEG,2026-04-25
+EM003,escorregamento,2.08 %,2.08 %,especificacao_mecanica,pt,Ficha Tecnica WEG,2026-04-25
+EM004,conjugado_nominal,0.608 kgfm,0.608 kgfm,especificacao_mecanica,pt,Ficha Tecnica WEG,2026-04-25
+EM005,conjugado_de_partida,229 %,229 %,especificacao_mecanica,pt,Ficha Tecnica WEG,2026-04-25
+EM006,conjugado_maximo,300 %,300 %,especificacao_mecanica,pt,Ficha Tecnica WEG,2026-04-25
+EM007,massa_aproximada,38.6 kg,38.6 kg,especificacao_mecanica,pt,Ficha Tecnica WEG,2026-04-25
+EM008,nivel_de_ruido,72.0 dB(A),72.0 dB(A),especificacao_mecanica,pt,Ficha Tecnica WEG,2026-04-25
+EM009,material_carcaca,Ferro fundido,ferro fundido,especificacao_mecanica,pt,Ficha Tecnica WEG,2026-04-25
+EM010,material_eixo,Aço carbono SAE 1040/45,aco carbono SAE 1040/45,especificacao_mecanica,pt,Ficha Tecnica WEG,2026-04-25
+EM011,material_ventilador,Plástico,plastico,especificacao_mecanica,pt,Ficha Tecnica WEG,2026-04-25
+EM012,vedacao_mancal_traseiro,V'Ring,v-ring,especificacao_mecanica,pt,Ficha Tecnica WEG,2026-04-25
+EM013,vedacao_mancal_dianteiro,V'Ring,v-ring,especificacao_mecanica,pt,Ficha Tecnica WEG,2026-04-25
+NR001,classe_de_isolamento,F,classe F,classificacao,pt,Ficha Tecnica WEG,2026-04-25
+NR002,grau_de_protecao,IP55,IP55,classificacao,pt,Ficha Tecnica WEG,2026-04-25
+NR003,regime_de_servico,S1,S1 - servico continuo,classificacao,pt,Ficha Tecnica WEG,2026-04-25
+NR004,refrigeracao,IC411 - TFVE,IC411 - TFVE,classificacao,pt,Ficha Tecnica WEG,2026-04-25
+NR005,forma_construtiva,B3D,B3D,classificacao,pt,Ficha Tecnica WEG,2026-04-25
+NR006,metodo_de_partida,Partida direta,partida direta,classificacao,pt,Ficha Tecnica WEG,2026-04-25
+NR007,pintura,RAL 5009 207A (ISO 12944 - C3),RAL 5009 207A - ISO 12944 C3,classificacao,pt,Ficha Tecnica WEG,2026-04-25
+OP001,temperatura_ambiente,-20°C a +40°C,-20 a +40 graus celsius,condicao_operacao,pt,Ficha Tecnica WEG,2026-04-25
+OP002,altitude_maxima,1000 m,1000 m,condicao_operacao,pt,Ficha Tecnica WEG,2026-04-25
+OP003,elevacao_de_temperatura,105 K,105 K,condicao_operacao,pt,Ficha Tecnica WEG,2026-04-25
+OP004,tempo_rotor_bloqueado,16s (frio) 9s (quente),16 s frio / 9 s quente,condicao_operacao,pt,Ficha Tecnica WEG,2026-04-25
+OP005,sentido_de_rotacao,Ambos,ambos,condicao_operacao,pt,Ficha Tecnica WEG,2026-04-25
+EF001,eficiencia_50pct,72.7 %,72.7 %,desempenho,pt,Ficha Tecnica WEG,2026-04-25
+EF002,eficiencia_75pct,79.2 %,79.2 %,desempenho,pt,Ficha Tecnica WEG,2026-04-25
+EF003,eficiencia_100pct,81.8 %,81.8 %,desempenho,pt,Ficha Tecnica WEG,2026-04-25
+DC001,descricao_refrigeracao,"O sistema de refrigeração (ventilador, tampa traseira e tampa defletora) é projetado para obter o mínimo de ruído e garantir a eficiência térmica",sistema de refrigeracao ventilador tampa traseira tampa defletora projetado para minimo de ruido e eficiencia termica,descricao_tecnica,pt,Catalogo W22 WEG,2026-04-25
+DC002,descricao_carcaca,Carcaça em ferro fundido FC-200 (EN GJL 200) com índice de proteção contra impactos mecânicos IK08 (5J) assegurando resistência mecânica superior,carcaca ferro fundido FC-200 protecao impactos mecanicos IK08 resistencia mecanica superior,descricao_tecnica,pt,Catalogo W22 WEG,2026-04-25
+DC003,descricao_eixo,"Aço carbono AISI 1040/45, garantindo alta resistência mecânica e minimizando flexão sob carga e fadiga",aco carbono AISI 1040/45 alta resistencia mecanica minimizando flexao sob carga e fadiga,descricao_tecnica,pt,Catalogo W22 WEG,2026-04-25
+DC004,descricao_enrolamento,"Enrolamentos com fio esmaltado de classe H, impregnados com resina poliester livre de solventes",enrolamentos fio esmaltado classe H impregnados resina poliester livre solventes,descricao_tecnica,pt,Catalogo W22 WEG,2026-04-25
+DC005,descricao_placa_identificacao,A placa de identificação (em aço inoxidável) contém as informações que descrevem as características construtivas e o desempenho do motor,placa identificacao aco inoxidavel informacoes caracteristicas construtivas desempenho motor,descricao_tecnica,pt,Catalogo W22 WEG,2026-04-25
+LG001,log_operacao,Motor W22-100L operando em rot. 3520 rpm. Tens. 220V. Corr. 12.3A. Temp. 38°C. Status: normal.,motor w22-100l operando em rotacao 3520 rpm tensao 220v corrente 12.3a temperatura 38 graus celsius status normal,log_operacao,pt,Sistema SCADA,2026-04-25
+LG002,log_operacao,Alerta: corr. partida 110A detectada. Tempo part. 4.2s. Verif. carga mec. acoplada.,alerta corrente partida 110a detectada tempo partida 4.2s verificar carga mecanica acoplada,log_operacao,pt,Sistema SCADA,2026-04-25
+LG003,log_operacao,Manutenção preventiva: lubrif. rolamentos. Vibr. 2.1 mm/s. Temp. mancal: 42°C. OK.,manutencao preventiva lubrificacao rolamentos vibracao 2.1 mm/s temperatura mancal 42 graus celsius ok,log_operacao,pt,Sistema SCADA,2026-04-25
+LG004,log_operacao,Falha: superaquec. detectado. Temp. 95°C > limite 85°C. Deslig. térmico ativado.,falha superaquecimento detectado temperatura 95 graus celsius acima limite 85 graus celsius desligamento termico ativado,log_operacao,pt,Sistema SCADA,2026-04-25
+LG005,log_operacao,Inspeção: ruído anormal no mancal traseiro. Possível desgaste de rolamento. Agendar troca.,inspecao ruido anormal mancal traseiro possivel desgaste rolamento agendar troca,log_operacao,pt,Ordem de Servico,2026-04-25
+FA001,tipo_falha,Curto entre espiras no enrolamento principal,curto entre espiras enrolamento principal,tipo_de_falha,pt,WEG Danos em Enrolamentos (PT),2026-04-25
+FA002,tipo_falha,Curto entre espiras no enrolamento auxiliar,curto entre espiras enrolamento auxiliar,tipo_de_falha,pt,WEG Danos em Enrolamentos (PT),2026-04-25
+FA003,tipo_falha,Curto entre enrolamentos principal e auxiliar,curto entre enrolamentos principal auxiliar,tipo_de_falha,pt,WEG Danos em Enrolamentos (PT),2026-04-25
+FA004,tipo_falha,Curto na conexão,curto na conexao,tipo_de_falha,pt,WEG Danos em Enrolamentos (PT),2026-04-25
+FA005,tipo_falha,Curto na saída da ranhura ou no interior da ranhura,curto saida ranhura interior ranhura,tipo_de_falha,pt,WEG Danos em Enrolamentos (PT),2026-04-25
+FA006,tipo_falha,Rotor travado,rotor travado,tipo_de_falha,pt,WEG Danos em Enrolamentos (PT),2026-04-25
+FA007,tipo_falha,Sobreaquecimento do enrolamento principal,sobreaquecimento enrolamento principal,tipo_de_falha,pt,WEG Danos em Enrolamentos (PT),2026-04-25
+FA008,tipo_falha,Sobreaquecimento do enrolamento auxiliar,sobreaquecimento enrolamento auxiliar,tipo_de_falha,pt,WEG Danos em Enrolamentos (PT),2026-04-25
+FA009,tipo_falha,Metade do enrolamento principal sobreaquecido,metade enrolamento principal sobreaquecido,tipo_de_falha,pt,WEG Danos em Enrolamentos (PT),2026-04-25
+FA001E,tipo_falha,Short circuit between turns in the main winding,short circuit turns main winding,tipo_de_falha,en,WEG Winding Damages (EN),2026-04-25
+FA002E,tipo_falha,Short circuit between turns in the auxiliary winding,short circuit turns auxiliary winding,tipo_de_falha,en,WEG Winding Damages (EN),2026-04-25
+FA006E,tipo_falha,Stuck rotor,stuck rotor,tipo_de_falha,en,WEG Winding Damages (EN),2026-04-25
+FA007E,tipo_falha,Overheating in the main winding,overheating main winding,tipo_de_falha,en,WEG Winding Damages (EN),2026-04-25
+FA008E,tipo_falha,Overheating in the auxiliary winding,overheating auxiliary winding,tipo_de_falha,en,WEG Winding Damages (EN),2026-04-25
+CA001,causa_falha,Contaminação interna do motor,contaminacao interna motor,causa_de_falha,pt,WEG Danos em Enrolamentos (PT),2026-04-25
+CA002,causa_falha,Falha do esmalte de isolação do fio,falha esmalte isolacao fio,causa_de_falha,pt,WEG Danos em Enrolamentos (PT),2026-04-25
+CA003,causa_falha,Falha do verniz de impregnação,falha verniz impregnacao,causa_de_falha,pt,WEG Danos em Enrolamentos (PT),2026-04-25
+CA004,causa_falha,Rápidas oscilações na tensão de alimentação,rapidas oscilacoes tensao alimentacao,causa_de_falha,pt,WEG Danos em Enrolamentos (PT),2026-04-25
+CA005,causa_falha,Degradação do material isolante por ressecamento causada por excesso de temperatura,degradacao material isolante ressecamento excesso temperatura,causa_de_falha,pt,WEG Danos em Enrolamentos (PT),2026-04-25
+CA006,causa_falha,Sobretensão ou subtensão na rede de alimentação,sobretensao subtensao rede alimentacao,causa_de_falha,pt,WEG Danos em Enrolamentos (PT),2026-04-25
+CA007,causa_falha,"Ventilação deficiente — temperatura ambiente elevada, motor em local confinado, obstrução das entradas de ar",ventilacao deficiente temperatura elevada motor confinado obstrucao entradas ar,causa_de_falha,pt,WEG Danos em Enrolamentos (PT),2026-04-25
+CA008,causa_falha,Conexão incorreta dos cabos de ligação do motor,conexao incorreta cabos ligacao motor,causa_de_falha,pt,WEG Danos em Enrolamentos (PT),2026-04-25
+CA009,causa_falha,Excessivo número de partidas em tempo curto,excessivo numero partidas tempo curto,causa_de_falha,pt,WEG Danos em Enrolamentos (PT),2026-04-25
+CA010,causa_falha,"Excessiva dificuldade na partida do motor — elevada queda de tensão, inércia e/ou torque da carga muito elevado",dificuldade partida queda tensao inercia torque carga elevado,causa_de_falha,pt,WEG Danos em Enrolamentos (PT),2026-04-25
+CA011,causa_falha,"Circuito auxiliar aberto — problema no capacitor, platinado ou centrífugo",circuito auxiliar aberto problema capacitor platinado centrifugo,causa_de_falha,pt,WEG Danos em Enrolamentos (PT),2026-04-25
+PR001,procedimento,"A instalação, operação e manutenção do motor devem ser sempre realizadas por pessoal qualificado, utilizando ferramentas e métodos adequados",instalacao operacao manutencao motor pessoal qualificado ferramentas metodos adequados,procedimento_manutencao,pt,WEG Manual Instalação e Operação (PT),2026-04-25
+PR002,procedimento,Não cubra nem bloqueie as aberturas de ventilação do motor. Garanta uma distância mínima de 25% do diâmetro da entrada de ar da tampa do ventilador em relação às paredes,nao bloquear aberturas ventilacao motor distancia minima 25% diametro entrada ar tampa ventilador,procedimento_manutencao,pt,WEG Manual Instalação e Operação (PT),2026-04-25
+PR003,procedimento,"Instalar dispositivos de proteção contra sobrecarga. Para motores trifásicos, recomenda-se instalar um dispositivo de proteção contra falha de fase",instalar protecao sobrecarga motores trifasicos protecao falha de fase,procedimento_manutencao,pt,WEG Manual Instalação e Operação (PT),2026-04-25
+PR004,procedimento,"Comportamentos diferentes ocasionais durante a operação normal (acionamento de proteções térmicas, nível de ruído, nível de vibração, aumento de temperatura e corrente) devem sempre ser avaliados por pessoal qualificado",comportamento anormal operacao protecao termica ruido vibracao temperatura corrente avaliar pessoal qualificado,procedimento_manutencao,pt,WEG Manual Instalação e Operação (PT),2026-04-25
+PR005,procedimento,"Elementos de transmissão, como polias, acoplamentos, devem ser devidamente balanceados antes de serem instalados no eixo do motor",elementos transmissao polias acoplamentos balanceados antes instalacao eixo motor,procedimento_manutencao,pt,WEG Manual Instalação e Operação (PT),2026-04-25
